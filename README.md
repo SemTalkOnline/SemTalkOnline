@@ -1,151 +1,146 @@
-# SemTalk Online - Kurzeinführung
-Stand: April 2022
+# SemTalk Online - Brief Introduction
+Stand: July 2022
 
-## Login/Registrierung
+## Login/Registration
 
 <picture>
   <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_DE/main/images/Bild7.png" width="600">
 </picture>
 
-- Datenbank und Repository können auf Wunsch individuell für den Kunden/Interessenten erstellt werden.
-- Rollen:
-  - Leser = Read-Only Modus
-  - Editor = Modellierer 
-
-- Oberfläche kann über Optionen in der Sprache und Layout angepasst werden.
+- Database and repository can be custom built for the customer if desired. 
+- Roles: 
+  - Viewer = Read-Only mode 
+  - Editor = Modeler 
+  - Administrator = Customization of the GUI 
+- Interface can be customized via options in language and layout. 
 
 <hr>
 
-## Registrierung
+## Registration
 
 <picture>
   <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_DE/main/images/Bild4.png" width="600">
 </picture>
 
-- UserID = E-Mail
-- Benutzername = Anzeigename
-- Passwort = Kann individuell gesetzt werden
-- Schlüssel kann im Demo-System leer bleiben
+- UserID = E-Mail 
+- Username = Name Shown 
+- Passwort = User-Defined Password 
+- Key is left blank when using the Demo version
 
 <hr>
 
-# SemTalkOnline Oberfläche – Viewer Ansicht
+# SemTalkOnline – Viewer GUI
 
-**Funktionalitäten sind eingeschränkt**
+**Function is limited**
 
 <picture>
   <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_DE/main/images/Bild3.png" width="600">
 </picture>
 
-- Ansicht von Modellen und Eigenschaften von Objekten
-- Export als Word, HTML, PNG und JPG
+- Able to view models and properties of objects 
+- Export as Word, HTML, PNG and JPG 
 
 <hr>
 
-##  Menü-Struktur
+##  Menu - Structure
 
 <picture>
   <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_DE/main/images/Bild6.png" width="600">
 </picture>
 
-- File = Modelle öffnen oder Exportieren
-- Open = Modelle können von der Festplatte oder aus der Datenbank geöffnet werden. Standardmäßig werden Modelle aus der Datenbank angezeigt. 
-  - Modellauswahl mit Statusinformationen (Änderungsdatum, Wer, Aktuell im Edit-Modus)
-
-- Export: Word, HTML, PNG, JPG, Image File (SVG)
-- Print Preview = Drucken über den WebBrowser
+- File = Open or export models 
+- Open = Models can be opened from the hard disk or from the database. Models from the database are displayed as the default. 
+- Model is shown with status information (e.g. date modified, who modified, and current status). 
+- Export: Word, HTML, PNG, JPG, Image File (SVG) 
+- Print Preview = Print via WebBrowser 
 
 <hr>
 
-## Oberfläche 
+## GUI for Viewers 
 
 <picture>
   <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_DE/main/images/Bild2.png" width="600">
 </picture>
 
-- Wenn mehrere Diagramme im Modell enthalten sind, wird über dem “Pan & Zoom” Fenster ein Auswahlfeld angezeigt.
+- If multiple diagrams are included in the model, a diagram selection box is displayed above the "Pan & Zoom" window. 
+- Context menu on the objects 
+  - Properties = Display object properties 
+  - Refine = If an object has an Attribute, you can jump to this Attribute. 
 
-- Kontext-Menü an den Objekten
-  - Properties = Objekteigenschaften anzeigen
-  - Refine = Wenn ein Objekt eine Ausprägung hat kann entsprechend in diese gesprungen werden. 
-
-- [x] Alternativ im Menü auf “Object” drücken
-
-- [x] Weitere Funktionen zur Objektansicht sind über den Pfeil im Menü neben dem “Object” Button verfügbar
+[x] Alternatively, press "Object" in the menu 
+[x]  Further functions for the object view are available via the arrow in the menu next to the "Object" button. 
 
 <hr>
 
-##  Weitere Menü-Erklärungen
+## Further menu descriptions
 
 <picture>
   <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_DE/main/images/Bild8.png" width="600">
 </picture>
 
-- Diagram = Diagramm Eigenschaften
-  - Weiterführende Navigation über den Pfeil neben dem Button
-
-- Explorer 
-  - Diagrams = Darstellung des Navigationsbaums des Modells, Anzeige aller Diagramme innerhalb des Modells incl. Navigationsmöglichkeit
-  - Objects = Darstellung der Modellinhalte, welche Objektarten sind im Modell enthalten und Anzeige der Eigenschaften zu den Objekten bzw. der Position im Modell
-
-- Tools = Modellinformationen, SemTalk Optionen (Darstellung, Sprache, Login zu externen Systemen)
+- Diagram = Diagram properties 
+  - Further navigation via the arrow next to the button 
+- Explorer:
+  - Diagrams = Displays the model’s navigation tree, displays all diagrams within the model incl. navigation option 
+  - Objects = Display of the model contents, which types of objects are contained in the model and display of the properties of the objects or the position in the model. 
+- Tools = Model information, SemTalk options (display, language, login to external systems)
 
 <hr>
 
-# SemTalkOnline Oberfläche – Editor Ansicht
+# SemTalkOnline – Editor GUI
 
-## Funktionalitäten vom Viewer sind komplett enthalten. 
+## All Viewer functionalities are included. 
 
-**Oberfläche erweitert und Modellierungskomponenten**
+**Interface is extended to include additional modeling components**
 
 <picture>
   <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_DE/main/images/Bild10.png" width="600">
 </picture>
 
-- Unter dem “Pan & Zoom” Fenster, Objektvorlage (Stencil), diese können mit Hilfe von Drag & Drop aufs Zeichenblatt gezogen werden.
-- Objektausrichtung, Layout und Modellierungsfunktionen können über das neue Menü-Band oder über die weiteren Funktionen im Menü-Band angepasst werden.
+- Under the "Pan & Zoom" window is the Object Stencil that contains shapes that can be dragged and dropped onto the drawing sheet. The shapes shown are specific to the active Diagram. 
+- Object orientation, layout and modeling functions can be accessed via the new menu ribbon or via the other functions in the menu ribbon.  
 
 <hr>
 
-## Menu-Struktur
+## Menu - Structure
 
 <picture>
   <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_DE/main/images/Bild11.png" width="600">
 </picture>
 
-- New = Neues Modell auf Basis eines Standard-Templates
-- Open = Bestehende Modell öffnen, analog zum Viewer
-- Save = Speichert ein Modell
-- SaveAs = Modell kann neu gespeichert werden, analog zu Office
-- Import = Import bestimmter Formate z.B. SemTalk Editor, BPMN etc.
-- Export = Export in bestimmte Formate und Funktionen aus dem Viewer
-- Check Out und Check In = Modell für andere Benutzer sperren.
+- New = New model based on a standard template 
+- Open = Open existing model, analogous to the Viewer 
+- Save = Saves a model 
+- SaveAs = Model can be saved again, analogous to Office 
+- Import = Imports certain formats, e.g. SemTalk Editor, BPMN etc. 
+- Export = Export to available formats and functions from the Viewer 
+- Check Out and Check In = Locks or unlocks model for other users. 
 
 <hr>
 
-## Modellierung
+## Modeling
 
 <picture>
   <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_DE/main/images/Bild12.png" width="600">
 </picture>
 
-- Durch Doppelklick auf ein Objekt kann ein Name schnell verändert warden, alternativ über die Objekteigenschaften
-- Objekteigenschaften können über das Kontext Menü (Rechtsklick) angepasst werden. Z.B. Attachments, Kommentare, Bearbeiter und weitere Attribute.
-  - Alternativ über “Object” im Menü-Band
-- Kannten können durch gedrücke-linke Maustaste von der Mitte des Objektes aus auf weitere Objekte gezogen werden.
+- A name can be changed by double-clicking on an object or via the Object’s properties. 
+- Object properties can be accessed via the right mouse click context menu. e.g. attachments, comments, editor and other attributes. 
+  - Menu can also be accessed via "Object" in the menu ribbon 
+- Names can be dragged from the center of the object to other objects by holding down the left mouse button.
 
 <hr>
 
-## Objekteigenschaften
+## Object Properties
 
 <picture>
   <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_DE/main/images/Bild14.png" width="600">
 </picture>
 
-- Sind Objekttyp spezifisch
-- Weitere Attribute können erzeugt werden
+- Objects are type-specific 
+- Additional attributes can be created 
 
 <hr>
 
-Weitere Funktionen können Sie über das Menü-Band entsprechend aufgerufen und Objekte angepasst werden. 
-Hierzu empfehlen wir Ihnen eine Schulung oder Einführungsveranstaltung.
+Further functions can be called up via the menu ribbon and Objects can be edited as needed. 
+Specific training or an introductory event is recommended before using customization features. 

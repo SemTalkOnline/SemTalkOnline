@@ -4,7 +4,7 @@ Stand: July 2022
 ## Login/Registration
 
 <picture>
-  <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_DE/main/images/Bild7.png" width="600">
+  <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_EN/main/images/Picture1.png" width="600">
 </picture>
 
 - Database and repository can be custom built for the customer if desired. 
@@ -19,7 +19,7 @@ Stand: July 2022
 ## Registration
 
 <picture>
-  <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_DE/main/images/Bild4.png" width="600">
+  <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_EN/main/images/Picture2.png" width="600">
 </picture>
 
 - UserID = E-Mail 
@@ -34,7 +34,7 @@ Stand: July 2022
 **Function is limited**
 
 <picture>
-  <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_DE/main/images/Bild3.png" width="600">
+  <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_EN/main/images/Picture3.png" width="600">
 </picture>
 
 - Able to view models and properties of objects 
@@ -45,7 +45,7 @@ Stand: July 2022
 ##  Menu - Structure
 
 <picture>
-  <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_DE/main/images/Bild6.png" width="600">
+  <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_EN/main/images/Picture4.png" width="600">
 </picture>
 
 - File = Open or export models 
@@ -59,7 +59,7 @@ Stand: July 2022
 ## GUI for Viewers 
 
 <picture>
-  <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_DE/main/images/Bild2.png" width="600">
+  <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_EN/main/images/Picture5.png" width="600">
 </picture>
 
 - If multiple diagrams are included in the model, a diagram selection box is displayed above the "Pan & Zoom" window. 
@@ -75,7 +75,7 @@ Stand: July 2022
 ## Further menu descriptions
 
 <picture>
-  <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_DE/main/images/Bild8.png" width="600">
+  <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_EN/main/images/Picture6.png" width="600">
 </picture>
 
 - Diagram = Diagram properties 
@@ -94,7 +94,7 @@ Stand: July 2022
 **Interface is extended to include additional modeling components**
 
 <picture>
-  <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_DE/main/images/Bild10.png" width="600">
+  <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_EN/main/images/Picture7.png" width="600">
 </picture>
 
 - Under the "Pan & Zoom" window is the Object Stencil that contains shapes that can be dragged and dropped onto the drawing sheet. The shapes shown are specific to the active Diagram. 
@@ -105,7 +105,7 @@ Stand: July 2022
 ## Menu - Structure
 
 <picture>
-  <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_DE/main/images/Bild11.png" width="600">
+  <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_EN/main/images/Picture8.png" width="600">
 </picture>
 
 - New = New model based on a standard template 
@@ -121,7 +121,7 @@ Stand: July 2022
 ## Modeling
 
 <picture>
-  <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_DE/main/images/Bild12.png" width="600">
+  <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_EN/main/images/Picture9.png" width="600">
 </picture>
 
 - A name can be changed by double-clicking on an object or via the Object’s properties. 
@@ -134,7 +134,7 @@ Stand: July 2022
 ## Object Properties
 
 <picture>
-  <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_DE/main/images/Bild14.png" width="600">
+  <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_EN/main/images/Picture10.png" width="600">
 </picture>
 
 - Objects are type-specific 

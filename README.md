@@ -1,6 +1,10 @@
 # SemTalk Online - Brief Introduction
 Stand: July 2022
 
+## General informations
+
+What is SemTalk Online
+
 ## Login/Registration
 
 <picture>
@@ -144,3 +148,15 @@ Stand: July 2022
 
 Further functions can be called up via the menu ribbon and Objects can be edited as needed. 
 Specific training or an introductory event is recommended before using customization features. 
+
+<hr>
+
+## Contact informations
+
+Semtation GmbH - Geschwister-Scholl-Straße 38 - 14471 Potsdam - Germany
+
+Phone: +49 (0)331 581 39 36
+
+Informations and Sales: sales@semtalk.com
+
+Support: support@semtalk.com

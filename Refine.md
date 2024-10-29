@@ -2,7 +2,7 @@
 
 Users create Refinements (sub-process workflows) by right-mouse clicking on a Task or by selecting a Task Object and selecting the **Process - Refine** option. Refine opens a new Diagram that is automatically named after the Task that is being Refined. Refined Tasks are visible because the Task is either underlined or the Task Object has a plus sign depending on the user setting selected in SemTalk Option - General menu setting.
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/main/images/Refinement%20Example.png)
+![](./images/refinementexample.png)
 
 Users open the Refined Task Diagram via the Diagram Label menu. 
 

@@ -10,14 +10,13 @@ SemTalk is also able to create structured naming conventions using the Vocabular
 
 Right-mouse click on a new Task and select Vocabulary.
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/WebSite/images/Properties_Vocabulary.png)
+![alt text](images/Properties_Vocabulary.png)
 
 A Vocabulary Window will open. Available Objects (Nouns) and Methods (Verbs) names from the associated [Repository](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Repository) will be shown in pull-down menu. As you add new Object and Method names, they will be automatically added to the [Repository](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Repository). 
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/WebSite/images/Vocabulary_5.png)
+![alt text](images/Vocabulary.png)
 
 Users can also directly create names in the Repository by clicking on an blank space and choosing from the existing Objects or Methods.
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/WebSite/images/Repository_Assign_Method.png)
-
+![alt text](<images/Vocabulary repo.png>)
 

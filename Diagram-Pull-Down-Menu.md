@@ -1,6 +1,6 @@
 
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/main/images/DiagramPullDownMenu.png)
+![alt text](images/DiagramPullDownMenu.png)
 
 New: Creates a New Diagram. 
 Select Diagram Type:

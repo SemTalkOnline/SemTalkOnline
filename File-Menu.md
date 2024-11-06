@@ -1,31 +1,20 @@
 **File**: Manages the selection of new and available files that can be accessed or exported.
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/main/images/FilePullDownMenu.png)
+![alt text](images/FilePullDownMenu.png)
 
 **File New**:
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/WebSite/images/File_New.png)
+![alt text](<images/File - New.png>)
 
 **File Open**: Opens a window that contains a selectable list of all available models along with their CheckIn/ CheckOut status. If you open a model that is checked out by another user, you will see a red error message next to the model name in your explorer stating that the model is checked out to <user x>. 
 
-You can use the Save As command to create a new version or, if you are a model Administrator, you can check the model back in.Available files are stored locally, on your **Computer** or available online files are located by selecting **Database**. When selecting Database models, SemTalk automatically updates associated data such as the date last **Modified**, the last author in **ModifiedBy** and the **CheckOut** status.
+You can use the Save As command to create a new version or, if you are a model Administrator, you can check the model back in.Available files are stored locally, on your **Computer** or available online files are located by selecting **Database**. When selecting Database models, SemTalk automatically updates associated data such as the date last **Modified**, the last author in **ModifiedBy** and the **CheckOut** status. These files cna be selected based on name, date, and last modified
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/WebSite/images/File_Open1.png)
+![alt text](<images/FIle Open Menu.png>)
 
-**File - Save or Save_As**: 
-
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/WebSite/images/SaveAs.png)
+**File - Save or Save_As**: Allows the users to save and/or overwrite files used in the database
 
 **File - Import**: This allows users to import other SemTalk Models, Merge multiple Models together, import OWL models and BPMN models.
-
-
-
-
-
-
-
-
-
 
 **File - Portal**: Allows a Portal approval function and it publishes the Model to a SemTalk Portal.
 

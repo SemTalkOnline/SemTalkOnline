@@ -1,5 +1,5 @@
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/main/images/Process_PullDown_Menu.png)
+![alt text](images/Process_PullDown_Menu.png)
 
 The Process pull-down menu allows you to manage key process-related model components:
 

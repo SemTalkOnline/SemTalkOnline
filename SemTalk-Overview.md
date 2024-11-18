@@ -10,7 +10,7 @@ SemTalk models are built using the following components:
    * Properties
    * Connectors
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/WebSite/images/SemTalk%20UI.png)
+![alt text](images/Semtalk-Overview.png)
 
 
 **Diagrams**: Diagrams are the active modeling pages. Each diagram types is associated with **Objects** and rules appropriate for the active diagram. The types of **Diagrams** available are determined by the currently used SemTalk version. 

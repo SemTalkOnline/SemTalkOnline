@@ -1,4 +1,4 @@
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/main/images/SemTalk_Registration2.png)
+![alt text](images/SemTalk_Registration_New.png)
 
 ****Registration****: First time users must complete the Registration form. 
 

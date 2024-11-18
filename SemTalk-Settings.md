@@ -1,6 +1,6 @@
 Access Settings using the Settings Icon in the toolbar or by selecting **Tools - Settings**.
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/main/images/SettingsIcon2.png)
+![alt text](images/SettingsIcon2.png)
 
 **General SemTalk Options**:  Options are used to select general tool settings, GUI and modeling languages and to integrate model information with databases, repositories and external applications such as Microsoft Graph. 
 
@@ -16,7 +16,7 @@ Access Settings using the Settings Icon in the toolbar or by selecting **Tools -
 
 Settings - General
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/main/images/SettingsGeneral2.png)
+![alt text](images/SettingsGeneral2.png)
 
 * BPMN 2.X Symbols
 * Underline Refinements: Shows if Refinements should be viewed as underlined Task names

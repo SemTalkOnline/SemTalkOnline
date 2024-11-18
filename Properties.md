@@ -1,6 +1,6 @@
 Right-click on an **Object** to select **Properties**.
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/main/images/Properties1.png)
+![alt text](images/Properties1.png)
 
 Default settings for **Properties** tags are based on:
 * SemTalk version selected, 
@@ -11,7 +11,7 @@ The following example is for standard **Properties** for a Task. Regardless of t
 
 **Properties - General** (Default settings for a **BPMN version** **Task** in a **Business Process Diagram**):
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/main/images/Properties3.png)
+![alt text](images/Properties3.png)
 
 **General - Name**: **Object** names must consist of letters and numbers. Other characters (e.g. periods, slashes, underscores, colons, etc.) are not allowed. 
 When you name an **Object**, after dragging and dropping it onto a **Diagram**, the name you gave the Object will automatically be added to the **Properties** Name.
@@ -20,11 +20,11 @@ When you name an **Object**, after dragging and dropping it onto a **Diagram**, 
 
 **General - Comment**: Comments can be added to Objects. Connect the Comment Object to the Task that contains a Comment to see the Comment on your Diagram.
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/main/images/Properties_Comment5.png)
+![alt text](images/Properties_Comment5.png)
 
 **General - Refinement**: 
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/main/images/Refinement.png)
+![alt text](images/Refinement.png)
 
 In Business Process Diagrams, Tasks can be broken down into Subtasks using the Refine or Refinement command. When you select Refinement in a Task right-click menu, a new Business Process Diagram will be opened that is linked to the higher level Task. The newly created Diagram will automatically be given the name of the Task that is being refined. The Properties - Refinement command allows you to Create, Delete or Edit Refinements.
 
@@ -42,4 +42,4 @@ SemTalk structured naming convention for naming Tasks is found by useing the rig
 
 Right-mouse click on a new Task and select Vocabulary.
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/WebSite/images/Vocabulary_2.png)
+![alt text](images/Vocabulary.png)

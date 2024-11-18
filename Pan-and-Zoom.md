@@ -1,4 +1,4 @@
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/main/images/ZoomAll.png)
+![alt text](images/ZoomAll.png)
 
 The Zoom window is designed to help users navigate to different parts of their Diagram. 
 

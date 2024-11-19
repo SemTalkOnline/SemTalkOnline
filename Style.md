@@ -2,9 +2,7 @@
 
 Select the object to be customized and click on the Style button.
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/WebSite/images/Style1.png)
-
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/WebSite/images/Style_Window.png)
+![alt text](images/Style.PNG)
 
 
 

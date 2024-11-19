@@ -7,18 +7,16 @@ Access Settings using the Settings Icon in the toolbar or by selecting **Tools -
 **SemTalk Settings**:
 
 * General: Allows users to select or deselect key SemTalk functions
-* Theme: Default layouts for text and objects
-* Language: Selects the GUI and Model Language settings
+* Process: Users may change the rules by which their BPMN DIagram operates in small ways to suit certain models or modelling styles
+* View: Default layouts for text and objects and selects the GUI and Model Language settings
 * MongoDB API: Integrates SemTalk with MongoDB databases
-* Microsoft Graph: Integrates SemTalk with MS Graph
-* Similarity Server: TBA tool that supports Semantic settings (e.g. domain-specific word embedding)
-* Document Properties: Meta data about the Model file (e.g. date originally created, edited by, date of last edit)
+* Microsoft 365: Integrates SemTalk with MS Graph, Sharepoint, and other Microsoft software
+
 
 Settings - General
 
-![alt text](images/SettingsGeneral2.png)
+![alt text](<images/Settings General UI.png>)
 
-* BPMN 2.X Symbols
 * Underline Refinements: Shows if Refinements should be viewed as underlined Task names
 * Simulation: Show or hide simulation settings
 * Ribbon: Show or hide Toolbar

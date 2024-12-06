@@ -16,8 +16,6 @@ In addition to the two Object naming options - double-click and the Properties d
 
 Right-mouse click on a new Task and select Vocabulary.
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/WebSite/images/Vocabulary_2.png)
-
 A Vocabulary Window will open. If a Repository is associated with the SemTalk version you have installed, or the model you currently have open, a pull-down menu for Objects (Nouns) and Methods (Verbs).
 
 ![alt text](images/Vocabulary.png)

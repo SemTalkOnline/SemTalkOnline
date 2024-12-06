@@ -1,6 +1,6 @@
 The pull-down Explorer function allows you to navigate to, and manage Objects and Diagrams in your model. A Panel will open showing the model's elements. Click > or < to expand and collapse the view of the Model's elements. After each entry are three verticle dots. Click on these dots to Browse/ view and edit Properties or to Delete an Object. When you edit or Delete a Model elements, the changes will be propagated to all Objects of this type in your model.
 
-![alt text](images/Explorer1.png)
+![alt text](<images/Explorer Pull down Menu.png>)
 
 ![alt text](images/ExplorerPanel.png)
 

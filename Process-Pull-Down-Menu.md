@@ -5,11 +5,11 @@ The Process pull-down menu allows you to manage key process-related model compon
 
 Vocabulary: Almost all processes (work-steps) have names that consist of a verb and a noun. For example, the process step 'Send Invoice' is the verb 'Send' and the noun 'Invoice'. SemTalk allows users to create libraries of these verbs and nouns so that modeling projects remain consistent; interfaces that define information flows remain consistent; and so that central repositories of terms can be created that allow modelers to import/ export/ share key data terms to and from these libraries.
   
-Detach Vocabulary: 
+Detach Vocabulary: The Vocabulary is taken out of the diagram but must alreadz be in the repositorz for it to function properly.
 
-Planner:
+Planner: Puts everything the user has selected into a flow chart
 
-Quick Edit:
+Quick Edit: Allows the flow chart to be edited in order for it to function properly, though it is not perfect and requires human oversight.
 
 Simulation:
 
@@ -24,6 +24,6 @@ The Process - Swimlane
 
 Renumber: SemTalk automatically adds an Index number to a Task. Renumber allows users to reset the Indexing number.
 
-Reindex:
+Reindex: Change how the tasks or sub diagrams are numbered and in what order they would appear on the pull down menu on the upper right of the screen.
 
 

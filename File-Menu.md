@@ -16,6 +16,8 @@ You can use the Save As command to create a new version or, if you are a model A
 
 **File - Import**: This allows users to import other SemTalk Models, Merge multiple Models together, import OWL models and BPMN models.
 
+**File - Delete**: This allows the user to delete the diagram that is currently open
+
 **File - Portal**: Allows a Portal approval function and it publishes the Model to a SemTalk Portal.
 
 **File – Import / Export**: SemTalk Online is able to save models into different modeling formats, depending on the SemTalk Online modules you have downloaded.

@@ -1,4 +1,4 @@
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/WebSite/images/SemTalk%20UI.png)
+![alt text](images/Semtalk-Overview.png)
 
 The SemTalk user interface is comprised of:
 

@@ -1,4 +1,4 @@
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/main/images/SimStartEventAll.png)
+![alt text](images/SimStartEventAll.png)
 
 SemTalk Online includes the ability to use special simulation-specific properties to analyze process flows. Behaviors of specific objects, or of execution flows, are analyzed to estimate variables such as waiting times and costs. Users can also customize these attributes to execute more sophisticated calculations, or to create custom dialogs related to dynamic behavior. 
 
@@ -42,4 +42,4 @@ HumanResource Simulation Properties (Simulation Properties are edited in the Org
 
 Right mouse click and select "Properties" on an EntryPoint, Task, Buffer or Association in a Business Process Diagram to access the Simulation Properties. Simulation Properties for HumanResources are found when you right mouse click on a HumanResource in an OrgChart.
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/main/images/SimulationHumanResources.png)
+![alt text](images/SimulationHumanResources.png)

@@ -1,6 +1,6 @@
 
 
-![Role](https://github.com/SemTalkOnline/SemTalkOnline_EN/blob/main/images/Role.png)
+![alt text](images/Role.png)
 
 Role settings are selected during SemTalk Online login to assign a Role to the user. 
 

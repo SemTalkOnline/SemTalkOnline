@@ -19,7 +19,7 @@ EPC Diagram Types:
 * PhysResource Model
 * Value Chain
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/WebSite/images/SemTalk%20UI.png)
+![alt text](images/Semtalk-Overview.png)
 
 Diagram Pull-Down Menu
 

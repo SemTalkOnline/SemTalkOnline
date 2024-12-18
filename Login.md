@@ -2,7 +2,7 @@ SemTalk Online requires a UserID (user's e-mail address) and a password. If you 
 
 If you forgot your login password, enter your email address and select the Resend Password option and you will be sent a temporary new password. After you login, go to the Tools - User pull-down menu and create a new password.
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/main/images/Login3.png)
+![alt text](images/Login3.png)
 
 SemTalk Options are based on your selected role.
 

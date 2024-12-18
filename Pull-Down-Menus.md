@@ -1,5 +1,5 @@
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/WebSite/images/Pull-Down%20Menu.png)
+![alt text](<images/Main Menu.png>)
 
 All standard SemTalk commands can be found in the pull-down menu shown above (top of the SemTalk window). Detailed pull-down menu information is available under the menu type names.
 

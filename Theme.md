@@ -1,6 +1,6 @@
 Themes are used to format SemTalk's GUI.
 
-![](https://github.com/SemTalkOnline/SemTalkOnline_EN/blob/main/images/Themes2.png)
+![alt text](images/Theme.png)
 
 Themes are based on: 
 

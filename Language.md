@@ -1,4 +1,4 @@
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/main/images/LanguageAll4.png)
+![alt text](images/LanguageAll4.png)
 
 There are two primary Language setting types in SemTalk.
 * GUI Language: The SemTalk User Interface Language
@@ -6,7 +6,7 @@ There are two primary Language setting types in SemTalk.
 
 Object Names are always automatically mapped to the currently selected Language setting. If you change Languages, new Objects are mapped to the currently selected Language and existing Object Names will retain the last Name given in the previously selected Language. When you change the Task Name to the Name used in the currently selected Language, the Name will be mapped to the currently selected Language. When you reselect the first language from the Language pull-down menu, the Name will change back to the name that was assigned when the object was named in the that Language setting.
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/main/images/LanguageSwitching.png)
+![alt text](images/LanguageSwitching.png)
 
 **NOTE**: This mapping also occurs if naming was done using Vocabulary naming, but noun and verb are translated separately.
 

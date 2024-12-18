@@ -1,6 +1,6 @@
 **Properties - General** (Default settings for a **BPMN version** **Task** in a **Business Process Diagram**):
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/main/images/Properties3.png)
+![alt text](images/Properties3.png)
 
 **General - Name**: **Object** names must consist of letters and numbers. Other characters (e.g. periods, slashes, underscores, colons, etc.) are not allowed. 
 When you name an **Object**, after dragging and dropping it onto a **Diagram**, the name you gave the Object will automatically be added to the **Properties** Name.

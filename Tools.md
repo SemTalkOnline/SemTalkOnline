@@ -1,13 +1,21 @@
 
-![](https://github.com/SemTalkOnline/SemTalkOnline_EN/blob/main/images/Tools3.png)
+![alt text](images/Tools.png)
 
 [**SETTINGS**](https://github.com/SemTalkOnline/SemTalkOnline_EN/wiki/SemTalk-Settings)
 
-**LOGIN**: Takes user to SemTalk Login screen
+**Export to Repository**: This exports all of the new terms that are used in a diagram and is put into the repository that the user has for later use
 
-**MS365**: Interface to add Login information to integrate with Microsoft 365
+**Statistics**: Relays through either numbers, charts, or graphs the number and type of tasks, gateways, and events that are used in a diagram
 
-**USER**:  Role definition for SemTalk model users
+**Check Model Consistency**: The user is able to check if their model makes sense in terms of task, gateways, and events correctly lining up with one another with a focus on BPMN rules
 
-**QUICK EDIT**:
+**Check and Repair**: The Feature fixes errors in the program that have caused abnormalities in the viewing the diagram
+
+**Redraw all Symbols**: This will cause the symbols on tasks, events, and gateways to be reloaded in case they are changed or loaded incorrectly
+
+**Reload Site**: The website is reloaded and all unsaved work is lost (no re-login required)
+
+**Customize**: This allows users to add a specific header/footer that is put on the corner of the page with the diagram, as well as help to manage the various images that can be inputted in the 
+
+**ChatGPT**:This is an extension to use ChatGPT to ask questions involving the BPMN Diagram 
 

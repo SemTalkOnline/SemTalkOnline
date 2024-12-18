@@ -6,5 +6,5 @@
 * Refresh Menus
 * Customize layout for export to other applications by inserting page breaks.
 
-![](https://github.com/SemTalkOnline/SemTalkOnline_EN/blob/main/images/View7.png)
+![alt text](images/View7.png)
 

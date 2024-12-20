@@ -19,4 +19,4 @@ A Repository contains the library of existing SemTalk Objects available for you 
 
 *  **Administrator**: Users are able to create and edit new and existing models and they are able to customize the SemTalk GUI.
 
-**[Options](https://github.com/SemTalkOnline/SemTalkOnline/wiki/SemTalk-Options)**:  Options are used to select general settings, GUI and modeling languages and to manage interfaces. 
+**[Options](https://github.com/SemTalkOnline/SemTalkOnline/wiki/SemTalk-Settings)**:  Options are used to select general settings, GUI and modeling languages and to manage interfaces. 

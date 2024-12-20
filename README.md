@@ -112,13 +112,22 @@ What is SemTalk Online
   <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_EN/main/images/Picture8.png" width="600">
 </picture>
 
-- New = New model based on a standard template 
-- Open = Open existing model, analogous to the Viewer 
-- Save = Saves a model 
-- SaveAs = Model can be saved again, analogous to Office 
-- Import = Imports certain formats, e.g. SemTalk Editor, BPMN etc. 
-- Export = Export to available formats and functions from the Viewer 
-- Check Out and Check In = Locks or unlocks model for other users. 
+- File = Open or export models 
+- New  = Create a new model
+- Open = Models can be opened from the hard disk or from the database. Models from the database are displayed as the default. 
+- Save = Save the model
+- Save As = Save the model under a new name
+- Delete = The entire model is deleted
+- Version Control = Model is saved periodically and different versions can then be taken from the database that have been saved
+- Import = Models can be imported from other datatbases or porgrams associated with SemTalk
+- Portal = The ability to publish models onto certain programs or databanks
+- Export = Sends the model to another assciated databank or program for use outside the Semtalk system 
+- Check-out & Check-in = Allows the user to check out the model they would like to edit and use without the interference of another user changing things at the same time
+- Document Properties = Shows the basic details regarding the model type and its format
+- Share = May share the model with some else through the use of email
+- Model is shown with status information (e.g. date modified, who modified, and current status). 
+- Print = Print via WebBrowser 
+- Close = Closes the program
 
 <hr>
 
@@ -138,7 +147,7 @@ What is SemTalk Online
 ## Object Properties
 
 <picture>
-  <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_EN/main/images/Picture10.png" width="600">
+  <img src="images/Picture10.png" width="600">
 </picture>
 
 - Objects are type-specific 
@@ -153,7 +162,7 @@ Specific training or an introductory event is recommended before using customiza
 
 ## Contact informations
 
-Semtation GmbH - Geschwister-Scholl-Straße 38 - 14471 Potsdam - Germany
+Semtation GmbH - Karl-Liebknecht-Straße 21-22 - 14482 Potsdam - Germany
 
 Phone: +49 (0)331 581 39 36
 

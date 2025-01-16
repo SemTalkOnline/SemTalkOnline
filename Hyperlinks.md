@@ -2,20 +2,20 @@ Hyperlinks allow all sorts of things to be brought into a diagram in order to cl
 
 ![Hyperlink Menu](images/Hyperlink.png)
 
-Address:
+**Address**:
 The URL is entered here.
 
-Diagram:
+**Diagram**:
 If the current model contains more than one diagram or drawing sheet, another diagram can be referenced here.
 Attention: Otherwise this field will not be displayed in the dialog (highlighted in yellow here)!
 
-Document:
+**Document**:
 Here, instead of a URL, you can also select a document (represented by a *.sdx file), i.e. a model from the model database, to use it as the target of the hyperlink. If this is not required, the field can be left blank.
 
-Advertisement:
+**Advertisement**:
 A descriptive name can be added to a hyperlink for display. This will later be visible to the user instead of the actual URL.
 Icon:
 Here you can select a specific icon from a selection list, which later identifies the object that has a hyperlink stored.
 
-Language:
+**Language**:
 A language can be selected for which the hyperlink applies, so that different URLs, possibly with different languages, can also be displayed in multilingual modeling. If the field is left blank, the hyperlink is valid for all languages.

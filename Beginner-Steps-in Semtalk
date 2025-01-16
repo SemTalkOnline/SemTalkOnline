@@ -1,0 +1,58 @@
+Here will will show a quick, but important overview of what a user will need in order to login and use all of the basic functions of Semtalk Online. From initally logging in to making a diagram for your own purposes, this page is here to help with the initial steps.
+
+
+**Registration/Logging in**
+
+Welcome to Semtalk, the first thing we will look at is the login in screen.
+
+![alt text](images/Login1.png)
+
+ This screen is the intial screen a user will see and from this, if it is a users first time, the user will then click the registration button.
+
+![alt text](images/Registration1.png)
+
+Here the user can register themselves in different roles depending on what they need and/or have access to. This is given by the company (Semtations) and then can be distributed by those initially given access and different roles may be assigned based on level of involvement. Editor is the role most given out. 
+
+When using the demo version of Semtalk, you can register users for free without a product key and they can be given up to the editor role. 
+
+---------------------------------------------
+**Best Semtalk Start Configurations (for Editors)**
+
+![alt text](images/Overview.png)
+
+The tools on the right are the most important when creating diagrams and if they are not readily open when opening Semtalk Online, then they can be easily found and opened in the Home Menu.
+
+![alt text](images/Home-Menu.png)
+
+In the Options Menu you can customise ur UI in small ways such as anchoring the navigations window on either the left or right side of the screen. as well a increasing the size of the stencil window and also moving it around the entire window. 
+
+![alt text](images/Options.png)
+
+Other Options include:
+
+- Breadcrumb Navigation: If a file contains several linked drawing sheets, a breadcrumb path can be displayed, which can be a helpful tool for navigating between the diagram pages.
+
+- Hyperlinks indicated through a symbol: This option must be activated in order for small inidcators to be shown the hyperlinks that are part of certain different objects.This option needs to be activated through the options menu.
+
+- Refinement underlining: IN BPMN Notation refinment can be used. These refinement tasks can be indicated through the underlining of the task's name. This can be turned on through the options menu. 
+
+**Here are some tips for beginners relevant to diagram building:**
+
+- You can drag and drop objects from the Stencil directly onto the Diagram you are working on
+- A user may double-click on an object or connection line in order to change its name as a quicker move than the standard way
+- The dropdown menu when a user right clicks contains more options, though through the properties selection on the menu can provide options such as  commentary, hyperlinks, and other attributes.
+- Connections from different objects may be made through dragging from one object to another and do not have to be directly made from the initial object
+- When mousing over the objects already in a diagram one can see the symbols of other objects appear to the side and when clicked, will create a line that will link the current object with the object the user clicks on. 
+- When making sub-processes, [Refine](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Refine) is the most important thing a user can use to guide them. 
+- Symbols are different from objects and can be changed in order to differentiate different types of actions, responses, users, etc. 
+- Hyperlinks can be identified with many different symbols and used for a variety of explanantions that are too long for a diagram. [Hyperlinks](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Hyperlinks)
+- Should a user add a swimlane to a pool, in which other swimlanes are already a part of, the user should then right click on the the head of the swimlane and pull out the context menu and Select Swimlane--> New. Semtlak Online will then create a new Swimlane within the pool. New pools can be created by dragging swimlanes away from the current pool to another part of the drawing sheet. To makes things extremely easy from the beginning, all swimlanes and pools should be made before any objects and workflows are put in them. 
+
+![alt text](<images/Swimlane Options.png>)
+
+**Properties**
+![alt text](<images/Right click Menu.png>)
+
+- Semtalk Online's basic properties are contralled via the properties which can be found by right clicking and selecting properties
+- Name, Commentary, Hyperlinks, and Attributes are all within easy reach for change
+- Through the options menu, a user can also change the avialability and ease of use of Refinement, special notation, element type, and access fo other editors working on the same diagram

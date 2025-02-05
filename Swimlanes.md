@@ -1,15 +1,26 @@
-**Swimlane**: **Swimlanes** are used to show how workflows flow through different organizational or technical channels. Each **Swimlane** represents a different person, group, technology or location. Tasks and resources located in those **Swimlanes** represents the organizational or technical channel's work and resources. 
+**Swimlanes and Pools** are used to display processes structured according to processing units. This practice originates from BPMN Notations and is generally used there. However in SemTalk Swimlanes are available for other notations, e.g. EPK.
 
-**Swimlanes** can be created by:
+Further distinction is made between:<BR>
+**Pool:** represent greater organisations, e.g. Corporations or entire departments. A Pool comprises multiple Swimlanes.<BR>
+**Swimlanes:** represent processors. These can be, depending on the level of detail, persons, roles or smaller organisational units.
+
+A Pool with the organisation "Semtation" includes in the example two Swimlanes ("IT department" and "Aquisition").
+
+A single Swimlane.
+
+**Swimlanes and Pools** can be created by:
 * Dragging and dropping a Swimlane object from your stencil icons, 
-* Right mouse clicking on an existing Swimlane and selecting New or by,
-* Selecting New from the Process - Swimlane - New pull-down menu.
+* Right mouse clicking on an existing Swimlane. In the context menu Swimlane --> New
+* In the main menu "Process" --> Swimlane --> New
 
-**Swimlane**
-* **New**: Creating **Swimlanes** is an iterative process. The representation of **Swimlanes** in SemTalk Online is based on the principles of the BPMN methodology. A Business Process Diagram's default setting is to show the highest level **Swimlane** on the Business Process Diagram. When you select **Process - Swimlane - New**, a new **Sub-Swimlane** will be created. Additional Sub-Swimlanes
+Swimlanes can be displayed **vertical or horizontal**. "Horizontal" is the default setting. There are the two following options, to switch to "vertical":
 
-* **Vertical**: **Swimlanes** can be shown vertically or horizontally. Once this setting has been selected, it in not possible to revert back to the other setting. 
-* **Expand** and **Collapse**: Shows or hides swimlanes to allow users to show the flows between specific swimlane tasks.
-* **Plus/Minus button**: This button is a short-cut to **Expand or Collapse Swimlanes**.
+* right click on a existing Swimlane. In context menu Swimlane --> vertical  
+* in main menu "Process" --> Swimlane --> vertical
 
-Once a **Swimlane** has been created, if you delete the **Swimlane**, it will delete all of the objects in the **Swimlane** in your model. Those objects will continue to remain in the **Repository**.
+Swimlanes are collaps- and expandable:
+
+* right click on a existing Swimlane. In context menu Swimlane --> expand or collapse
+* in main menu "Process" --> Swimlane --> expand or collapse
+
+**Caution:** If a Swimlane gets deleted, all its contained shapes will be deleted aswell. 

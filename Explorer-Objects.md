@@ -1,5 +1,5 @@
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/main/images/Exploer_Objects_Menu.png)
+![alt text](images/Exploer_Objects_Menu.png)
 
 The **Explorer Objects** pull-down menu gives users the ability to create, edit and manage Objects in their models.
 
@@ -17,5 +17,4 @@ Available Object types are:
 
 Here is an example of a BPMN Object pull-down menu:
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/main/images/Explorer_Object.png)
-
+![alt text](images/Explorer_Object.png)

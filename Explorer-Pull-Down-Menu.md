@@ -4,6 +4,6 @@ The pull-down Explorer function allows you to navigate to, and manage Objects an
 
 ![alt text](images/ExplorerPanel.png)
 
-Explorer Browse allows users to navigate to the diagram where an Object is found. In the Explorer navigation tree, you will see that some of the Objects have a grey icons. This signifies that the Object can be found on a Diagram. When you click on the 3 dots next to the Object, a Browse menu will appear.
+Explorer Browse allows users to navigate to the Diagram where an Object is found. In the Explorer navigation tree you will see that some of the Objects have a grey icons. This signifies that the Object can be found on a Diagram. When you click on the 3 dots next to the Object, a Browse menu will appear.
 
 ![alt text](images/Explorer_Browse.png)

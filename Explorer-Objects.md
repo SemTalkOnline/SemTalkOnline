@@ -1,5 +1,5 @@
 
-![alt text](images/Exploer_Objects_Menu.png)
+![alt text](images/ExplorerObject.png)
 
 The **Explorer Objects** pull-down menu gives users the ability to create, edit and manage Objects in their models.
 

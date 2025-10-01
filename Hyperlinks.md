@@ -1,4 +1,4 @@
-Hyperlinks allow all sorts of things to be brought into a diagram in order to clearly explain or show what is going on and how it is happening. This increases the ability to easily understand the diagram when other people, unfamiliar with the diagram, need to see and comprehend the action differently.
+Hyperlinks allow additional internal and external information to be integrated into a Diagram. This increases the ability of the model to be better understood and it allows the integrations of existing documentation and forms. 
 
 ![Hyperlink Menu](images/Hyperlink.png)
 
@@ -6,7 +6,7 @@ Address:
 The URL is entered here.
 
 Diagram:
-If the current model contains more than one diagram or drawing sheet, another diagram can be referenced here.
+If a model contains more than one Diagram or drawing sheet, another Diagram within the model can be referenced as a Hyperlink.
 Attention: Otherwise this field will not be displayed in the dialog (highlighted in yellow here)!
 
 Document:
@@ -14,6 +14,7 @@ Here, instead of a URL, you can also select a document (represented by a *.sdx f
 
 Advertisement:
 A descriptive name can be added to a hyperlink for display. This will later be visible to the user instead of the actual URL.
+
 Icon:
 Here you can select a specific icon from a selection list, which later identifies the object that has a hyperlink stored.
 

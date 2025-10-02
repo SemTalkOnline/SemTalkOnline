@@ -1,40 +1,49 @@
 # SemTalk Online and Images
 
-SemTalk Online is designed to use visual information to help people quickly understand what is being represented in the active worksheet. Associated worksheet Stencils show the standard objects specific to the worksheet in use. Core Stencil objects are specific to the methodology in use, but stencils can also contain additional Images that enhance a model's effectiveness. 
+SemTalk Online is designed to use visual information to help people quickly understand what is being represented in the active worksheet. Associated worksheet Stencils show the standard objects specific to the worksheet in use. Core Stencil objects are partially specific to the methodology in use. Stencils contain object types specific to the active methodology as well as general objects such Images as the specific also contain additional Images, Text and Hyperlinks  that enhance the model's utility. 
 
-![Image Icons in the Stencil](./images/bildermanager/bildschablone.PNG)
+![Image Icons in the Stencil](./images/Stencil1.png)
 
-Ways to Integrate Images:
+NOTE: When inserting Images into a model it is critical to minimize the overall impact on the model's file size. Using Hyperlinks and SVG files help. If there are Images that will be used multiple times, users should always first check to make sure that the Image has not already been uploaded. 
 
-* Via external hyperlinks: This is used for images that are stored and uploaded from a central file location. Changes, deletions and access restrictions made to the primary image are propagated to all instances of the image in all models that contain the image. A core benefit of this approach is that external hyperlinks do not affect the size of the model file.
+**Ways to Integrate Images:**
 
-* Via embedded base64-encoded image strings: Images can be permanently integrated into the model file as base64-encoded character strings. Please refer to section: [Convert images to base64](./image-manager#convert-images-to-base64)!
-The primary advantage of this method is that the image does not have to be loaded from an external source so it is always immediately accessible to every model user. A disadvantage is that if any changes are made to the image, changes will not be propagated to the other models and model diagrams where the object is used. Additionally, model files can quickly become very large (even too large) if the model contains embedded images. Embedded objects should be used for images that do not change often, images that are specific to individual models and/or those images that cannot be obtained from a reliable external source.
+**External Hyperlinks:** This is used for images that are stored and uploaded from a central file location. Changes, deletions and access restrictions made to the primary image are propagated to all instances of the image in all models that contain the image. A core benefit of this approach is that external hyperlinks do not affect the size of the model file.
 
-* As unique symbols: Images can be added directly to model diagrams. This makes sense if an image only appears once in the model. 
+**Embedded base64 Encoded Image Strings:** Images can be permanently integrated into the model file as base64-encoded character strings. 
 
-* Via the Image Manager - an integraded image administration interface: If you are working with many images and, if these images are reused in several places, Image Manager is the best interface for images. All images can be clearly created here and transferred to the file. In this way, several modelers can contribute images and manage them together so that they are available for all modeling needs. 
+Please refer to section: [Convert images to base64](./image-manager#convert-images-to-base64)!
 
-# Integrating Images as Symbols
+The primary advantage of this method is that the Image does not have to be loaded from an external source so it is always immediately accessible to every model user. A disadvantage is that any changes made to the Image will not be propagated to the model's other Diagrams or to other models where the object is used. 
+NOTE: Model file size can quickly become very large (even too large) if the model contains embedded i\Images. Embedded objects should be used for Images that do not change or for Images that are specific to individual models and/or those Images that cannot be obtained from a reliable external source.
 
-This option applies exclusively to images that are to be inserted as hyperlinks.
-If an image icon is placed on the drawing sheet, a hyperlink can be easily inserted as text by double-clicking on the name “Image” that the icon was initially given.
-Press Enter or click on another location to apply the URL and display the image.
+**As Unique Symbols:** Images can be added directly to model diagrams. This makes sense if an Image only appears once in the model. 
 
-![Bild als Hyperlink am Symbol einfügen](./images/bildermanager/bildurlamsymbol.png)
+**Image Manager:** An integraded Image administration interface designed to upload and manage Images, especially those that are used often, or to manage models that contain many Images. Images are uploaded here and transferred directly into the model file. This allows several modelers to contribute and collectively manage Images so that they can be used for all modeling needs. 
+
+# Integrating Hyperlinks Using the Hyperlink Symbol
+
+This option inserts a Hyperlink Symbol onto a Diagram where relevant Hyperlinks can be added.
+Hyperlink Image icons are placed on the drawing sheet. After the Hyperlink has been added to the image, users rught click on the Hyperlink object to open available Hyperlinks. 
+Insert Hyperlinks Objects by dragging  and dropping the Hyperlink object from the Stencil onto the Diagram. 
+![Image as Hyperlink as Symbol](./images/HyperlinkObject1b.png)
+
+Then right click on the newly created Hyperlink object and select Properties to add a Name to the Hyperlink object and to add the Hyperlinks associated with the Hyperlink object. Add each Hyperlink by selecting **+ New** and then select **Save** to add the Hyperlink information to the object. 
+
+![Image as Hyperlink as Symbol](./images/HyperlinkObject1a.png)
 
 
 # Adding Images via the Formatting Dialog
 
 If an image icon is placed on the drawing sheet, you can open the formatting dialog by right-clicking --> Formatting (or Menu Icon-->Formatting). This has an “Image” tab.
 
-![Open Style Format Image Tab](./images/bildermanager/bildformatierung.PNG)
+![Open Style Format Image Tab](./images/StyleShapeDialog.PNG)
 
-Here, you can either specify an external hyperlink or embed an image file converted to base64. To do this, please refer to the section: [Bilder nach base64 konvertieren](./Bilder-Manager#bilder-nach-base64-konvertieren)!
+Here, you can either specify an external hyperlink or embed an Image file converted to base64. To do this, please refer to the section: [Convert Images to base64](./Image Manager#Convert Images to base64)!
 
 The image can then be embedded into the file.
 
-If a name for the image is entered in the ID field, the image created can then also be reused in the formatting dialog of other image symbols via the selection box labeled ID.
+If a name for the Image is entered in the ID field, the Image created can then also be reused in the formatting dialog of other Image symbols via the selection box labeled ID.
 
 
 # Image Manager
@@ -42,16 +51,13 @@ If a name for the image is entered in the ID field, the image created can then a
 ## Open Image Manager
 
 The image manager is opened via the menu item Tools --> Customize --> Image Manager.
-![BilderManager öffnen](./images/bildermanager/bildermanager.png)
-
-![ImageManager interface](./images/bildermanager/bildermanagercontrol.PNG)
 
 The window that opens will then list all existing images in the file with their names, contents, sizes, and whether they are already saved in the file.
 The menu bar offers a wide range of options for working with images.
 
 ## Image Manager Menu List
 
-![ImageManager interface](./images/bildermanager/bildermanagermenue.png)
+![ImageManager interface](./images/ToolsCustomizeImageManager.png)
 
 Here, you can either use an external 
 * New (+ symbol): Allows you to create a new image in the image manager

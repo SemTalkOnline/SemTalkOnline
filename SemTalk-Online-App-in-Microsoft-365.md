@@ -1,50 +1,48 @@
-**SemTalk Online** integrates seamlessly into the Microsoft 365 environment. This allows organizations to use SemTalk Online directly within familiar Microsoft environments such as Microsoft Teams, Outlook, and other Office 365 services. By embedding into the existing Microsoft environment, users benefit from a unified workspace where process modeling, collaboration, and knowledge management are fully connected with the tools they use every day.
+**SemTalk Online App** integrates seamlessly into the Microsoft 365 environment. This allows organizations to use the SemTalk Online App directly within familiar Microsoft environments such as Microsoft Teams, Outlook, and other Office 365 services. By embedding the SemTalk Online App into the existing Microsoft environment, users benefit from a unified workspace where process modeling, collaboration, and knowledge management are fully connected within the tools they use every day.
 
 # SemTalk Online App as a Personal Tab in the Microsoft 365 Environment
 
-Users can set up SemTalk Online as a personal tab in Microsoft products such as Teams or Outlook Online. To do this, the SemTalk Online App must be selected from the "More Apps" menu of the respective Microsoft application.
+Users can set up the SemTalk Online App as a personal tab in Microsoft products such as in Teams or Outlook Online. Select the SemTalk Online App from the "More Apps" menu of the respective Microsoft application.
 
-This scenario is particularly suitable for modeling by individuals who do not need to manage large amounts of models.
+This scenario is particularly suitable when individuals are executing modeling projects that do not require them to manage a large number models.
 
-For personal apps, there is no separate settings screen in the Teams or Outlook environment, no SharePoint site in the background, and no caching of personal settings. Therefore, it is recommended to work without a fixed model library.
-More details can be found under [File storage options](https://github.com/SemTalkOnline/SemTalkOnline/wiki/SemTalk-Online-Options-for-file-storage) genaueres gelesen werden.
+When modelers are using SemTalk Online App as a personal app, there is no need for separate screen settings in Teams or Outlook, no SharePoint site in the background, and no caching of personal settings. In this case, it is recommended to work without a fixed Model Library.
+More details can be found under [File storage options](https://github.com/SemTalkOnline/SemTalkOnline/wiki/SemTalk-Online-Options-for-file-storage).
 
-SemTalk Online App as a Microsoft Teams Tab
+# SemTalk Online App as a Microsoft Teams Channel Tab
 
-# SemTalk Online can be added as a tab in a Microsoft Teams channel.
+This option provides an optimal way for modeling groups to work together when executing SemTalk Online App projects. All authorized Team members have access to the same app, with the same settings and configurations.
+In addition, all of Microsoft Teams' functionalities can be used to make the modeling experience more efficient and collaborative (e.g. chat function, integration of related libraries and other information). SemTalk Online App's data storage can also be specifically set to a Library within the respective Team. Other settings can also be predefined by the SemTalk Online App's administrator for all SemTalk Online App users.
 
-This scenario provides the optimal way to use SemTalk Online as a shared modeling solution for a group of people working together on projects. All authorized users of the respective team have access to the same app with the same settings and configurations.
-In addition, all functionalities of Microsoft Teams can be used to make the modeling experience more efficient and collaborative, e.g., chat function, integration of related libraries and other information. Data storage for SemTalk Online can also be specifically set to a library within the respective team. Other settings can also be predefined by a SemTalk Online administrator for all users of the SemTalk Online instance.
+This is specifically recommended when executing and managing larger, and more detailed modeling landscapes with multiple modelers over a longer time periods.
 
-This is the recommended option for creating and managing larger and more detailed model landscapes with multiple modelers over the long term.
+## Adding the SemTalk Online App as a Teams Tab
 
-## Adding the App as a Teams Tab
+The SemTalk Online App can be added as a Microsoft Team Tab in a Channel using Team's standard settings. All Channel members will have access to the App.
 
-The SemTalk Online App can be added to a Microsoft Team in a channel as a tab using the standard mechanisms, making it available to all members of the channel.
-
-When first setting up, the user is prompted to fill in the tab configuration.
+Users are prompted to fill in the Tab configuration during the initial setup.
 
 ## Configuring the Tab
 
-The configuration screen of the SemTalk Online App provides the user with numerous basic setting options to preset the application for different use cases.
-The settings made there apply to all users of the tab, unless individual users change their personal settings and thereby override the tab defaults.
+SemTalk's Online App's configuration screen provides the user with all of the basic setting options to preset the app for different use cases.
+These settings will be applied to all Tab users unless individual users change their personal settings and thereby override the Tab defaults.
 
 ![Tab Konfiguration](./images/Tabconfig1.png)
 
-- Tab Name: The name that should be displayed in the tab title.
-- Role: The role in which the app should run.
-- SharePoint Site URL: If a fixed library is to be used for storing files, the URL of the SharePoint site must be specified here.
+- Tab Name: The Tab Title name that should be displayed.
+- Role: Roles in which the app should run.
+- SharePoint Site URL: If a fixed library will be used for storing files, the URL of the SharePoint site must be specified here.
 
 ![Tab Konfiguration](./images/Tabconfig2.png)
 
-- Library: The name of the fixed library. This must exist on the previously specified SharePoint site.
-- Folder: If desired, a specific folder from the library can be specified here.
-- Shared Library: If an additional library is required as an extra storage location for shared processes, it can be specified here. This must have a different name than the regular model library.
-- Repository: If modeling with SemTalk Repository, the SharePoint site where the repository is located must be specified. For more information about the repository, see: Wiki Page: Repository
+- Library: The name of the fixed library. This must first exist on the previously specified SharePoint site.
+- Folder: A specific folder from the Library can be specified here as needed.
+- Shared Library: If extra storage is required for shared processes, an additional Library is required. This Shared Library must have a different name than the regular model library.
+- Repository: If modeling with a SemTalk Repository, the SharePoint site where the Repository is located must be specified. For more information about the Repository, refer to Wiki Page: Repository
 
 ![Tab Konfiguration](./images/Tabconfig3.png)
 
-- UI Language: The language in which the SemTalk Online interface is displayed.
+- UI Language: The language in which the SemTalk Online App interface is displayed.
 - Current Language: The language in which model content will be created.
 - Use Microsoft Graph: Must be enabled if SharePoint libraries are to be used as a file storage location.
 - Use MongoDB: If a MongoDB is to be used as a model database, MongoDB must be enabled and Microsoft Graph disabled.
@@ -54,15 +52,15 @@ The settings made there apply to all users of the tab, unless individual users c
 
 ![Tab Konfiguration](./images/Tabconfig4.png)
 
-- Enable Portal Mode: SemTalk Online can also be used as a portal in the future. This must be activated here.
-- Start File: Which model file should be the starting point of the portal?
-- Start Diagram: Which diagram should be the start diagram of the portal?
-- Subsite Prefix: Each SemTalk Online App gets an individual prefix. This is used to cache user-specific settings on the computer for each portal instance.
+- Enable Portal Mode: SemTalk Online can also be used as a Portal. This must be activated here.
+- Start File: Deterines which model file should be the Portal's starting point.
+- Start Diagram: Determines which Diagram should be the start Diagram of the portal.
+- Subsite Prefix: Each SemTalk Online App gets an individual prefix. This is used to cache user-specific settings on the computer for each Portal instance.
 
 
 # File Storage Options in the Microsoft Environment
 
-More detailed information about SemTalk Online’s file storage concept can be found on the page [File storage options](https://github.com/SemTalkOnline/SemTalkOnline/wiki/SemTalk-Online-Options-for-file-storage).
+More detailed information about SemTalk Online App’s file storage concept can be found on the page [File storage options](https://github.com/SemTalkOnline/SemTalkOnline/wiki/SemTalk-Online-Options-for-file-storage).
 There you can also find information about the available options in the Microsoft 365 environment.
 
 

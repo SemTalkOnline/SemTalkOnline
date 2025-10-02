@@ -12,5 +12,5 @@ The image manager therefore displays a warning as soon as this size range is rea
 SemTalk Online saves the file to the local storage on the user's device after every relevant change. This ensures that the current status is not lost if the application needs to be restarted or updated. However, most browsers only allow a maximum size of 5 MB for this auto-save. 
 If the file exceeds this size, the save states can no longer be stored. In this case, the user must actively save the file regularly in the DB or library to avoid data loss.
 
-*Publishing to the portal: From a size of 7 MB, publishing to a portal database, if available, becomes critical. From 10 MB, publishing will fail.
-If the user receives a warning message regarding the file size, it is recommended to reduce the size if possible.
+*Publishing to the portal: When a file size of 7 MB is reached, publishing to a portal database becomes critical. If a file size is 10 MB or larger, publishing will fail.
+If the user receives a warning message regarding the file size, it is recommended to reduce the size or to publish to a portal.

@@ -31,6 +31,7 @@ These settings will be applied to all Tab users unless individual users change t
 
 - Tab Name: The Tab Title name that should be displayed.
 - Role: Roles in which the app should run.
+- fixed Document Library: Setzt SemTalk Online in einen Modus, in dem alle Benutzer auf dieselbe Dokumentenbilbiothek zugreifen. Diese Dokumentenbibliothek muss explizit eingestellt werden. Dafür werden die 4 nachfolgenden Felder genutzt. Im Modus ohne feste Bibliothek sind die Felder ausgebelendet.
 - SharePoint Site URL: If a fixed library will be used for storing files, the URL of the SharePoint site must be specified here.
 
 ![Tab Konfiguration](./images/Tabconfig2.png)

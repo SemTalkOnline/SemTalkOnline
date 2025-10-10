@@ -12,10 +12,12 @@ NOTE: When inserting Images into a model it is critical to minimize the overall 
 
 **Embedded base64 Encoded Image Strings:** Images can be permanently integrated into the model file as base64-encoded character strings. 
 
-Please refer to section: [Convert images to base64](./image-manager#convert-images-to-base64)!
+Please refer to section: 
+[Convert images to base64](https://github.com/SemTalkOnline/SemTalkOnline/wiki/image-manager#convert-images-to-base64)
+
 
 The primary advantage of this method is that the Image does not have to be loaded from an external source so it is always immediately accessible to every model user. A disadvantage is that any changes made to the Image will not be propagated to the model's other Diagrams or to other models where the object is used. 
-NOTE: Model file size can quickly become very large (even too large) if the model contains embedded i\Images. Embedded objects should be used for Images that do not change or for Images that are specific to individual models and/or those Images that cannot be obtained from a reliable external source.
+**NOTE**: Model file size can quickly become very large (even too large) if the model contains embedded i\Images. Embedded objects should be used for Images that do not change or for Images that are specific to individual models and/or those Images that cannot be obtained from a reliable external source.
 
 **As Unique Symbols:** Images can be added directly to model diagrams. This makes sense if an Image only appears once in the model. 
 
@@ -79,6 +81,8 @@ If many base64-embedded images are used, it is important to keep an eye on the s
 
 To embed an image in a SemTalk Online model, the file must be converted to a base64 string.
 SemTalk Online does not offer its own conversion tool for this purpose, but links to a freely accessible one at https://base64.guru/converter/encode/I. Converters from other providers can also be used.
+
+![base64 Conversion](./images/ImageManagerBase64.png)
 
 ![base64 Conversion](./images/ImageManager3.png)
 

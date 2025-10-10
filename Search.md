@@ -1,5 +1,9 @@
+**Search**
 
-The Search function is used when diagrams become more complex and all-encompassing and certain tasks, events, or gateways need to be looked at and can be searched for through the Search function.
+Search is used to find Objects that are used throughout the entire model. This is paticularily helpful in models with a large number of Diagrams or when searching for specific Tasks, Events, or Gateways.
 
-![alt text](images/Search.png)
+![alt text](images/Search1a.png)
 
+Search will open all of the places (e.g. Diagrams, Comments and Links) where the Search Term is found. 
+
+![alt text](images/Search2b.png)

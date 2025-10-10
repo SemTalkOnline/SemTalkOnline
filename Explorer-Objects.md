@@ -1,3 +1,4 @@
+**Explorer Objects**
 
 ![alt text](images/ExplorerObject.png)
 

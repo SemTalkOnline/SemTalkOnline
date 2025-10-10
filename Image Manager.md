@@ -75,14 +75,12 @@ Images that are embedded in the file have a check mark in the File column.
 To add a new image or edit an existing one, use the “New” or ‘Edit’ buttons in the menu bar. An image entry always consists of an ID, i.e., a unique name, and the image content in the “Image” field. This can be either a URL or the base64-converted character string of an image.
 If many base64-embedded images are used, it is important to keep an eye on the size of the images. The more images are stored in the model file, the larger it becomes, which can lead to longer loading times. Problems can also arise when exporting the model to a publication database if the file becomes too large. For this reason, the file size for export is limited to approximately 10 Mb. SemTalk Online will display a warning message in the Image Manager if the file size exceeds approximately 7 Mb. If you do not intend to export to a publication database, you can ignore the warning.
 
-
-
 # Convert Images to base64
 
 To embed an image in a SemTalk Online model, the file must be converted to a base64 string.
 SemTalk Online does not offer its own conversion tool for this purpose, but links to a freely accessible one at https://base64.guru/converter/encode/I. Converters from other providers can also be used.
 
-![base64 Conversion](./images/bildermanager/konverter.PNG)
+![base64 Conversion](./images/ImageManager3.png)
 
 To convert the image, it must first be uploaded to the conversion service, the output format must be set to “Data URI -- data:content/type;base64,” and then the Encode button must be pressed.
 The result can then be copied into the “Image” field in SemTalk Online. If the process was successful, SemTalk Online will immediately display a preview of the image in the dialog box.

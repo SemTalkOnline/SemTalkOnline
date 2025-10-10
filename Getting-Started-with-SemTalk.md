@@ -1,3 +1,5 @@
+**Getting Started with SemTalk**
+
 **Adding Objects to Diagrams**
 
 ![alt text](images/Semtalk-Overview.png)

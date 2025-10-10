@@ -1,4 +1,6 @@
-**File**: Manages the selection of new and available files that can be accessed or exported.
+**File Menu**
+
+**File** manages the selection of new and available files that can be accessed or exported.
 
 ![alt text](images/PullDownMenu2.png)
 

@@ -27,7 +27,7 @@ Users are prompted to fill in the Tab configuration during the initial setup.
 SemTalk's Online App's configuration screen provides the user with all of the basic setting options to preset the app for different use cases.
 These settings will be applied to all Tab users unless individual users change their personal settings and thereby override the Tab defaults.
 
-![Tab Configuration](./images/Tabconfig1.png)
+![Tab Configuration](./images/TabConfig1.png)
 
 - Tab Name: The Tab title that should be displayed.
 - Role: Role in which the app should run.
@@ -36,7 +36,7 @@ This document library must be explicitly specified.
 The four following fields are used for this purpose.
 In the mode without a fixed library, these fields are hidden.
 
-![Tab Configuration](./images/Tabconfig2.png)
+![Tab Configuration](./images/TabConfig2.png)
 
 - SharePoint Site URL: If a fixed library will be used for storing files, the URL of the SharePoint site must be specified here.
 - Library: The name of the fixed library. This must first exist on the previously specified SharePoint site.
@@ -44,7 +44,7 @@ In the mode without a fixed library, these fields are hidden.
 - Approval Library: If an approval storage is required for shared processes, an additional Library is required. This Approval Library must have a different name than the regular model library.
 
 
-![Tab Configuration](./images/Tabconfig3.png)
+![Tab Configuration](./images/TabConfig3.png)
 
 - UI Language: The language in which the SemTalk Online App interface is displayed.
 - Current Language: The language in which the model content will be created.

@@ -1,26 +1,109 @@
-**Getting Started with SemTalk**
+# Getting Started with SemTalk
 
-**Adding Objects to Diagrams**
+This wiki page provides an initial overview of the most important steps for setting up the SemTalk Online environment for new users.
+It is therefore recommended to become familiar with these first steps in order to optimally adapt your SemTalk Online environment to your own requirements.
 
-![alt text](images/Semtalk-Overview.png)
+## Login / Registration
+This section is only relevant if MongoDB is used. User that use SemTalk Online in Microsoft365 environments will not need to register accounts or use a seperate login.
 
-Every model requires a workspace on which to model. In SemTalk, these workspaces are referred to as Diagrams. SemTalk simplifies the modeling process by creating modeling workspaces that have the rules built into the modeling environment. The number and type of Diagrams, as well as the modeling rules, correspond to each of the standard SemTalk versions.  Each time you open a SemTalk version, whether it is BPMN, EPCs or any customized version type, you are opening a worksheet that comes with a built-in rule-based engine that will only allows you to model what is allowed in the version you have selected.  
+![Login Screen](./images/loginScreen.PNG)
 
-When you open SemTalk, you will see a stencil window pane labeled 'Stencil' that contains various graphical Object types. The objects shown are the Object types available for the current Diagram (workspace). Generally, the default Diagram with be the Diagram that shows the core process flows for the method in use (e.g. Business Process Diagram if you are using the BPML Version).  
- 
-Just drag and drop Objects from your stencil onto the Diagram to represent your process flow. Name your Object by double clicking on the Object or right-mouse click on your object, select Properties and add your name in Task. Connect Objects by hovering your cursor over the Object name until you see a hand over your Object name. Then hold down your cursor and draw the connection to the next object. Just as the available Objects are rule-based, the type of connections allowed are also restricted by the chosen version. Here is it more flexible to assign different connectors if needed. 
+If a user account already exists, you can proceed directly to the login process. The selected role must be assigned to the user.
+A user with basic modeling tasks should have the Editor role and select it during login.
 
-Since processes scenarios represent a specific sequence of events, on each object there is an auto-draw feature for you to choose the next object. When you used this feature, the connection will be made automatically.
+A more detailed explanation of the login screen can be found here:
+[Wiki Page: SemTalk-Login](https://github.com/SemTalkOnline/SemTalkOnline/wiki/SemTalk-Login) 
 
-**Naming Objects**
+<hr>
 
-In addition to the two Object naming options - double-click and the Properties dialog, SemTalk is able to create structured naming conventions. Almost all processes (work-steps) have names that consist of a verb and a noun. For example, the process step 'Send Invoice' is the verb 'Send' and the noun 'Invoice'. SemTalk allows users to create libraries of these verbs and nouns so that all modeling projects remain consistent; interfaces that define information flows remain consistent; and so that central repositories of terms can be created that allow modelers to import/ export key data terms to and from these libraries.
+## Registration
 
-Right-mouse click on a new Task and select Vocabulary.
+![Registration screen](./images/signupScreen.PNG)
 
-A Vocabulary Window will open. If a Repository is associated with the SemTalk version you have installed, or the model you currently have open, a pull-down menu for Objects (Nouns) and Methods (Verbs).
+If no user account exists, registration can be performed—provided this function is enabled in the application.
+In the demo application, users can freely register for testing purposes and will automatically be assigned the Editor role.
 
-![alt text](images/Vocabulary.png)
+A more detailed explanation of the registration screen can be found here:
+[Wiki Page: SemTalk-Registration](https://github.com/SemTalkOnline/SemTalkOnline/wiki/SemTalk-Registration) 
+
+<hr>
+
+# Configuring the SemTalk Online Interface (Editor View)
+
+![SemTalk Online Overview start screen](./images/SemTalkBPMNStart.PNG)
+
+## Template, Pan & Zoom Window, and More
+
+Important tools for successfully creating process models include the template with modeling elements and the pan & zoom window.
+Depending on the basic configuration of the application and user preference, these tools can be customized.
+
+In the Start menu, the tools can be shown or hidden (the same applies to the page selection window and the navigator).
+This means that if these tools are not visible after opening the editor, you may need to enable them manually.
+![SemTalk Online Start Tools](./images/SetupStartTools.png)
+
+Furthermore, the positioning of the tools can be configured. In the Options menu (gear icon in the top right), under the General tab, you can define whether the tools should be anchored on the left or right side of the editor.
+This can be set via the “Template” switch.
+If the anchoring option is not selected, the tool will appear in a movable window that can be freely repositioned and resized.
+
+![SemTalk Online Optionen - General](./images/optionsgeneral.png)
+
+Additional useful options for beginners:
+- Breadcrumb navigation bar: If a file contains multiple linked drawing pages, a breadcrumb path can be displayed to help navigate between diagram pages.
+- Display hyperlinks as icons: If hyperlinks are used during modeling, this option must be enabled so that small indicator icons appear on model elements with hyperlinks.
+- Underline refinements: In BPMN notation, refinements can be used. Refined tasks can either have their name underlined to indicate refinement or, if this option is disabled, show the typical BPMN “+” symbol.
+
+
+## Menu Structure
+
+The main menu contains a variety of functions.
+These are described in detail on other wiki pages. Follow the links below to learn more:
+- [Wiki page: Menu File](https://github.com/SemTalkOnline/SemTalkOnline/wiki/File-Menu)
+- [Wiki page: Menu Home](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Home-Menu)
+- [Wiki page: Menu Shape](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Symbol)
+- [Wiki page: Menu Object](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Objekt)
+- [Wiki page: Menu Process](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Prozess)
+- [Wiki page: Menu Diagram](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Diagramm)
+- [Wiki page: Menu Explorer](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Explorer)
+- [Wiki page: Menu Tools](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Extras)
+
+
+## Getting Started with Modeling
+
+SemTalk Online is model-based, meaning that new files are created via File → New, each belonging to the selected notation.
+Each file can contain several diagram pages, which can then be filled with the actual models.
+
+![SemTalk Online Overview screen](./images/SemTalkBPMNStartEditor.PNG)
+
+To build a process model, the following steps are generally relevant:
+
+- Symbols can be dragged from the template onto the drawing sheet to create models.
+- Double-clicking on an object allows you to quickly rename it — alternatively, use the Object Properties dialog.
+- Object properties can be adjusted via the context menu (right-click), e.g., attachments/hyperlinks, comments, assignees, and other attributes.
+- Alternatively, via the Object tab in the menu ribbon.
+- Connections can be created by clicking and dragging from the center of one object to another with the left mouse button.
+- Hovering the mouse over an existing symbol displays the Quick Template next to it. Clicking one of the quick elements allows you to rapidly add connected symbols.
+- To create a subprocess, refinements are used in SemTalk Online. [Wiki page: Refinements](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Refine)
+- The appearance of symbols can be customized with numerous formatting options. Learn more here: [Wiki page: Style](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Styleg)
+- Hyperlinks can be added to most symbols. Different hyperlink options are described here: [Wiki page: Hyperlinks](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Hyperlinks)
+- To convert a Swimlane (in BPMN) into a Pool containing multiple swimlanes, right-click on the header of the pool/swimlane and select Swimlane → New from the context menu.
+SemTalk Online will then create a new swimlane within the selected pool/swimlane.
+However, if you want to create an entirely new pool, drag the swimlane symbol from the template onto the drawing sheet.
+When working with pools and swimlanes, it is recommended to first create and position all pools and swimlanes before placing other elements inside them, as later rearrangement can be difficult due to the container behavior of pools/swimlanes.
+
+![SemTalk Online - new swimlane](./images/swimlaneneu.png)
+
+
+## Object Properties
+
+![SemTalk Online overview properties](./images/SemTalkBPMNStartEigenschaften.PNG)
+
+- Every SemTalk element has basic properties that can be controlled via the Properties dialog.
+- To open:
+    - Right-click on a symbol → Properties
+    - Menu entry Object → Properties
+    - Toolbar Pencil icon
+- Name, comments, hyperlinks, and attributes can be entered.
+- Depending on the element type, refinements, assignees, or other notation-specific settings may also be available.
 
 
 

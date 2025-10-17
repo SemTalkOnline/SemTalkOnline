@@ -11,12 +11,12 @@ More details can be found under [File storage options](https://github.com/SemTal
 
 # SemTalk Online as a Microsoft Teams Channel Tab
 
-This option provides an optimal way for modeling groups to work together when executing SemTalk Online App projects. All authorized Team members have access to the same app, with the same settings and configurations.
+This option provides an optimal way for modeling groups to work together when executing SemTalk Online projects. All authorized Team members have access to the same app, with the same settings and configurations.
 In addition, all of Microsoft Teams' functionalities can be used to make the modeling experience more efficient and collaborative (e.g. chat function, integration of related libraries and other information). SemTalk Online's data storage can also be specifically set to a Library within the respective Team. Other settings can also be predefined by the SemTalk Online App's administrator for all SemTalk Online App users.
 
 This is specifically recommended when executing and managing larger, and more detailed modeling landscapes with multiple modelers over longer time periods.
 
-## Adding the SemTalk Online as a Teams Tab
+## Adding SemTalk Online as a Teams Tab
 
 The SemTalk Online can be added as a Microsoft Team Tab in a Channel using Team's standard settings. All Channel members will have access to the App.
 
@@ -54,7 +54,7 @@ In the mode without a fixed library, these fields are hidden.
 
 # File Storage Options in the Microsoft Environment
 
-More detailed information about SemTalk Online App’s file storage concept can be found on the page [File storage options](https://github.com/SemTalkOnline/SemTalkOnline/wiki/SemTalk-Online-Options-for-file-storage).
+More detailed information about SemTalk Online’s file storage concept can be found on the page [File storage options](https://github.com/SemTalkOnline/SemTalkOnline/wiki/SemTalk-Online-Options-for-file-storage).
 There you can also find information about the available options in the Microsoft 365 environment.
 
 

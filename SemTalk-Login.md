@@ -9,7 +9,7 @@ Databases types are:
 * Existing accounts, such as their Microsoft account, or they can 
 * Access a their personalized accounts via their MongoDB Database. 
 
-A Repository contains the library of existing SemTalk Objects available for you to use in your models. As you model, new objects will be added to your Repository. Unless instructed to access a specific Repository, leave ‘Default’  as your Repository.  If you have been instructed to access a particular Repository, select the Repository from the Repository pull-down menu.
+The associated Repository contains the library of existing SemTalk Objects available for you to use in your model. As you model, new objects will be added to your Repository. Unless instructed to access a specific Repository, leave ‘Default’  as your Repository.  If you have been instructed to access a particular Repository, select the Repository from the Repository pull-down menu.
 
 **[Role](https://github.com/SemTalkOnline/SemTalkOnline_EN/wiki/Role)**: Select your modeling role
 

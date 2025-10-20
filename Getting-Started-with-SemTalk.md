@@ -1,43 +1,28 @@
 **Getting Started with SemTalk**
 
-SemTalk Online is a browser-based modeling tool that allows users to graphically edit and manage business processes, knowledge models, and other complex structures using state-of-the-art online technologies. 
-
-Models created with SemTalk Online can be used in a variety of ways. They can be published to a portal, used to support information exchanges with other tools, or they can be integrated into the Microsoft Office 365 platform with its Microsoft SharePoint and Microsoft Teams components. SemTalk online offers a wide range of support ad reporting functions, especially when executing automation and knowledge management projects. 
-
-Please free to contact us at sales@semtalk.com for additional information.
+This overview reviews the most important steps for new SemTalk Online users to help them to optimally setup SemTalk Online to meet their modeling requirements.
 
 **Login/ Registration**
 
+This section is only relevant when MongoDB is used. Microsoft365 environment users do not need to register accounts or use a seperate login.
+
 ![alt text](images/Login3.png)
 
-SemTalk Online requires a UserID (user's e-mail address) and a password. If you already have an account, select your User Type and login. 
+If a user account already exists, you can proceed directly to the login process. The selected role must be assigned to the user. A user with basic modeling tasks should have the Editor role and select it during login.
 
-Unless instructed to access a specific customized Database, leave ‘Default’ setting as your Database.  If you have been instructed to access a particular Database, select the Database from the Database pull-down menu. 
+Additional information about the Login Screen can be found under the [SemTalk-Login](https://github.com/SemTalkOnline/SemTalkOnline/wiki/SemTalk-Login) help page.
 
 If you forgot your login password, enter your email address and select the Resend Password option and you will be sent a temporary new password. After you login, go to the Tools - User pull-down menu and create a new password. 
 
-SemTalk Options are based on your selected role.
+![alt text](images/Registration1.png)
 
-**SemTalk Roles:**
+If a user account does not exist, Registration can be performed if this function is enabled in the application. Demo users are able to register for testing purposes free of charge and will automatically be assigned the Editor role. Demo users should leave the Product Key entry empty.
 
-**Reader**: Readers are able to view the model but they are not allowed to Edit the content.
+A more detailed explanation of the Registration screen can be found under [SemTalk-Registration](https://github.com/SemTalkOnline/SemTalkOnline/wiki/SemTalk-Registration).
 
-**Editor:** Normal modelers generally use the Editor role. It provides the functionality needed to create and format SemTalk models.
 
-**Administrator:** This role has all of the Editor permissions plus the ability to customize the modelling options and it has administrative capabilities to manage users (including assigning roles). Administrators can only be appointed by other administrators.
 
-**MetaModel Editor:** Is able to Edit the model as well as customize the metamodel to fit orgniztional requirements. MetaModel editors should have a deep knowledge of SemTalk metamodels and notational components.
-
-**Publisher**: This role is able to publish process models to process portals.
-
-**MongoDB:** The **Connection** button can be used to specify another MongoDB server. This allows SemTalk Online to access to specific, locally managed databases.
-
-**Microsoft 365 (MS365 Login)**
-Both the login and registration processes can alternatively be carried out via a Microsoft 365 account. 
-
-When you click the **MS365 Login** button, you will be asked to login to your MS365 account. You will then be registered with this account in the SemTalk Online database. 
-
-SemTalk Online stores your email address and your selected account name. No additional password is required. Once you have registered, you can complete the login process on the login page using the MS365 button. Authentication is carried out exclusively via the Microsoft 365 authentication centers.
+**Configuring the SemTalk Online Interface (Editor View)**
 
 **SemTalk Onlines's Graphical User Interface (GUI)**
 

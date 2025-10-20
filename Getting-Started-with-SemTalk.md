@@ -18,7 +18,7 @@ A more detailed explanation of the login screen can be found here:
 
 ## Registration
 
-![Registration screen](./images/signupScreen.PNG)
+![Registration screen](./images/registrationScreen.PNG)
 
 If no user account exists, registration can be performed—provided this function is enabled in the application.
 In the demo application, users can freely register for testing purposes and will automatically be assigned the Editor role.

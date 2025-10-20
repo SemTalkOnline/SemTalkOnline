@@ -53,7 +53,7 @@ What is SemTalk Online
 </picture>
 
 - File = Open or export models 
-- Open = Models can be opened from the hard disk or from the database. Models from the database are displayed as the default. 
+- Open = Models can be opened from a local file or from the database. Models from the database are displayed as the default. 
 - Model is shown with status information (e.g. date modified, who modified, and current status). 
 - Export: Word, HTML, PNG, JPG, Image File (SVG) 
 - Print Preview = Print via WebBrowser 
@@ -66,13 +66,16 @@ What is SemTalk Online
   <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_EN/main/images/Picture5.png" width="600">
 </picture>
 
-- If multiple diagrams are included in the model, a diagram selection box is displayed above the "Pan & Zoom" window. 
+- All existing Diagrams are shown in the pull-down menu box found above the Stencil/ Pan & Zoom menu on the right side of your Diagram. This box will automatically show the name of the currently opened Diagram. Click on the current Diagram name to see the pull-down list of all Diagrams.
+
+![ImageManager interface](./images/Diagrams1.png)
+
+
 - Context menu on the objects 
   - Properties = Display object properties 
   - Refine = If an object has an Attribute, you can jump to this Attribute. 
 
-[x] Alternatively, press "Object" in the menu 
-[x]  Further functions for the object view are available via the arrow in the menu next to the "Object" button. 
+Object information can also be accessed via the Object pull-down menu.
 
 <hr>
 

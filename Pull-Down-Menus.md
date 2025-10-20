@@ -1,7 +1,7 @@
 
 ![alt text](<images/Main Menu.png>)
 
-All standard SemTalk commands can be found in the pull-down menu shown above (top of the SemTalk window). Detailed pull-down menu information is available under the menu type names.
+All standard SemTalk commands can be found in the pull-down menus shown horizontally above the Diagram. Detailed pull-down menu information is available under each pull-down menu type.
 
 **File**: Manages the selection of new and available files that can be accessed or exported.
 

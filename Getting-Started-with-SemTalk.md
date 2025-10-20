@@ -105,8 +105,25 @@ When working with pools and swimlanes, it is recommended to first create and pos
 - Name, comments, hyperlinks, and attributes can be entered.
 - Depending on the element type, refinements, assignees, or other notation-specific settings may also be available.
 
+Users **Add Objects** to the Diagram by dragging and dropping them from the Stencil onto the Diagram. 
 
+**Name Objects** by double clicking on the Object, by opening the object's right-mouse click menu or by using the Vocabulary naming option discussed below. 
 
+**Connect Objects** by hovering your cursor over the center of an Object until the hand icon appears. Hold down your cursor and draw the connection to the next object. 
+
+Connection types are also related to the Diagram type. Users are able to create user-defined connectors but it is generally not recommended because user-defined connectors are not considered when running process flow consistency checks. 
+
+Process objects have a auto-draw connector feature. This allows users to automatically create connectors when they choose the object's target object.
+
+**Structured Object Naming via Vocabulary**
+
+In addition to naming objects via double-click and right mouse click, SemTalk also includes a structured naming option. Most process work-steps have names that consist of a verb and a noun. For example, the process step 'Send Invoice' is the verb 'Send' and the noun 'Invoice'. 
+
+When adding new Object names to process flow objects, instead of simply adding a name, modelers using the Vocabulary option select the Object (noun) and Method (verb) from picklists. If the Object and Method are not in the picklist, they can add them to the local Repository. Keeping modeling information consistent is especially important when there are multiple modeling projects and/ or multiple people modeling or when the models are being used to support training. 
+
+Repositories can be local on only be related the the active model or they can be centralized so that everyone in the organization uses the same terminology. 
+
+![alt text](images/Vocabulary.png)
 
 
 

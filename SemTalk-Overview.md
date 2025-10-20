@@ -1,5 +1,44 @@
 SemTalk® is a tool for business process modeling and ontology editing. SemTalk is designed to manage process knowledge, both in terms of workflows and in terms of identifying and providing metadata for documents and other content-related needs such as portals and smart forms.
 
+**Login/Registration**
+
+![alt text](images/LoginRegister.png)
+
+Database and repository can be custom built for the customer if desired.
+
+**Roles**:
+
+* Viewer = Read-Only mode
+* Editor = Modeler
+* Meta Model Editor
+* Administrator = Customization of the GUI
+
+Interface can be customized via options in language and layout.
+
+**Registration**
+* UserID = E-Mail
+* Username = Name Shown
+* Passwort = User-Defined Password
+Key is left blank when using the Demo version 
+
+**Viewer Role Interface**:
+
+* Able to view models and properties of objects
+* Export as Word, HTML, PNG and JPG
+
+**Open New Model**
+
+![alt text](images/Export.png)
+
+* File = Open or export models
+* Open = Models can be opened from the hard disk or from the database. Models from the database are displayed as the default.
+* Model is shown with status information (e.g. date modified, who modified, and current status).
+
+  - Export: Word, HTML, PNG, JPG, Image File (SVG)
+  - Print Preview = Print via WebBrowser
+
+![alt text](images/Semtalk-Overview1.png)
+
 SemTalk models are built using the following components:
 * Pull-Down Menu
 * Window Panels
@@ -9,10 +48,6 @@ SemTalk models are built using the following components:
 * Objects that contain: 
    * Properties
    * Connectors
-
-![alt text](images/Semtalk-Overview.png)
-
-
 **Diagrams**: Diagrams are the active modeling pages. Each diagram types is associated with **Objects** and rules appropriate for the active diagram. The types of **Diagrams** available are determined by the currently used SemTalk version. 
 For example, a generic BPML version contains the following **Diagram** types:
 * Business Process Diagram

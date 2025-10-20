@@ -1,29 +1,71 @@
 **Getting Started with SemTalk**
 
-**Adding Objects to Diagrams**
+SemTalk Online is a browser-based modeling tool that allows users to graphically edit and manage business processes, knowledge models, and other complex structures using state-of-the-art online technologies. 
 
-![alt text](images/Semtalk-Overview.png)
+Models created with SemTalk Online can be used in a variety of ways. They can be published to a portal, used to support information exchanges with other tools, or they can be integrated into the Microsoft Office 365 platform with its Microsoft SharePoint and Microsoft Teams components. SemTalk online offers a wide range of support ad reporting functions, especially when executing automation and knowledge management projects. 
 
-Every model requires a workspace on which to model. In SemTalk, these workspaces are referred to as Diagrams. SemTalk simplifies the modeling process by creating modeling workspaces that have the rules built into the modeling environment. The number and type of Diagrams, as well as the modeling rules, correspond to each of the standard SemTalk versions.  Each time you open a SemTalk version, whether it is BPMN, EPCs or any customized version type, you are opening a worksheet that comes with a built-in rule-based engine that will only allows you to model what is allowed in the version you have selected.  
+Please free to contact us at sales@semtalk.com for additional information.
 
-When you open SemTalk, you will see a stencil window pane labeled 'Stencil' that contains various graphical Object types. The objects shown are the Object types available for the current Diagram (workspace). Generally, the default Diagram with be the Diagram that shows the core process flows for the method in use (e.g. Business Process Diagram if you are using the BPML Version).  
- 
-Just drag and drop Objects from your stencil onto the Diagram to represent your process flow. Name your Object by double clicking on the Object or right-mouse click on your object, select Properties and add your name in Task. Connect Objects by hovering your cursor over the Object name until you see a hand over your Object name. Then hold down your cursor and draw the connection to the next object. Just as the available Objects are rule-based, the type of connections allowed are also restricted by the chosen version. Here is it more flexible to assign different connectors if needed. 
+**Login/ Registration**
 
-Since processes scenarios represent a specific sequence of events, on each object there is an auto-draw feature for you to choose the next object. When you used this feature, the connection will be made automatically.
+![alt text](images/Login3.png)
 
-**Naming Objects**
+SemTalk Online requires a UserID (user's e-mail address) and a password. If you already have an account, select your User Type and login. 
 
-In addition to the two Object naming options - double-click and the Properties dialog, SemTalk is able to create structured naming conventions. Almost all processes (work-steps) have names that consist of a verb and a noun. For example, the process step 'Send Invoice' is the verb 'Send' and the noun 'Invoice'. SemTalk allows users to create libraries of these verbs and nouns so that all modeling projects remain consistent; interfaces that define information flows remain consistent; and so that central repositories of terms can be created that allow modelers to import/ export key data terms to and from these libraries.
+Unless instructed to access a specific customized Database, leave ‘Default’ setting as your Database.  If you have been instructed to access a particular Database, select the Database from the Database pull-down menu. 
 
-Right-mouse click on a new Task and select Vocabulary.
+If you forgot your login password, enter your email address and select the Resend Password option and you will be sent a temporary new password. After you login, go to the Tools - User pull-down menu and create a new password. 
 
-A Vocabulary Window will open. If a Repository is associated with the SemTalk version you have installed, or the model you currently have open, a pull-down menu for Objects (Nouns) and Methods (Verbs).
+SemTalk Options are based on your selected role.
+
+**SemTalk Roles:**
+
+**Reader**: Readers are able to view the model but they are not allowed to Edit the content.
+
+**Editor:** Normal modelers generally use the Editor role. It provides the functionality needed to create and format SemTalk models.
+
+**Administrator:** This role has all of the Editor permissions plus the ability to customize the modelling options and it has administrative capabilities to manage users (including assigning roles). Administrators can only be appointed by other administrators.
+
+**MetaModel Editor:** Is able to Edit the model as well as customize the metamodel to fit orgniztional requirements. MetaModel editors should have a deep knowledge of SemTalk metamodels and notational components.
+
+**Publisher**: This role is able to publish process models to process portals.
+
+**MongoDB:** The **Connection** button can be used to specify another MongoDB server. This allows SemTalk Online to access to specific, locally managed databases.
+
+**Microsoft 365 (MS365 Login)**
+Both the login and registration processes can alternatively be carried out via a Microsoft 365 account. 
+
+When you click the **MS365 Login** button, you will be asked to login to your MS365 account. You will then be registered with this account in the SemTalk Online database. 
+
+SemTalk Online stores your email address and your selected account name. No additional password is required. Once you have registered, you can complete the login process on the login page using the MS365 button. Authentication is carried out exclusively via the Microsoft 365 authentication centers.
+
+**SemTalk Onlines's Graphical User Interface (GUI)**
+
+![alt text](images/Semtalk-Overview1.png)
+
+SemTalk Online's modeling workspace is referred to as a Diagram. Each Diagram type has specific objects that can be dragged and dropped onto the active Diagram based on the SemTalk Online version in use (e.g. Process Diagrams, eEPCs,OrgCharts and Object Diagrams). 
+
+Diagram objects are shown in the **Stencil** window found to the right of the active Diagram.  Objects in the Stencil conform to the modeling rules of the SemTalk Online version being used. 
+
+Users **Add Objects** to the Diagram by dragging and dropping them from the Stencil onto the Diagram. 
+
+**Name Objects** by double clicking on the Object, by opening the object's right-mouse click menu or by using the Vocabulary naming option discussed below. 
+
+**Connect Objects** by hovering your cursor over the center of an Object until the hand icon appears. Hold down your cursor and draw the connection to the next object. 
+
+Connection types are also related to the Diagram type. Users are able to create user-defined connectors but it is generally not recommended because user-defined connectors are not considered when running process flow consistency checks. 
+
+Process objects have a auto-draw connector feature. This allows users to automatically create connectors when they choose the object's target object.
+
+**Structured Object Naming via Vocabulary**
+
+In addition to naming objects via double-click and right mouse click, SemTalk also includes a structured naming option. Most process work-steps have names that consist of a verb and a noun. For example, the process step 'Send Invoice' is the verb 'Send' and the noun 'Invoice'. 
+
+When adding new Object names to process flow objects, instead of simply adding a name, modelers using the Vocabulary option select the Object (noun) and Method (verb) from picklists. If the Object and Method are not in the picklist, they can add them to the local Repository. Keeping modeling information consistent is especially important when there are multiple modeling projects and/ or multiple people modeling or when the models are being used to support training. 
+
+Repositories can be local on only be related the the active model or they can be centralized so that everyone in the organization uses the same terminology. 
 
 ![alt text](images/Vocabulary.png)
-
-
-
 
 
 

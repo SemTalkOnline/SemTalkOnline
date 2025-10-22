@@ -4,15 +4,18 @@ This overview reviews the most important steps for new SemTalk Online users to h
 
 **Login/ Registration**
 
-This section is only relevant when MongoDB is used. Microsoft365 environment users do not need to register accounts or use a seperate login.
+The following description of the login process applies when the default setting MongoDB is used. Microsoft365 environment users do not need to register accounts or use a seperate login.
 
 ![alt text](images/Login3.png)
 
-If a user account already exists, you can proceed directly to the login process. The selected role must be assigned to the user. A user with basic modeling tasks should have the Editor role and select it during login.
+If a user account already exists, proceed directly to the login process. Authorized **Roles** for the user will appear in the picklist. Users with assigned basic modeling tasks should select the  **Editor Role**.
 
 Additional information about the Login Screen can be found under the [SemTalk-Login](https://github.com/SemTalkOnline/SemTalkOnline/wiki/SemTalk-Login) help page.
 
-If you forgot your login password, enter your email address and select the Resend Password option and you will be sent a temporary new password. After you login, go to the Tools - User pull-down menu and create a new password. 
+If you forgot your login password, enter your email address and select the **Resend Password** option. You will be sent a temporary new password via email. After you login, go to the **Tools - User - login** pull-down menu and **Reset Password**. 
+
+![alt text](UserSettings.png)
+
 
 ![alt text](images/Registration1.png)
 

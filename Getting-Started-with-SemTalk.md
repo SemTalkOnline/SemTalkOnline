@@ -25,9 +25,10 @@ A more detailed explanation of the registration screen can be found here:
 
 <hr>
 
-# Configuring the SemTalk Online Interface (Editor View)
+## SemTalk Online GUI (Editor View)
 
-![SemTalk Online Overview start screen](./images/SemTalkBPMNStart.PNG)
+![SemTalk Online Overview start screen](./images/SemTalk-Overview1.png)
+
 
 ## Stencil, Pan & Zoom Window & Navigation
 
@@ -42,13 +43,13 @@ A more detailed explanation of the registration screen can be found here:
 * Down arrows go to the process refinement
 * Left and right arrows go to the process step before or after the selected Object
 
-What appears in the modeling view can be shown or in the **Settings - General** menu. Here users can **Anchor** the **Stencil**, **Pan & Zoom** and **Navigator** windows. This is where modelers turn on and off what they need. (e.g. If a model is opened and it is missing key modeling windows, this is where users go to turn those windows back on.)
+The SemTalk Online default setting is to show all of the modeling Commands as well as the Stencil and Pan & Zoom windows. Users can select what appears in the modeling view in the **Settings - General** menu. Here users can **Anchor** the **Stencil**, **Pan & Zoom** and **Navigator** windows. This is where modelers turn on and off what they need. (e.g. If a model is opened and it is missing key modeling windows, this is where users go to turn those windows back on.)
 
 **Settings - General - Anchor** is used to Anchor windows to the left or the right side of the Diagram.
 
 ![SemTalk Online Optionen - General](./images/optionsgeneral.png)
 
-**Additional Key Modeling Components**:
+**Other Key Modeling Features**:
 - **Breadcrumb Navigation**: When a model contains multiple linked Diagram pages, a breadcrumb path can be displayed to help navigate between linked pages.
 - **Display Hyperlinks as Icons**: This option is used to show a hyperlink icon on Objects that have associated hyperlinks.
 - **Underline Refinements**: This setting is used show if a Refined BPMN Object is Refined. The **Task Name** will be underlined. If this option is disabled, the standard BPMN “+” symbol will be shown.
@@ -56,19 +57,19 @@ What appears in the modeling view can be shown or in the **Settings - General** 
 
 ## Pull-Down Menu Structure
 
-Core Menu Components:
-These are described in detail on other wiki pages. Please follow the links below to learn more:
-- [Wiki page: Menu File](https://github.com/SemTalkOnline/SemTalkOnline/wiki/File-Menu)
-- [Wiki page: Menu Home](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Home-Menu)
-- [Wiki page: Menu Shape](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Symbol)
-- [Wiki page: Menu Object](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Objekt)
-- [Wiki page: Menu Process](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Prozess)
-- [Wiki page: Menu Diagram](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Diagramm)
-- [Wiki page: Menu Explorer](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Explorer)
-- [Wiki page: Menu Tools](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Extras)
+Please click on the following links for additional information about specific Pull-Down Menus 
+Specific are described in detail on other wiki pages. Please follow the links below to learn more:
+- [File](https://github.com/SemTalkOnline/SemTalkOnline/wiki/File-Menu)
+- [Home](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Home-Menu)
+- [Shape](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Symbol)
+- [Object](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Objekt)
+- [Process](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Prozess)
+- [Diagram](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Diagramm)
+- [Explorer](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Explorer)
+- Tools]
 
 
-## Getting Started with Modeling
+## Creating Models
 
 **SemTalk Onlines's Graphical User Interface (GUI)**
 
@@ -100,21 +101,22 @@ Repositories can be local on only be related the the active model or they can be
 
 ![alt text](images/Vocabulary.png)
 
-## Business Process Task Diagrams (BPMN)**
+## Business Process Diagrams
 
-BPMN Business Process Diagrams are where Process Flows are described. Process flows are generally created within Swimlanes or Swimlane Pools but they can also be show indepedently.
+Business Process Diagrams are where Process Flows are described. Process flows are generally created within Swimlanes or Swimlane Pools but they can also be show indepedently.
 
-## **Swimlanes**:
+## Swimlanes:
 
-NOTE: When working with **Swimlanes** and **Swimlane Pools** it is recommended to first create and position all of the Swimlanes/ Swimlane Pools before placing other Objects onto your Diagram because future editing is more complicated due to the container behavior of Swimlanes and Swimlane pools.
+NOTE: When working with **Swimlanes** and **Swimlane Pools** it is recommended to first create and position all Swimlanes/ Swimlane Pools before placing other Objects onto your Diagram because future editing is more complicated due to the container behavior of Swimlanes and Swimlane pools.
 
-* Create a **Swimlane**: Drag and drop the Swimlane Object from the Stencil onto the drawing sheet.
+Additional Information about swimlanes can be found here:
 
-* Group multiple **Swimlanes** (in BPMN) into a **Swimlane Pool**: Right click on the header of the **Swimlane** or **the Swimlane Pool** and select **Swimlane - New** SemTalk Online will then create a higher level new **Swimlane** that contains the selected **Swimlan**e of **Swimlane Pool**.
 
-![SemTalk Online - new swimlane](./images/swimlaneneu.png)
+- [Wiki page: Swimlanes](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Swimlanes)
 
-Business Process Diagram Objects:
+
+
+## Business Process Diagram Objects:
 - Tasks
 - Gateway
 - Data Object

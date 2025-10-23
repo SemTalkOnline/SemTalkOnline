@@ -1,10 +1,20 @@
-**Swimlanes and Pools** are used to display processes structured according to processing units. This practice originates from BPMN Notations and is generally used there. However in SemTalk Swimlanes are available for other notations, e.g. EPK.
+## **Swimlanes and Swimlane Pools** 
 
-Further distinction is made between:<BR>
-**Pool:** represent greater organisations, e.g. Corporations or entire departments. A Pool comprises multiple Swimlanes.<BR>
-**Swimlanes:** represent processors. These can be, depending on the level of detail, persons, roles or smaller organisational units.
+**Swimlanes** and **Swimlane Pools** are used in process flow diagrams to visually and structurally show who or what is responsible for each step in a process. Process flows between Swimlanes describe how these steps interrelate based on different actions and/or actors.
 
-A Pool with the organisation "Semtation" includes in the example two Swimlanes ("IT department" and "Aquisition").
+**Swimlanes** show the activities and process flows that are executed by a single group.
+
+**Swimlane Pools** contain multiple Swimlanes. Each Swimlane in the pool represents a subgroup of the higher level swimlane.  (e.g. HR, Sales and Logistics are all subunits of Corporation X. Each department has units or teams within the department that execute differt activities.)
+
+NOTE: When working with **Swimlanes** and **Swimlane Pools** it is recommended to first create and position all Swimlanes/ Swimlane Pools before placing other Objects onto your Diagram because future editing is more complicated due to the container behavior of Swimlanes and Swimlane pools.
+
+Create a **Swimlane**: Drag and drop the Swimlane Object from the Stencil onto the drawing sheet.
+
+![SemTalk Online - New Swimlane](./images/Swimlane1.png)
+
+Group multiple **Swimlanes** into a **Swimlane Pool**: Right click on the header of the **Swimlane** or **the Swimlane Pool** and select **Swimlane - New** SemTalk Online will then create a higher level new **Swimlane** that contains the selected **Swimlane** or **Swimlane Pool**.
+
+The Pool **Semtation** contains two Swimlanes - **IT department** and **Aquisition**).
 
 ![two Swimlanes](images/swimlanes_englisch.PNG)
 
@@ -19,10 +29,11 @@ A single Swimlane.
 
 ![new Swimlane](images/swimlane_neu_englisch.PNG)
 
-Swimlanes can be displayed **vertical or horizontal**. "Horizontal" is the default setting. There are the two following options, to switch to "vertical":
+Swimlanes can be displayed **Vertically or Horizontally**. "Horizontal" is the default setting. There are the two ways to switch from Horizontal to Vertical:
 
-* right click on a existing Swimlane. In context menu Swimlane --> vertical  
-* in main menu "Process" --> Swimlane --> vertical
+* Right click on a existing Swimlane and select **Swimlane - Vertical** 
+
+![new Swimlane](images/swimlane1.png)
 
 Swimlanes are collaps- and expandable:
 
@@ -31,9 +42,9 @@ Swimlanes are collaps- and expandable:
 
 **Caution:** If a Swimlane gets deleted, all its contained shapes will be deleted aswell. 
 
-# Movement and size adjustmend of Swimlanes
+**Adjusting Swimlane Size**
 
-The size of Swimlanes and Pools can be adjusted individually. To do this, select a Swimlane by left-clicking it. The size can then be adjusted at the respective green shift points.
+The size of Swimlanes and Pools can be adjusted individually. Select a Swimlane by left-clicking it. The size can then be adjusted at the respective green shift points.
 * move mouse cursor on shift point
 * mouse cursor will turn into double arrow, wich specifys in wich direction the Swimlane can be adjusted
 

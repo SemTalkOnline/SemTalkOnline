@@ -30,7 +30,7 @@ A more detailed explanation of the registration screen can be found here:
 
 # Configuring the SemTalk Online Interface (Editor View)
 
-![SemTalk Online Overview start screen](./images/SemTalkBPMNStart.PNG)
+![SemTalk Online Overview start screen](./images/Semtalk-Overview1.PNG)
 
 ## Template, Pan & Zoom Window, and More
 

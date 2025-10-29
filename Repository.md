@@ -54,7 +54,7 @@ Add the domain of your organization and the selected site name to the template s
 
 Open the Repository with menu entry "Home" --> Repository
 
-![Open Repository](images/repository/openrepositoryopen.png)
+![Open Repository](images/repository/openrepository.png)
 
 Initially the Repository will be empty and should like in this screenshot.
 ![Repository UI](images/repository/repositoryemptyui.png)

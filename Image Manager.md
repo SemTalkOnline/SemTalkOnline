@@ -1,8 +1,10 @@
 # SemTalk Online and Images
 
-SemTalk Online is designed to allow modelers to add additional visual information to help people quickly understand the information represented in a model. Visual information is comprised of standard representations specific to the selected methodology (e.g. BMPN and EPC standard object representations) as well as additional visual information such as Text, Images and Hyperlinks.
+SemTalk Online is designed to allow modelers to add additional visual information to help people quickly understand the information represented in a model. Visual information is comprised of standard representations of Objects specific to the selected model methodology (e.g. BMPN and EPC). 
 
-Each Diagram has an associated Stencil with representations of the Objects that can be dragged and dropped onto the active Diagram. Core Objects have fixed Shapes based on the methodology in use but visual characteristics such as color, frame characterists, as well as standard views of what Attribute information should be shown, can be modified as needed. In addition to a Diagram's core Objects; Text, Images and Hyperlinks Objects can also be added from the Stencil to enhance the model's utility. 
+Each Diagram type has an associated Stencil that shows the Objects that can be dragged and dropped onto the active Diagram in use. 
+
+Additional visual information such as Text, Images, Hyperlinks and shown Attribute information can be modified as needed on all Diagram types.
 
 ![Image Icons in the Stencil](./images/Stencil1.png)
 
@@ -24,9 +26,9 @@ NOTE: When inserting embedded images, a model's file size can quickly become lar
 
 **As Unique Symbols:** Images that are only used once can be added directly to a Diagrams as a unique image. 
 
-**Image Manager:** Image Manager is an integraded image administration interface that is used to insert images onto a Diagram. Images that are uploaded using Image Manager can be created as unique images/ symbols that are only used on the active Diagram where they were uploaded, or they can be saved as an image file that can be used on multiple Diagrams. This feature allows several modelers to contribute and collectively manage images so that they can be used for all modeling needs. 
+**Image Manager:** Image Manager is an integraded image administration interface that is used to insert external images onto a Diagram. Images that are uploaded using Image Manager can be created as unique images/ symbols that are only used on the active Diagram where they were uploaded, or they can be saved as an image file that can be used in multiple Diagrams. This feature allows several modelers to contribute and collectively manage images so that they can be used for all modeling needs. 
 
-# Integrating Hyperlinks Using the Hyperlink Symbol
+## Integrating Hyperlinks Using the Hyperlink Symbol
 
 This option inserts a Hyperlink Symbol onto a Diagram where relevant Hyperlinks can be added.
 Hyperlink Image icons are placed on the drawing sheet. After the Hyperlink has been added to the image, users right click on the Hyperlink object to open available Hyperlinks. 
@@ -38,56 +40,57 @@ Then right click on the newly created Hyperlink object and select Properties to 
 ![Image as Hyperlink as Symbol](./images/HyperlinkObject1a.png)
 
 
-# Adding Images via the Style Dialog
+## Adding Images via the Style Dialog
 
-If an image icon is placed on the drawing sheet, you can open the Style dialog by right-clicking Style (or Menu Icon-->Style). This has an “Image” tab.
+If an image icon is placed on the Diagram, open the Style dialog by right click - Style or by selecting the Object and using **Image** in the **Shape - Style** pull-down menu.
 
-![Open Style Format Image Tab](./images/StyleShapeDialog.PNG)
+![alt text](images/StyleShapeDialog.PNG)
 
-Here, you can either specify an external hyperlink or embed an Image file converted to base64. To do this, please refer to the section: [Convert Images to base64](./Image Manager#Convert Images to base64)!
+This dialog is used to manage external Hyperlinks and/or Image files that are converted to base64. Please refer to the section **Convert Images to base64** shown below.
 
-The image can then be embedded into the file.
+Give the Image an **ID** (name).
 
-If a name for the Image is entered in the ID field, the Image created can then also be reused in the formatting dialog of other Image symbols via the selection box labeled ID.
-
+Once the ID name for the Image is entered, the Image created can then also be reused in the formatting dialog of other Image symbols via the selection box labeled ID.
 
 # Image Manager
 
 ## Open Image Manager
 
-The image manager is opened via the menu item Tools-Customize-Image Manager.
+Image Manager is opened via the **Tools - Customize - Image Manager** pull-down menu.
 
-The window that opens will then list all existing images in the file with their names, contents, sizes, and whether they are already saved in the file.
-The menu bar offers a wide range of options for working with images.
+A list all existing images in the file with their names, contents, sizes, and whether they are already saved will be shown.
+
 
 ## Image Manager Menu List
 
 ![ImageManager interface](./images/ToolsCustomizeImageManager.png)
 
-Here, you can either use an external 
-* New (+ symbol): Allows you to create a new image in the image manager
-* Edit (pencil symbol): Existing images can be edited
-* Delete (trash can symbol): Images can be deleted
-* Apply to file: If images are to be embedded in the file, they must first be applied to the file and are then ready for use
-* Remove from file: Images can be removed from the file. If they are already in use, the corresponding image shape loses its content. You can see whether an image is saved in the file by checking the “File” column in the overview menu of the image manager.
-* Export/Import: The configuration from the image manager can be exported or imported so that a set of images can be easily transferred to other model files
-A hyperlink can be specified or a base64-converted image file can be embedded. To do this, please reread the section:
+If this is the first Image to be added to the model, select **New (+ symbol)** to create a new image in the Image Manager.
+
+If Images exist, use this menu to:
+
+* **Edit** (pencil symbol): Existing images can be edited
+* **Delete** (trash can symbol): Images can be deleted
+* **Apply to file**: If images are to be embedded in the file, they must first be applied to the file and are then ready for use
+* **Delete from file**: Images can be removed from the file. If they are already in use, the corresponding image shape loses its content. You can see whether an image is saved in the file by checking the “File” column in the overview menu of the image manager.
+* **Export/Import**: Existing Image Manager configurations can be exported orso that they can be imported into other model files
+* **Hyperlinks** can be specified or a base64-converted image file can be embedded. Please refer to **Convert Images to base64** section below for additional information.
 
 ## Working With the Image Manager
 
-Tools-Customize-Image Manager lists all existing images. New images can be created using the Image Manager but those images will only exist in the currently opened Diagram. If the new image needs to be available for all modeling needs, select the “Apply to files” icon in the Image Manager pull-down menu. Only then are the images embedded in the model. 
+**Tools - Customize - Image Manager** lists all existing images. New images can be created using the Image Manager but those images will only exist in the currently opened Diagram. If the new image needs to be available for all modeling needs, select the “Apply to files” icon in the Image Manager pull-down menu. Only then are the images embedded in the model. 
 
-This ensures that images can first be created and checked before they have any effect on the model file. Images can also be removed centrally from the file by clicking "Delete from file" in the Image Manager pull-down menu.
+This ensures that images can first be created and checked before they have any effect on the model file size. Images can also be removed centrally from the file by clicking "Delete from file" in the Image Manager pull-down menu.
 
-Images that are embedded in the file have a check mark in the File column. New images can be added or edited using the “New” or ‘Edit’ buttons in the menu bar. An image entry always consists of an ID, i.e., a unique name, and the image content in the “Image” field. This can be either a URL or the base64-converted character string of an image.
+Images that are embedded in the file have a check mark in the File column. New images can be added or edited using the “New” or ‘Edit’ buttons in the menu bar. An **Image** entry always consists of an **ID**, i.e., a unique name, and the image content in the **Image** field. This can be either a URL or the base64-converted character string of an image.
 
-If many base64-embedded images are used, keep an eye on the size of the images. The more images that are stored in the model file, the larger the file size. Large files lead to longer loading times. Problems can also arise when exporting the model to a publication database. Because of these restrictions, the file size for export is limited to approximately 10 Mb. SemTalk Online will display a warning message in the Image Manager if the file size exceeds 7 Mb. If you do not intend to export to a publication database, you can ignore the warning.
+If multiple base64-embedded images are used, keep an eye on the size of the images. The more images that are stored in the model file, the larger the file size. Large files lead to longer loading times. Problems can also arise when exporting the model to a publication database. Because of these restrictions, the file size for export is limited to approximately 10 Mb. SemTalk Online will display a warning message in the Image Manager if the file size exceeds 7 Mb. If you do not intend to export to a publication database, you can ignore the warning.
 
 # Convert Images to base64
 
-Base64 is used to create embedded Image files that are either single-use Images or multi-use Images that can be used throughout the model. Both variants require that the Image first be converted into a base64 string. 
+Base64 is used to create **Embedded Image Files** that are either single-use Images or multi-use Images that can be used throughout the model. Both variants require that the Image first be converted into a base64 string. 
 
-There are two base64 conversion options. The first is the pull-down menu **Tools-Customize-Image Manager-New (+)** that can be used for either single or multi-use Images via the "Apply to file" option. The second option is the **Style-Image**  menu option when a single use Image is used.  
+There are two base64 conversion options. The first is the pull-down menu **Tools - Customize - Image Manager - New (+)** that can be used for either single or multi-use Images via the "Apply to file" option. The second option is the **Style-Image**  menu option when a single use Image is used.  
 
 SemTalk Online does not offer its own conversion tool, it uses the freely accessible tool found at https://base64.guru/converter/encode/I. If needed, it is also possible to use other base64 converter tools. 
 

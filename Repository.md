@@ -1,29 +1,35 @@
 # SemTalk Object Repositories
 
-Repositories are the SemTalk database libraries where the names of Objects, Methods, States, Human Resources and Attributes are managed. They can be used across document and also for multiple SemTalk Online instances to share predefined company vocabulary everywhere its needed.
+SemTalkOnline's **Repositories** are database libraries that contain predefined Task **Objects** with their associated information such as **Methods, States, Attributes and HumanResources**. Uniform process documentation and collaboration is greatly improved when the same Repository is used for multiple SemTalkOnline projects.
 
-Repositories provide predefined modeling objects that are designed to keep model data consistent throughout the model landscape. Users insert those objects from picklists that are integrated with the **Select** and **Vocabulary** functionality of Semtalk. 
+Users name process **Tasks** by selecting Task **Objects** (Nouns), **Methods** (verbs) and **States** from integrated **Repository** generated picklists that are shown when using both the **Vocabulary** and **Select** functions when naming new Objects. If Objects are not in the picklist, it is possible to integrate the **Repository** so that as new **Objects** are created, they can be uploaded into the **Repository** for use in all modeling projects that use the **Repository**. 
 
-A new file will be automatically connected to the Repository, if it is set up correctly in the settings of the user or for the App instance. It can also be used for multiple SemTalk Online instances.
+Additional information can be found at: [Wiki page: Vocabulary](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Vocabulary) or [Wiki page: Working with objects](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Working-with-Objects).
 
-For learning more about how to use those functionalities and Repository objects read more in [Wiki page: Vocabulary](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Vocabulary) or [Wiki page: Working with objects](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Working-with-Objects)
+## **Repository Content**
 
-## Content of a Repository
+![alt text](images/RepositoryObjects.PNG)
 
-A Repository consists of some lists to store the vocabulary, connections and translations. Those list typically are:
-- Objects: Contains the business objects for the vocabulary. Information about class structures, connected methodes or states is included as well in this list.
-- Methode: Contains the methods that can be used for the vocabulary.
-- State: Contains the states that can be used for the vocabulary.
-- HumanResources: Roles are stored in this list.
-- PhysResources: Ressources als listed here.
-- Buffers: Buffers are the systems that can be used to visualize data storage.
-- AttributeType: Attribute types can be listet here.
+The Repository contains:
+* **Objects** (nouns): These are the concrete part of a Task such as 'Invoice'
+* **Methods**: The verbs that are used with their corresponding **Object**. For example, the **Object 'Invoice'** is linked with the **Methods 'Create'** and **'Send'**.
+* **States**: Show the status of an Object. For example,**'Invoice Sent'** is the **State** of the Invoice. 
+* **Attributes**:  Characteristics associated with an Object. For example, **'Invoice'** is **'Greater than $1000'** 
+
+* **Organizational Roles**: These are the people, roles or groups who perform the process flow **Task**. For example, **'Create Invoice'** is performed by the **'Accounting Department'**. 
+
+The Repository uses the following descriptions for Organizational Units: 
+  - **Role (HumanResources)** 
+  - **HumanResource (HumanResource)**
+  - **Person (HumanResources)**
+  - **Position (HumanResources)**
+  - **OrgUnit (HumanResources)**
 
 
 ## Setting up a Repository
 
-Repositories can be hostet with Microsoft Sharepoint or MongoDB databases and mandate different steps to set the Repository up for use. 
-If the default and test database on semtalkonline.semtalk.com is used, a repository is already integrated and the setup steps are not needed anymore.
+**Repositories** can be hosted in either Microsoft Sharepoint or in a MongoDB database. Different steps are required for each **Repository** location. 
+If semtalkonline.semtalk.com is used, a **Repository** is already integrated and the setup steps are not needed.
 
 ### Setting up a Repository in SharePoint for SemTalk Online in Microsoft365
 

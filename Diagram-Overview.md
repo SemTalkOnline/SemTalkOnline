@@ -4,13 +4,13 @@ Every model requires a workspace on which to model. In SemTalk, these workspaces
 
 In the SemTalk GUI, the Diagram is the active modeling space where users add work and information flows, create Object scenarios, and add OrgCharts to show who does what.
 
-BPMN Diagram Types:
+**BPMN Diagram Type**s:
 * Business Process Diagrams
 * Object Diagram
 * Ontology
 * OrgChart
 
-EPC Diagram Types:
+**EPC Diagram Types**:
 * Buffer Model
 * eEPC
 * Knowledge Map
@@ -21,11 +21,11 @@ EPC Diagram Types:
 
 ![alt text](images/Semtalk-Overview.png)
 
-Diagram Pull-Down Menu
+**Diagram Pull-Down Menu**
 
 New: Creates a new Diagram
 
-Properties: Contains all of the Properties associated with a Diagram
+**Properties**: Contains all of the Properties associated with a Diagram
 * Name
 * Class
 * Comments

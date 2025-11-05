@@ -3,11 +3,11 @@
 This overview reviews the most important steps for new SemTalk Online users to help them to optimally setup SemTalk Online to meet their modeling requirements.
 
 ## Login / Registration
-This section is only relevant if MongoDB is used. User that use SemTalk Online in Microsoft365 environments will not need to register accounts or use a seperate login.
+This section is only relevant if MongoDB is used. Users that use SemTalk Online in Microsoft365 environments will not need to register accounts or use a seperate login.
 
 ![Login Screen](./images/loginScreen.PNG)
 
-If a user account already exists, proceed directly to the login process. Authorized **Roles** for the user will appear in the picklist. Users with assigned basic modeling tasks should select the  **Editor Role**.
+If a user account already exists, proceed directly to login. Authorized **Roles** for the user will appear in the picklist. Users assigned basic modeling tasks should select the  **Editor Role**.
 
 A more detailed explanation of the login screen can be found here:
 [Wiki Page: SemTalk-Login](https://github.com/SemTalkOnline/SemTalkOnline/wiki/SemTalk-Login) 
@@ -18,9 +18,9 @@ A more detailed explanation of the login screen can be found here:
 
 ![Registration screen](./images/registrationScreen.PNG)
 
-If a user account does not exist, Registration can be performed if this function is enabled in the application. Demo users are able to register for testing purposes free of charge and will automatically be assigned the Editor role. Demo users should leave the Product Key entry empty.
+If a user account does not exist, Registration can proceed if this function is enabled. Demo users are able to register for testing purposes free of charge and will automatically be assigned the Editor role. Demo users should leave the Product Key entry empty.
 
-A more detailed explanation of the registration screen can be found here:
+A more detailed explanation of Registration can be found here:
 [Wiki Page: SemTalk-Registration](https://github.com/SemTalkOnline/SemTalkOnline/wiki/SemTalk-Registration) 
 
 <hr>
@@ -43,22 +43,22 @@ A more detailed explanation of the registration screen can be found here:
 * Down arrows go to the process refinement
 * Left and right arrows go to the process step before or after the selected Object
 
-The SemTalk Online default setting is to show all of the modeling Commands as well as the Stencil and Pan & Zoom windows. Users can select what appears in the modeling view in the **Settings - General** menu. Here users can **Anchor** the **Stencil**, **Pan & Zoom** and **Navigator** windows. This is where modelers turn on and off what they need. (e.g. If a model is opened and it is missing key modeling windows, this is where users go to turn those windows back on.)
+The SemTalk Online default setting is to show all  Modeling Commands as well as the Stencil and Pan & Zoom windows. Users can select what appears in the modeling view in the **Settings - General** menu. Here users can **Anchor** the **Stencil**, **Pan & Zoom** and **Navigator** windows. This is where modelers select default settings for what is shown. (e.g. If a model is opened and it is missing key modeling windows, this is where users go to turn those windows back on.)
 
-**Settings - General - Anchor** is used to Anchor windows to the left or the right side of the Diagram.
+**Settings - General - Anchor** is used to Anchor windows to the left or the right side of the SemTalk Window.
 
 ![SemTalk Online Optionen - General](./images/optionsgeneral.png)
 
 **Other Key Modeling Features**:
 - **Breadcrumb Navigation**: When a model contains multiple linked Diagram pages, a breadcrumb path can be displayed to help navigate between linked pages.
 - **Display Hyperlinks as Icons**: This option is used to show a hyperlink icon on Objects that have associated hyperlinks.
-- **Underline Refinements**: This setting is used show if a Refined BPMN Object is Refined. The **Task Name** will be underlined. If this option is disabled, the standard BPMN “+” symbol will be shown.
+- **Underline Refinements**: This setting is used show if a Refined BPMN Object is Refined. The **Task Name** will be underlined. If this option is disabled, the standard BPMN **+** symbol will be shown.
 
 
-## Pull-Down Menu Structure
+## SemTalkOnline Pull-Down Menu
 
-Please click on the following links for additional information about specific Pull-Down Menus 
-Specific are described in detail on other wiki pages. Please follow the links below to learn more:
+Please click on the following links for additional information about specific Pull-Down Menu items.
+
 - [File](https://github.com/SemTalkOnline/SemTalkOnline/wiki/File-Menu)
 - [Home](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Home-Menu)
 - [Shape](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Symbol)
@@ -77,25 +77,25 @@ Specific are described in detail on other wiki pages. Please follow the links be
 
 SemTalk Online's modeling workspace is referred to as a Diagram. 
 
-Available **Diagram Objects** are shown in the **Stencil** window found to the right of the active Diagram. Objects shown in the Stencil conform to the modeling rules of the SemTalk Online version in use. (e.g. Process Diagrams, eEPCs,OrgCharts and Object Diagrams)
+**Objects** that can be dropped onto the active **Diagram** are shown in the **Stencil** window which is generally found to the right of the active Diagram. Objects shown in the Stencil conform to the modeling rules of the SemTalk Online version in use. (e.g. Process Diagrams, eEPCs,OrgCharts and Object Diagrams)
 
 ![SemTalk Online Overview screen](./images/SemTalkBPMNStartEditor.PNG)
 
-Users **Add Objects** to the Diagram by dragging and dropping Objects from the Stencil onto the Diagram or by inserting Objects that have previously been modeled using the Insert command. 
+**Add Objects** to the Diagram by dragging and dropping Objects from the Stencil onto the Diagram or by inserting Objects that have previously been modeled using the Insert command. 
 
 **Name Objects** by double clicking on the Object, by opening the object's right-mouse click menu or by using the Vocabulary naming option discussed below. 
 
-**Connect Objects** by hovering your cursor over the center of an Object until the hand icon appears. Hold down your cursor and draw the connection to the next object. 
+**Connect Objects** by hovering your cursor over the center of an Object until the hand icon appear along with the associated Quick Shapes. Use the auto-draw connector to automatically create connectors and connector Objects or hold down your cursor and drag the arrow to an existing Object on your Diagram. 
 
-Connection types are also related to the Diagram type. Users are able to create user-defined connectors but it is generally not recommended because user-defined connectors are not considered when running process flow consistency checks. 
+Available Connection types are also related to the active Diagram type. Users can create user-defined connectors but it is generally not recommended because user-defined connectors are not considered when running process flow consistency checks. 
 
-Process objects have a auto-draw connector feature. This allows users to automatically create connectors when they choose the object's target object.
+
 
 **Structured Object Naming via Vocabulary**
 
-In addition to naming objects via double-click and right mouse click, SemTalk also includes a structured naming option. Most process work-steps have names that consist of a verb and a noun. For example, the process step 'Send Invoice' is the verb 'Send' and the noun 'Invoice'. 
+In addition to naming objects via double-click and right mouse click, SemTalk includes a structured naming option. Most process work-steps have names that consist of a verb and a noun. For example, the process step 'Send Invoice' is the verb 'Send' and the noun 'Invoice'. 
 
-When adding new Object names to process flow objects, instead of simply adding a name, modelers use the Vocabulary option to select the Object (noun) and Method (verb) from picklists. If the Object and Method are not in the picklist, they can be added to the current model or, if the user is a model Administrator, they can be uploaded into the central Repository. 
+When adding new Object names to process flow objects, instead of simply adding a name, modelers use the Vocabulary option to select the Object (noun) and Method (verb) from picklists. If Objects and Methods are not in the shown picklist, they can be added to the current model or, if the user is a model Administrator, they can be uploaded into the central Repository. 
 
 Keeping organizational modeling information consistent via shared, centrallized Repositories, is especially important when there are multiple modeling projects and/ or multiple people modeling or when models are used for training. 
 
@@ -103,9 +103,7 @@ Keeping organizational modeling information consistent via shared, centrallized 
 
 ## Business Process Diagrams
 
-Business Process Diagrams are where Process Flows are described. Process flows are generally created within Swimlanes or Swimlane Pools but they can also be show indepedently.
-
-## Swimlanes:
+Business Process Diagrams are where Process flows are described. Process flows are created within Swimlanes, Swimlane Pools but or they can be show indepedently.
 
 NOTE: When working with **Swimlanes** and **Swimlane Pools** it is recommended to first create and position all Swimlanes/ Swimlane Pools before placing other Objects onto your Diagram because future editing is more complicated due to the container behavior of Swimlanes and Swimlane pools.
 
@@ -149,7 +147,9 @@ Task Object **Properties**:
 
 **Connect Objects in Process Diagrams**: 
 
-Objects can be connected by clicking and holding your cursor over the Object and dragging the arrow to the Object you want to connect or by using and an Object's Quick Template. Hover your mouse over an Object and Objects and Objects and Connectors will appear in the Quick Template. Click on the Object that you want to connect and the next Object and the connector will be created. 
+* Holding the cursor down on the source Object and dragging and releasing the cursor on the target Object
+
+* Hover your cursor over the source Object until a hand appears and the Quick Shape objects appear and select the desired source Object's Quick Shape.
 
 ![alt text](images/QuickShapes.png)
 

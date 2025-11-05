@@ -151,8 +151,7 @@ Task Object **Properties**:
 
 Objects can be connected by clicking and holding your cursor over the Object and dragging the arrow to the Object you want to connect or by using and an Object's Quick Template. Hover your mouse over an Object and Objects and Objects and Connectors will appear in the Quick Template. Click on the Object that you want to connect and the next Object and the connector will be created. 
 
-![alt text](images/QuickShape.PNG)
-
+![alt text](images/QuickShapes.png)
 
 Additional Topics:
 

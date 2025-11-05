@@ -28,27 +28,27 @@ The Repository uses the following descriptions for Organizational Units:
 
 ## Setting up a Repository
 
-**Repositories** can be hosted in either Microsoft Sharepoint or in a MongoDB database. Different steps are required for each **Repository** location. 
+**Repositories** can be hosted in either Microsoft Sharepoint or in a MongoDB database. Different steps are required for each **Repository** type. 
 If semtalkonline.semtalk.com is used, a **Repository** is already integrated and the setup steps are not needed.
 
-### Setting up a Repository in SharePoint for SemTalk Online in Microsoft365
+### Setting up a SharePoint Repository for SemTalk Online in Microsoft365
 
-A Repository for the Microsoft365 environment is stored on a SharePoint site that comes with Microsoft Teams and SharePoint. 
+Microsoft365 Repositories are stored in a SharePoint site that is integrated with Microsoft Teams and SharePoint. 
 
-To set up a new Repository a user with admin rights needs to use SemTalk Online functionality to create aforementioned lists on an existing SharePoint site.
+Users must have Administrator privileges to set up a new Repository, along with SemTalk Online functionality, to be able to create SharePoint Lists on existing SharePoint sites.
 
-Open SemTalk Options --> Microsoft365 --> Button "Create Repository"
+Open SemTalkOnline **Settings - Microsoft365 - Create Repository**
 ![Create Repository](images/repository/createrepository.png)
 
-A new panel opens, which shows all lists that will be created on a selected site. The user needs to select a Teams site/Sharepoint site and afterwards click the "M365 Export" button. SemTalk Online will create all lists an the choosen site. This concludes the setup process for Repositries in Microsoft365.
+A panel will open that shows the SharePoint Lists that will be created on the selected site. Select the **Sharepoint Document Site / Teams** from the available pull-down list of SharePoint sites, and then selelct **Create Repository**. SemTalk Online will create all of the Lists on the choosen site. SemTalkOnline Repository is then integrated into Microsoft365. Users will login to SemTalkOnline using their Microsoft365 account.
 
 ![Create Repository Panel](images/repository/createrepository2.png)
 
-The created Repository needs to be configured in SemTalk Online options. Open SemTalk Options --> Microsoft365 --> Repository. The site of the Repository need to be entered in a specific way to be used to access it via Microsoft Graph.
+The created Repository needs to be configured in SemTalkOnline **Settings**. Open SemTalk **Settings - Microsoft365 - Repository**. The specific location of the Repository needs to be specified to be able to access it via Microsoft Graph.
 
 * * /sites/<domain>.sharepoint.com:/sites/<sitename>:/ * *
 
-Add the domain of your organization and the selected site name to the template string and add it to the field "Repository"
+Add your ogranization's domain name, along with the selected site name, to the template string and add it to the field **Repository**.
 
 ![Add Repository to settings](images/repository/repositoryoption.png)
 
@@ -58,55 +58,62 @@ Add the domain of your organization and the selected site name to the template s
 
 ### UI and functionality of the Repository
 
-Open the Repository with menu entry "Home" --> Repository
+Open the Repository using the **Home - Repository** command.
 
 ![Open Repository](images/repository/openrepository.png)
 
-Initially the Repository will be empty and should like in this screenshot.
+Initially the **Repository** will be empty and should appear as shown below.
 ![Repository UI](images/repository/repositoryemptyui.png)
 
-The menu of the panel gives the user multiple option to view or extend the vocabulary of the Repository.
+This menu shows multiple options to view or extend the **Vocabulary** of the **Repository**.
 
-- Selectbox: Lets users choose with kind of object they want to look at. Business Object, Human Ressources, Buffers etc. After a type is selected the table will show all objects of the selected type that are stored in the Repository.
+* **Objects**: Shows a list of the available types of Objects in the model such as - Business Objects, Human Resources, Buffers etc.** Select an Object type to open a table that will show all Objects of the selected type that are stored in the Repository.
 ![Repository select type](images/repository/repositorycategories.png)
-- Add: Lets the user add an object to the selected type. After clicking the "Add" button the user can enter a name of a new object and need to complete the transaction with the "Ok" button. If a process model has objects that are not in the Repository, the dialog will let the user select from a list of those objects to add to the Repository.
+
+* **+ Add**: Adds Objects  into Repository via the Object Type selected from the Objects pull-down menu. If the Object is used in the current model, select the name from the Name pull-down menu. If the Object is not in the opened model, Add the new Object Name and select  OK.
 ![Repository add Object](images/repository/repositoryadd.png)
 Afterwards the new object will be inserted in the Repository.
 ![Repository Object is added](images/repository/repositoryadded.png)
-- Delete: Lets the user delete an object from the Repository. After clicking the button the user get a list from which they can choose one or more entry to delete. Those object will then be deleted from Repository but not from all model files where are used.
-- Link to Repository: If a Repository and a process file have used the same objects but these objects are not linked, the user can use this function to link the Repository object to the objects from the process file. Otherwise a export to the Repository would lead to redundencies.
-- Export to Repository: By clicking this button users will export all objects from their model to the Repository. Users need to treat carefully to avoid inserting wrong or redundant objects.
-- New List: Adds a new List to the Repository for cases where other objects then the default objects are needed. This functionality will only be for users with admin permissions.
-- New Column: Lets users create more columns for existing lists. This functionality will only be for users with admin permissions.
-- Export Excel: Exports Repository ojects to an Excel file
-- Import Excel: Imports an Excel file and creates Repository objects out of the providied data
 
-### Using Repository objects in process models
+* **Delete**: Deletes Objects from the Repository. Users select one or more Object Names and those Objects will be deleted from Repository but not from any of the model files where the Object has been used.
 
-To demonstrate how to use Repository objects take a look at the following scenario:
+* **Link to Repository**: Links Objects that are used in both the Repository and in the opened Process Model to avoid redundencies.
 
-The Repository consists of a few objects, methods and roles.
+* **Export to Repository**: Exports all Objects from the opened Process Model into the Repository. **NOTE**: If duplicate Objects have not already been **Linked to Repository**, redundencies will occur!
+
+* **New List**: Adds new elements to a Repository when additional elements are needed. This functionality is only available for users with Administrator privileges.
+
+  - **New Column**: Lets users create more columns for existing lists. This functionality will only be for users with admin permissions.
+  - **Export Excel**: Exports Repository ojects to an Excel file
+  - **Import Excel**: Imports an Excel file and creates Repository objects out of the providied data
+
+### Using Repository Objects in Process Models
+
+Consider the following scenario:
+
+The following Repository consists of a limited number of Objects, Methods and Roles.
+
 ![Repository: Objects](images/repository/repositoryobjects.png)
 ![Repository: Methods](images/repository/repositorymethods.png)
 ![Repository: Roles](images/repository/repositoryroles.png)
 
-Now these elements will be used in a fresh BPMN process file. First object and methode will be added to a task by right clicking on the task and selecting "Vocabulary" from the context menu. A new panel will open.
-The selectbox for object and method will show the vocabulary from the Repository and can be used from the user.
+Now we will use Repository Objects in a new BPMN Business Process Diagram. Drag and drop a Task Object onto a Business Process Diagram. Right mouse click on the new Task and select **Vocabulary**. A new menu will open that shows Objects, Attributes and Methods. All available Repository Objects, Attributes and Methods in the Repository will be shown in each of their pull-down menus. 
+
 ![Repository: Objects in Vocabulary](images/repository/repositoryobjectsvocab.png)
 
-The vocabulary menu is available forevents and gateways as well, but in this case the user will select an object and a state.
+The **Vocabulary** menu is also available for Events and Gateways where users select Objects and States instead of Objects and Methods.
 
-For roles it works by using the "Select" menu. This is available by right clicking on the role item. In BPMN this is the swimlane. The panel show the role objects from the Repository.
+**Roles** access the Roles in the Repository using the Role's right mouse click **Select** menu. In BPMN this is the **Swimlane**. 
 ![Repository: Roles in Select menu](images/repository/repositoryrolesvocab.png)
 
-For more information about objects in read [Wiki page: Working with objects](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Working-with-Objects).
+Additional information about Objects: [Wiki page: Working with objects](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Working-with-Objects).
 
-### Editing objects and refresh model content
+### Editing Objects and Refreshing Model Content
 
-Object in the Repository can be edited directly in each cell.
+Edit Repository Objects names directly in the Repository spreadsheet. 
 ![Repository: Roles in Select menu](images/repository/repositoryobjectchange.png)
 
-**Please note:** A change in the Repository will not automatically change the process files, in which the object is used. To refresh the objects in the model as well the user needs to select the object and then click "Refresh" in main menu entry "Object" --> "Repository".
+**NOTE:** Edits made directly in the Repository will not be automatically propogated to the Objects in the Process Model. Users must select the Object and then use the **Object - Repository - Refresh** pull-down menu to Refresh the Repository.
 ![Repository: Roles in Select menu](images/repository/repositoryobjectchange2.png)
 ![Repository: Roles in Select menu](images/repository/repositoryobjectchange3.png)
 

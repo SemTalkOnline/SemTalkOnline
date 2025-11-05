@@ -1,8 +1,14 @@
 # SemTalk Object Repositories
 
-SemTalkOnline's **Repositories** are database libraries that contain predefined Task **Objects** with their associated information such as **Methods, States, Attributes and HumanResources**. Uniform process documentation and collaboration is greatly improved when the same Repository is used for multiple SemTalkOnline projects.
+SemTalkOnline's **Repositories** are database libraries that contain predefined Task **Objects** with their associated information, such as **Object Name, Methods, States, Attributes and HumanResources**. Repositories are used to create default picklists for modelers as they document process flows. Repositories can easily be updated and improved as new organizational modeling projects are added or as modeling teams identify missing information.
 
-Users name process **Tasks** by selecting Task **Objects** (Nouns), **Methods** (verbs) and **States** from integrated **Repository** generated picklists that are shown when using both the **Vocabulary** and **Select** functions when naming new Objects. If Objects are not in the picklist, it is possible to integrate the **Repository** so that as new **Objects** are created, they can be uploaded into the **Repository** for use in all modeling projects that use the **Repository**. 
+Repositories are not mandtory but the use of a shared Repository streamlines process documentation, increases collaboration, decreases redundencies and improves the overall quality and value of process documentation projects.
+
+Repositories are created by Model Administrators to create a standardized vocabulary for use by the entire modeling team. 
+
+Teams use the Vocabulary option to name   **Tasks** by selecting **Objects** (Nouns), **Methods** (verbs) from the Repository picklist. Or, when naming Events and Gateways, modelers select **Objects** and **States** from the **Repository** picklist.
+
+If Objects are not in the picklist, it is possible to integrate the **Repository** so that as new **Objects** are created, they can be uploaded into the **Repository** for use in all modeling projects. 
 
 Additional information can be found at: [Wiki page: Vocabulary](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Vocabulary) or [Wiki page: Working with objects](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Working-with-Objects).
 
@@ -18,29 +24,29 @@ The Repository contains:
 
 * **Organizational Roles**: These are the people, roles or groups who perform the process flow **Task**. For example, **'Create Invoice'** is performed by the **'Accounting Department'**. 
 
-The Repository uses the following descriptions for Organizational Units: 
-  - **Role (HumanResources)** 
-  - **HumanResource (HumanResource)**
-  - **Person (HumanResources)**
-  - **Position (HumanResources)**
-  - **OrgUnit (HumanResources)**
+The **Repository** uses the following descriptions for **Organizational Units**: 
+  - Role (HumanResources) 
+  - HumanResource (HumanResource)
+  - Person (HumanResources)
+  - Position (HumanResources)
+  - OrgUnit (HumanResources)
 
 
 ## Setting up a Repository
 
-**Repositories** can be hosted in either Microsoft Sharepoint or in a MongoDB database. Different steps are required for each **Repository** type. 
+**Repositories** can be hosted in either **Microsoft Sharepoint** or in a **MongoDB** database. Different steps are required for each **Repository** type. 
 If semtalkonline.semtalk.com is used, a **Repository** is already integrated and the setup steps are not needed.
 
 ### Setting up a SharePoint Repository for SemTalk Online in Microsoft365
 
 Microsoft365 Repositories are stored in a SharePoint site that is integrated with Microsoft Teams and SharePoint. 
 
-Users must have Administrator privileges to set up a new Repository, along with SemTalk Online functionality, to be able to create SharePoint Lists on existing SharePoint sites.
+Users must have Administrator privileges to set up a new Repository and to be able to create SharePoint Lists on existing SharePoint sites.
 
 Open SemTalkOnline **Settings - Microsoft365 - Create Repository**
 ![Create Repository](images/repository/createrepository.png)
 
-A panel will open that shows the SharePoint Lists that will be created on the selected site. Select the **Sharepoint Document Site / Teams** from the available pull-down list of SharePoint sites, and then selelct **Create Repository**. SemTalk Online will create all of the Lists on the choosen site. SemTalkOnline Repository is then integrated into Microsoft365. Users will login to SemTalkOnline using their Microsoft365 account.
+A dialog box will open that shows the SharePoint List that will be created on the selected site. Select the **Sharepoint Document Site / Teams** from the available pull-down list of SharePoint sites, and then selelct **Create Repository**. SemTalk Online will create all of the Lists on the chosen site. SemTalkOnline Repository is then integrated into Microsoft365. Users will login to SemTalkOnline using their Microsoft365 account.
 
 ![Create Repository Panel](images/repository/createrepository2.png)
 

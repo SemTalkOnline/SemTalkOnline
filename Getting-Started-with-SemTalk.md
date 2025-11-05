@@ -95,9 +95,9 @@ Process objects have a auto-draw connector feature. This allows users to automat
 
 In addition to naming objects via double-click and right mouse click, SemTalk also includes a structured naming option. Most process work-steps have names that consist of a verb and a noun. For example, the process step 'Send Invoice' is the verb 'Send' and the noun 'Invoice'. 
 
-When adding new Object names to process flow objects, instead of simply adding a name, modelers using the Vocabulary option select the Object (noun) and Method (verb) from picklists. If the Object and Method are not in the picklist, they can add them to the local Repository. Keeping modeling information consistent is especially important when there are multiple modeling projects and/ or multiple people modeling or when the models are being used to support training. 
+When adding new Object names to process flow objects, instead of simply adding a name, modelers use the Vocabulary option to select the Object (noun) and Method (verb) from picklists. If the Object and Method are not in the picklist, they can be added to the current model or, if the user is a model Administrator, they can be uploaded into the central Repository. 
 
-Repositories can be local on only be related the the active model or they can be centralized so that everyone in the organization uses the same terminology. 
+Keeping organizational modeling information consistent via shared, centrallized Repositories, is especially important when there are multiple modeling projects and/ or multiple people modeling or when models are used for training. 
 
 ![alt text](images/Vocabulary.png)
 
@@ -149,7 +149,10 @@ Task Object **Properties**:
 
 **Connect Objects in Process Diagrams**: 
 
-Use an Object's Quick Template by hovering your mouse over a Task Object. Click on the Object that you want to connect and the next Object and the connector will be created. 
+Objects can be connected by clicking and holding your cursor over the Object and dragging the arrow to the Object you want to connect or by using and an Object's Quick Template. Hover your mouse over an Object and Objects and Objects and Connectors will appear in the Quick Template. Click on the Object that you want to connect and the next Object and the connector will be created. 
+
+![alt text](images/QuickShape.PNG)
+
 
 Additional Topics:
 

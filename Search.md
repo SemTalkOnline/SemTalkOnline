@@ -18,8 +18,8 @@ Objects matching the **Search Term** will be shown in a Table that consists of:
 * **Diagram Name** and 
 * Additional **Attribute Data** depending on the Object type selected. 
 
-1. Click on the column header to sort and filter content.
-2. Click on the row of the **Search Term** to navigate to the associated Diagram. The selected Object will be highlighted with a blue frame. Users can then easily navigate through the found objects and/ or jump to the place in the process model where the object is used.
+1. Click on the **Column Header** to sort and filter content.
+2. Click on the **Search Term Row** to navigate to the associated Diagram. The selected Object will be highlighted with a **Blue Frame**. Users can then easily navigate through the found Objects and/ or jump to the place in the process model where the Object is used.
 3. Use the **All** pull-down menu in the top left of the **Search** window to filter **Objects by Object type**.  This  shows all Object classes in the model. If an Object type is selected, only those objects belonging to that Class will be shown. (e.g. Tasks or Events)
 ![Search: Switch Class](images/searchselecttype.png)
 4. Search for a **Specific Term** by entering the word into the Search dialog box.

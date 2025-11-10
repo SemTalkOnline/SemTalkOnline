@@ -24,6 +24,5 @@ Objects matching the Search term will be shown in a Table that consists of:
 5. **Start** and **Stop** can trigger a new search or stop the current Search process.
 6. **Excel** option exports a list of found Objects to an Excel file.
 7. **Save** writes found Objects items to a JSON file.
-8. If you want to Edit the Name of one of the found Objects in your model, double-click on the row of the Object where it is shown in Serch to open the Diagram where it is used. 
-
-If the Object Name was created using the Vocabulary naming option, change the name by selecting the Vocabulary icon shown to the right of the Object Name and select the desired Object Name and Method or create new Names as needed. If the Name was not created using the Vocabulary option, simply change the Name and click on the Save icon.
+8. If you want to **Edit the Name** of one of the found Objects in your model, double-click on the row of the Object where it is shown in Serch to open the Diagram where it is used. 
+- NOTE: If the Name was not created using the Vocabulary option, simply change the Name and click on the Save icon. If the Object Name was created using the Vocabulary naming option, change the name by selecting the Vocabulary icon shown to the right of the Object Name. Enter the new Vocabulary Object and Method Names or create new Object and Method Names as needed. 

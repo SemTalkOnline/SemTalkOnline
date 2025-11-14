@@ -1,7 +1,7 @@
 
 ![alt text](images/Picture7.png)
 
-![alt text](images/FixedMenuCommand.png)
+![alt text](images/FixedMenuCommands.png)
 
 The SemTalk Online's fixed Toolbar contains the following icon-based commands:
 - Open

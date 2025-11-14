@@ -1,11 +1,24 @@
 
 ![alt text](images/Picture7.png)
 
-The SemTalk Toolbar contains SemTalk's standard commands:
+![alt text](images/FixedMenuCommand.png)
+
+The SemTalk Online's fixed Toolbar contains the following icon-based commands:
+- Open
 - Save
+- New
 - Undo/Redo
 - Pointer Tool, 
-- Attachment Options,
-- Style Options,
-- Placement Options and
-- Layout Options
+- Hand
+- Properties
+- Vocabulary
+- Select
+- Search
+- Style
+- Attachments
+- Go Up/ Go Down
+- Align
+- Center Drawing
+- Zoom In/ Zoom Out
+- Layout
+- ChatGPT

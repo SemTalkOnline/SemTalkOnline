@@ -1,4 +1,11 @@
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/WebSite/images/Toolbar.png)
+![alt text](images/Picture7.png)
 
-The SemTalk Toolbar contains the save button, undo and redo commands, pointer tool, attachment options and the style and placement options for the selected object(s).
+The SemTalk Toolbar contains SemTalk's standard commands:
+- Save
+- Undo/Redo
+- Pointer Tool, 
+- Attachment Options,
+- Style Options,
+- Placement Options and
+- Layout Options

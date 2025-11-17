@@ -1,9 +1,9 @@
 # SemTalk Online - Brief Introduction
-Stand: July 2022
+Stand: November 2025
 
-## General informations
+## General Information
 
-What is SemTalk Online
+SemTalk® Online is a Business Process Modeling and Ontology Editing tool designed to manage process knowledge, both in terms of workflows and in terms of identifying and providing metadata for documents and other content-related needs such as Portals and Smart Forms.
 
 ## Login/Registration
 
@@ -11,12 +11,12 @@ What is SemTalk Online
   <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_EN/main/images/Picture1.png" width="600">
 </picture>
 
-- Database and repository can be custom built for the customer if desired. 
+- Databases and Repositories can be custom built for the customer if desired. 
 - Roles: 
   - Viewer = Read-Only mode 
   - Editor = Modeler 
   - Administrator = Customization of the GUI 
-- Interface can be customized via options in language and layout. 
+- User interface can be customized via options in language and layout. 
 
 <hr>
 
@@ -31,20 +31,13 @@ What is SemTalk Online
 - Passwort = User-Defined Password 
 - Key is left blank when using the Demo version
 
-<hr>
-
-# SemTalkOnline – Viewer GUI
-
-**Function is limited**
-
-
+# SemTalkOnline – User Interface
 
 <picture>
-  <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_EN/main/images/Picture3.png" width="600">
+  <img src="images/Semtalk-Overview.png" width="600">
 </picture>
 
-- Able to view models and properties of objects 
-- Export as Word, HTML, PNG and JPG 
+
 
 <hr>
 
@@ -111,28 +104,51 @@ Object information can also be accessed via the Object pull-down menu.
 
 <hr>
 
-## Menu - Structure
+## Pull-Down Menu
+
+SemTalk Online's primary modeling command are found in the pull-down menus.
+
+- [File](https://github.com/SemTalkOnline/SemTalkOnline/wiki/File-Menu)
+- [Home](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Home-Menu)
+- [Shape](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Symbol)
+- [Object](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Objekt)
+- [Process](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Prozess)
+- [Diagram](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Diagramm)
+- [Explorer](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Explorer)
+- [Tools](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Extras)
+
 
 <picture>
   <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_EN/main/images/Picture8.png" width="600">
 </picture>
 
-- File = Open or export models 
-- New  = Create a new model
-- Open = Models can be opened from the hard disk or from the database. Models from the database are displayed as the default. 
-- Save = Save the model
-- Save As = Save the model under a new name
-- Delete = The entire model is deleted
-- Version Control = Model is saved periodically and different versions can then be taken from the database that have been saved
-- Import = Models can be imported from other datatbases or porgrams associated with SemTalk
-- Portal = The ability to publish models onto certain programs or databanks
-- Export = Sends the model to another assciated databank or program for use outside the Semtalk system 
-- Check-out & Check-in = Allows the user to check out the model they would like to edit and use without the interference of another user changing things at the same time
-- Document Properties = Shows the basic details regarding the model type and its format
-- Share = May share the model with some else through the use of email
-- Model is shown with status information (e.g. date modified, who modified, and current status). 
-- Print = Print via WebBrowser 
-- Close = Closes the program
+<hr>
+
+## File Pull-Down Menu
+
+- **New**: Creates a new model
+- **Open**: Opens models from the default Model database or they can be opened from a local hard drive. 
+- **Save**: Saves the model
+- **Save As**: Saves the model under a new name
+- **Delete**: Deletes the entire model
+- **Version Control**: Based on user data, and when a model was saved, different versions be saved and opened
+- **Import**: Models can be imported from other datatbases or programs associated with SemTalk
+- **Portal**: Publishes models to integrated applications or databases
+- **Export**: Exports the model to databases or applications that are not directly integrated into SemTalk Online
+- **Check-Out & Check-In**: Adds a control layer that allows users to control the model so that other modelers cannot editing the model at the same time
+- **Document Properties**: Shows the model's type and Format and it can be used to add addition Properties or Formatting information associated with the model
+- **Share**: Shares the model via email
+  - Model Name
+  - Option to show a specific Diagram
+  - Language
+  - Pre-defined list of Email addresses
+  - External Email Address
+  - Role
+  - Commentss
+  - Validity Period
+  - Link to model
+- **Print**: Prints the model via Print defaults 
+- **Close**: Closes the model file
 
 <hr>
 
@@ -142,12 +158,14 @@ Object information can also be accessed via the Object pull-down menu.
   <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_EN/main/images/Picture9.png" width="600">
 </picture>
 
-- A name can be changed by double-clicking on an object or via the Object’s properties. 
-- Object properties can be accessed via the right mouse click context menu. e.g. attachments, comments, editor and other attributes. 
-  - Menu can also be accessed via "Object" in the menu ribbon 
-- Names can be dragged from the center of the object to other objects by holding down the left mouse button.
+- Names can be changed by double-clicking on the Object or via the Object’s Properties menu. 
+  
+- Object Properties can be accessed by: 
+    - Right mouse clicking on the Object or by 
 
-<hr>
+    - Selecting the Object and using the **Object - Properties** pull-done menu.
+
+- It is also possible to add a new Task to a process flow by creating and naming a new Object and then dragging the Object directly over the the Target Object where is should be added to the process flow. The name will be changed and the Source Object where is was inserted will be added to the next step in the process flow. 
 
 ## Object Properties
 
@@ -155,22 +173,22 @@ Object information can also be accessed via the Object pull-down menu.
   <img src="images/Picture10.png" width="600">
 </picture>
 
-- Objects are type-specific 
-- Additional attributes can be created 
+- Objects belong to specific Object classes
+- User-defined Attributes can be added to Objects but the reporting capabilites may be limited.
 
-<hr>
+## Export Models as Word, HTML, PNG and JPG Files
 
-Further functions can be called up via the menu ribbon and Objects can be edited as needed. 
-Specific training or an introductory event is recommended before using customization features. 
+- Exports show pictoral views of Model Diagrams and Object Properties  
 
-<hr>
 
-## Contact informations
+NOTE: Training or specific introduction events are recommended before using customization features. 
+
+## Contact information
 
 Semtation GmbH - Karl-Liebknecht-Straße 21-22 - 14482 Potsdam - Germany
 
 Phone: +49 (0)331 581 39 36
 
-Informations and Sales: sales@semtalk.com
+Information and Sales: sales@semtalk.com
 
 Support: support@semtalk.com

@@ -11,12 +11,13 @@ SemTalk® Online is a Business Process Modeling and Ontology Editing tool design
   <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_EN/main/images/Picture1.png" width="600">
 </picture>
 
-- Databases and Repositories can be custom built for the customer if desired. 
+- Databases and Repositories can also be custom built. 
 - Roles: 
-  - Viewer = Read-Only mode 
-  - Editor = Modeler 
-  - Administrator = Customization of the GUI 
-- User interface can be customized via options in language and layout. 
+  - **Viewer**: Read-Only mode 
+  - **Editor**: Modeler 
+  - **Administrator**: Customization of the GUI 
+
+A subset of the user interface can be customized via options in **Language** and **Layout**. 
 
 <hr>
 
@@ -26,12 +27,12 @@ SemTalk® Online is a Business Process Modeling and Ontology Editing tool design
   <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_EN/main/images/Picture2.png" width="600">
 </picture>
 
-- UserID = E-Mail 
-- Username = Name Shown 
-- Passwort = User-Defined Password 
-- Key is left blank when using the Demo version
+- **UserID**: User E-Mail 
+- **Username**: The name shown in SemTalk Online 
+- **Password**: User-defined password 
+- **Key**: If a **Demo Version** is being used, Key should be left blank
 
-# SemTalkOnline – User Interface
+# User Interface
 
 <picture>
   <img src="images/Semtalk-Overview.png" width="600">
@@ -47,7 +48,7 @@ SemTalk® Online is a Business Process Modeling and Ontology Editing tool design
   <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_EN/main/images/Picture4.png" width="600">
 </picture>
 
-- File = Open or export models 
+- **File**: = Open or export models 
 - Open = Models can be opened from a local file or from the database. Models from the database are displayed as the default. 
 - Model is shown with status information (e.g. date modified, who modified, and current status). 
 - Export: Word, HTML, PNG, JPG, Image File (SVG) 

@@ -110,7 +110,7 @@ Objects shown in the **Stencil** conform to the modeling rules of the SemTalk On
 
 **NOTE**: Available Connection types are also related to the active Diagram type. Users can create user-defined connectors but it is generally not recommended because user-defined connectors are not considered when running process flow consistency checks. 
 
-### **Vocabulary** Structured Object Naming
+### Vocabulary: Structured Object Naming
 
 In addition to naming objects via double-click and right mouse click, SemTalk Online includes a the structured naming option **Vocabulary**. 
 

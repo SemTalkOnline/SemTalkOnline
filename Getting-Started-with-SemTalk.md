@@ -134,7 +134,7 @@ Additional Information about swimlanes can be found here:
 
 [Swimlanes](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Swimlanes)
 
-## Business Process Diagram Objects:
+## BPMN Objects:
 - Tasks
 - Gateway
 - Data Object
@@ -148,7 +148,7 @@ Additional Information about swimlanes can be found here:
 - Hyperlink
 
 
-## BPMN Task Object Properties
+## BPMN Task Properties
 
 ![SemTalk Online overview properties](./images/SemTalkBPMNStartEigenschaften.PNG)
 

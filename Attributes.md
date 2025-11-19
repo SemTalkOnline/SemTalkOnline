@@ -1,43 +1,39 @@
-**Attributes**
+## Attributes
 
-**Attributes** are a set of System or User-Defined properties related to an Object. 
+**Attributes** are a set of System or User-Defined Properties related to an Object. 
 
-Right mouse click on an Object's **Properties - Attributes** tab to **Create New, Edit, and assign Attribute Values** to the Object. Attributes consist of a **Name** and a **Value**. 
+Attributes consist of a **Name** and a **Value**. For example, BPMN Tasks can have named **Attributes** such as **Contact Person, Phone Number, URL, or Time values**. The **Value** of the Attribute is the specific value associated with the Object. (e.g. Phone Number = +1 234-456-7890). 
 
-For example, Tasks in a BPMN process can be categorized using **Attributes** such as **Contact Person, Phone Number, URL, or Time values**. SemTalk contains **System-Defined Attributes**, but additional Attributes can be added dynamically as needed. 
+SemTalk Online contains most common **Attribute Types** but model Administrators can add additional **User-Defined Attributes** as needed. 
 
-The number and types of Attibutes is not limited but the **Properties** dialog only allows users to create **New** attributes that are always created with thea **String** (text field) data type. If other Attribute data types are needed, other configuration options are available. Please refer to **Creating Complex Attributes** shown below.
+Modelers assign existing **System Attributes** values or they create new **String** (text field) Attribute types. If other Attribute data types are needed, they can be added byt the model's Administrator. 
 
-If the Object's Attribute tab is not visible, add the Attribute tab via Customization.
+**NOTE**: If the Object's Attribute tab is not visible in the Object's Properties menu, the model's Administrator can turn the Attribute tab back on.
 
-Right click on an Object to open its **Properties** dialog and then select **Attributes - New**.
+Right mouse click on an Object's **Properties - Attributes** tab to **View, Edit, and/or assign Attribute Values** to the Object. 
 
 ![alt text](images/Attributes2.png)
 
-**Object - Properties - Attributes**:  will add Attribute data as it is added. These values will be stored in your model's Respository. This data can be created or managed in:
-
-* Object - Properties - Attribute tab, 
-* Using the Worksheet option, or 
-* When naming Object using the Vocabulary naming function.
+**Object - Properties - Attributes**: Opens an Object's Attribute data that is stored in the model's Respository.
+Assign Attributes using:
+* **Object - Properties - Attribute** tab, 
+* **Home - Worksheet** pull-down menu option, or 
+* Via the **Vocabulary - Attribute** naming function.
 
 SemTalk Online has two Attribute types:
-
 * **System Defined Attributes**: An Object's default Attributes, and 
 * **User-Defined Attributes**: Attributes created by users for the currently active model. 
 
-Both Attribute Types have variables with associated values. System-Defined Attributes are the standard entries shown in the Properties tabs. 
+Both Attribute Types have Atteibute Names with associated Attribute Values. System-Defined Attributes are the standard entries shown in the Properties tabs. 
 
-**NOTE**: Only SemTalk Online's product developers are able to change System Defined Attributes. 
-
-## Creating Complex Attributes
-
-SemTalk Online's GUI can be customized using Attributes and configurable layout features.
+Users select Attributes to add to the model from the existing **Attribute Picklist.**
 
 ![alt text](images/Attributes1.png)
 
-In the above example, the **Product** Object has been given the Attribute **'Delivery Date'**. **'Delivery Date'** consists of a Date variable extracted from a calendar. 
+In the above example, the **Product** Object has been given the Attribute **'Delivery Date'**. **'Delivery Date'** that has a **Date** variable extracted from a **Calendar**. 
 
-Variables can also be a **Picklist** such as **'Currency Type'** (e.g. a Picklist with US Dollars, Euros, Pounds etc.) or it could have a **Fixed Range** such as **Values from 5-100**. or a **'Delivery Date'**. These variables are defined as **Attributes in the Superclass 'Product'**. **'Product' Subclasess**. All **'Products'** (e.g.**'Product X'**), are subclasses of 'Product' and would inherit the Attribute 'Delivery Date'. Specific Values are then set at the level of each **Product**. (e.g.**'Product** X' has the **Delivery Date = June 27th, 2026**). 
+Variables can also be a **Picklist** such as **'Currency Type'** (e.g. a Picklist with US Dollars, Euros, Pounds etc.) or it could have a **Fixed Range** such as **Values from 5-100**. or a **'Delivery Date'**. These variables are generally defined as **Attributes in the Superclass 'Product'**. **'Product' Subclasess**. All **'Products'** (e.g.**'Product X'**), are subclasses of **'Product'** and they automatically inherit the Attribute 'Delivery Date'. Specific Values are then set at the level of each **Product**. (e.g.**'Product** X' has the **Delivery Date = June 27th, 2026**). 
 
-Once a User-Defined Attribute has been created, it can be assigned to other Objects by choosing it from an **Attribute Picklist**. 
+Once a **User-Defined Attribute** has been created, it can be selected from the **Attribute Picklist** for other Objects. 
 
+**NOTE**: New **User-Defined Attributes** can only be created and modified by a **Meta-Modeler** or a model **Administrator**. 

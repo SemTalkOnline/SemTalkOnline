@@ -29,6 +29,8 @@ Both Attribute Types have variables with associated values. System-Defined Attri
 
 **NOTE**: Only SemTalk Online's product developers are able to change System Defined Attributes. 
 
+## Creating Complex Attributes
+
 SemTalk Online's GUI can be customized using Attributes and configurable layout features.
 
 ![alt text](images/Attributes1.png)

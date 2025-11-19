@@ -110,21 +110,25 @@ Objects shown in the **Stencil** conform to the modeling rules of the SemTalk On
 
 **NOTE**: Available Connection types are also related to the active Diagram type. Users can create user-defined connectors but it is generally not recommended because user-defined connectors are not considered when running process flow consistency checks. 
 
-### Structured Object Naming via **Vocabulary**
+### **Vocabulary** Structured Object Naming
 
-In addition to naming objects via double-click and right mouse click, SemTalk includes a structured naming option. Most process work-steps have names that consist of a verb and a noun. For example, the process step 'Send Invoice' is the verb 'Send' and the noun 'Invoice'. 
+In addition to naming objects via double-click and right mouse click, SemTalk Online includes a the structured naming option **Vocabulary**. 
 
-When adding new Object names to process flow objects, instead of simply adding a name, use the **Vocabulary** option to select the Object (noun) and Method (verb) from **Picklists**. If Objects and Methods are not in the shown picklist, they can be added to the current model or, if the user is a model Administrator, they can be uploaded into the central **Repository**. 
+Most process work-steps have names that consist of a verb and a noun. For example, 'Send Invoice' contains the verb 'Send' and the noun 'Invoice'. 
 
-Keeping organizational modeling information consistent via shared, centrallized **Repositories**, is especially important when there are multiple modeling projects and/ or multiple people modeling or when models are used for training. 
+In SemTalk Online nouns are the **Object** and verbs are the **Method**. This allows all users to use **Picklists** of **Objects** and **Methods** to keep the naming process consistent in all of n organization's modeling projects that share a common **Repository**.
+
+If **Objects** and **Methods** are not in the shown **Picklist**, they can be added to the current model or, if the user is a model Administrator, they can be uploaded into the central **Repository**. 
+
+Keeping organizational modeling information consistent via shared, centrallized **Repositories**, is especially important when there are multiple modeling projects, multiple people modeling or when a models is used for training purposes. 
 
 ![alt text](images/Vocabulary.png)
 
 ## Business Process Diagrams
 
-**Business Process Diagrams** are where Process flows are described. Process flows are created within **Swimlanes** and **Swimlane Pools** but or they can be show indepedently without Swimlanes.
+**Business Process Diagrams** are the **Diagrams** where process flows are described. **BPMN** process flows are created within **Swimlanes** and **Swimlane Pools** but process flows can also be show indepedently without Swimlanes.
 
-**NOTE**: When working with **Swimlanes** and **Swimlane Pools** it is recommended to first create and position all Swimlanes/ Swimlane Pools before placing other Objects onto your Diagram because future editing is more complicated due to the container behavior of Swimlanes and Swimlane pools.
+**NOTE**: When working with **Swimlanes** and **Swimlane Pools** it is recommended to first create and position all Swimlanes/ Swimlane Pools before placing other **Objects** onto your Diagram because future editing is more complicated due to the container behavior of Swimlanes and Swimlane pools.
 
 Additional Information about swimlanes can be found here:
 

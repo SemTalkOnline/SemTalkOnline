@@ -1,16 +1,18 @@
-**Diagrams**
+## Diagrams
 
-Every model requires a workspace on which to model. In SemTalk, these workspaces are referred to as Diagrams. SemTalk simplifies the modeling process by creating modeling workspaces that have specific rules built into the modeling environment. The number and type of Diagrams, as well as the modeling rules, correspond to each of the standard SemTalk versions.  Each time you open a SemTalk version, whether it is BPMN, EPCs or any customized version type, you are opening a worksheet that comes with a set of Diagram types, each with their own built-in rule-based engine that will only allow the Objects and Associations applicable to the selected version. User-defined Diagrams can also be created but  reporting and other functions may be limited without additional customization.
+Every model requires a workspace on which to model. In SemTalk, these workspaces are referred to as Diagrams. SemTalk simplifies the modeling process by creating modeling workspaces that have specific rules built into the modeling environment. 
 
-In the SemTalk GUI, the Diagram is the active modeling space where users add work and information flows, create Object scenarios, and add OrgCharts to show who does what.
+The number and type of Diagrams, as well as the modeling rules, correspond to each of the standard SemTalk versions.  Each SemTalk version, whether it is BPMN, EPCs or any customized version type, opens a set of Diagram types, each with their own built-in rule-based engine that will only allow the Objects and Associations applicable to the selected version. User-defined Diagrams can also be created but reporting and other functions may be limited without additional customization.
 
-**BPMN Diagram Type**s:
+In the SemTalk, Diagram are the active modeling space where users add work and information flows, create Object scenarios, and add OrgCharts to show who does what.
+
+### BPMN Diagram Types:
 * Business Process Diagrams
 * Object Diagram
 * Ontology
 * OrgChart
 
-**EPC Diagram Types**:
+### EPC Diagram Types:
 * Buffer Model
 * eEPC
 * Knowledge Map
@@ -21,11 +23,13 @@ In the SemTalk GUI, the Diagram is the active modeling space where users add wor
 
 ![alt text](images/Semtalk-Overview.png)
 
-**Diagram Pull-Down Menu**
+## Diagram Pull-Down Menus
 
-New: Creates a new Diagram
+![alt text](images/DiagramPullDownMenu.png)
 
-**Properties**: Contains all of the Properties associated with a Diagram
+**Diagram - New**: Creates a new Diagram
+
+**Diagram - Properties**: Contains all of the Properties associated with a Diagram
 * Name
 * Class
 * Comments
@@ -42,3 +46,13 @@ New: Creates a new Diagram
 * Go Up
 * Insert
 * Taxonomy
+
+**Diagram - Delete**: Deletes the active Diamgram
+
+**Diagram - Reindex**: Reindexes refined Tasks
+
+**Diagram - Go Up**: Opens the parent process Diagram
+
+**Diagram - Insert**: Inserts external Objects into your model
+
+**Diagram - Paste**: Inserts copied process elements onto a Diagram. This is for cell phone and tablet users that do not a right mouse click option.

@@ -22,7 +22,7 @@
 
 ## Style - Image Options
 
-Style Image allows users to import external Images into their model. For additional information: 
+Style Image allows users to import external Images into their model. For additional information: [Image Manager](https://github.com/SemTalkOnline/SemTalkOnline/blob/e71e11f2c5b6c0eb282295a5f4e84c21f88e2ca2/Image%20Manager.md)
 
 ![alt text](images/StyleImageMenu.PNG)
 

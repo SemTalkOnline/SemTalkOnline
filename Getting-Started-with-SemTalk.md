@@ -1,6 +1,6 @@
 ## Getting Started with SemTalk
 
-This overview reviews the most important steps for new SemTalk Online users to help them to optimally setup SemTalk Online to meet their modeling requirements.
+The following overview is designed to help new SemTalk Online users setup SemTalk Online to meet their modeling requirements.
 
 ## Login / Registration
 This section is only relevant if MongoDB is used. Users that use SemTalk Online in Microsoft365 environments will not need to register accounts or use a seperate login.
@@ -135,33 +135,33 @@ Additional Information about swimlanes can be found here:
 [Swimlanes](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Swimlanes)
 
 ## BPMN Objects:
-- Tasks
-- Gateway
-- Data Object
-- Swimlane
-- System
-- Comment
-- Event (e.g. Inputs/ Outputs)
-- Resource
+- [Tasks](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Task-General-Tab)
+- [Gateways](https://github.com/SemTalkOnline/SemTalkOnline/wiki/BPMN-2.0)
+- Data Objects
+- Swimlanes
+- Systems
+- Comments
+- Events (e.g. Inputs/ Outputs)
+- Resources
 - Text
-- Image
-- Hyperlink
+- Images
+- Hyperlinks
 
 
 ## BPMN Task Properties
 
 ![SemTalk Online overview properties](./images/SemTalkBPMNStartEigenschaften.PNG)
 
-Access a BPMN's Task Object's **Properties** dialog via:
+**Open a BPMN's Task Object's Properties**:
 * Right mouse click on the Object
 * Double click on an Object 
 * Toolbar Object tab
 * Toolbar Pencil icon
 
-Task Object **Properties**:
+**Task Object - Properties**:
 * **General**: Name, Index number, Comments and Hyperlinks
 * **Simulation**: Paramenters that are used when simulating the process flow
-* **HumanResource**: The org units and human resources that execute the process step
+* **HumanResource**: The OrgUnits and HumanResources that execute the process step
 * **Assignments**: Define process flow variables. Variables are used in simulations and when modeling IT system functions. (e.g. If a contract is greater than $1000 dollars it flows one way and if it is under $100 is flows in a differt direction.)
 * **Audit**: Shows the Edit history and the Modeling Team members who have edited the Object.
 
@@ -173,13 +173,22 @@ Task Object **Properties**:
 
 ![alt text](images/QuickShapes.png)
 
-Additional Topics:
+**Additional Topics**:
 
-- Create a **Refinement** (Subprocess):
+- **Export Models as Word, HTML, PNG and JPG Files**
+  - Exports show pictorial views of Model Diagrams and Object Properties
+
+
+- **Refinements** (Subprocess):
 [Refinements](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Refine)
 - **Format** an Object: [Style](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Styleg)
 - **Hyperlinks**: [Hyperlinks](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Hyperlinks)
 
+- **Contact Information**:
+  - Semtation GmbH
+  - Phone: +49 (0)331 581 39 36
+  - Information and Sales:  sales@semtalk.com
+  - Support: support@Semtalk.com
 
 
 

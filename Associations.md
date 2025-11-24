@@ -1,4 +1,4 @@
-**Associations**
+# Associations
 
 ![alt text](images/Explorer_AssociationsNEW.png)
 

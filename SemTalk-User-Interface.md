@@ -1,4 +1,4 @@
-## SemTalk Online User Interface
+# SemTalk Online User Interface
 
 ![alt text](images/Semtalk-Overview.png)
 

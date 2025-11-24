@@ -1,4 +1,4 @@
-Stand: July 2022
+# Brief Tutorial
 
 **Login/Registration**
 

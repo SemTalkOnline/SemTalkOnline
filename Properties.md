@@ -1,3 +1,5 @@
+# Properties
+
 Right-click  an **Object** to select **Properties**.
 
 ![alt text](images/Properties1.png)

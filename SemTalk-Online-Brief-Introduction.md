@@ -1,4 +1,4 @@
-# SemTalk Online - Brief Introduction
+# SemTalk Online - Introduction
 Stand: November 2025
 
 ## General Information

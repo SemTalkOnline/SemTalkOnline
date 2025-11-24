@@ -1,4 +1,4 @@
-## **Swimlanes and Swimlane Pools** 
+# Swimlanes and Swimlane Pools
 
 **Swimlanes** and **Swimlane Pools** are used in Business Process Diagrams to visually and structurally show who, or what, is responsible for each process step. Process Flows shown between Swimlanes describe how the process flows between different actions and/or actors.
 

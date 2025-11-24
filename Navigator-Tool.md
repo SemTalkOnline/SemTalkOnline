@@ -1,4 +1,4 @@
-**Navigator Tool**:
+# Navigator Tool
 
 ![alt text](images/Navigator.png)
 

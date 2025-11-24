@@ -1,3 +1,5 @@
+# Simulation
+
 ![alt text](images/SimStartEventAll.png)
 
 SemTalk Online includes the ability to use special simulation-specific properties to analyze process flows. Behaviors of specific objects, or of execution flows, are analyzed to estimate variables such as waiting times and costs. Users can also customize these attributes to execute more sophisticated calculations, or to create custom dialogs related to dynamic behavior. 

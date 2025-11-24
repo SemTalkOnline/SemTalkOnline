@@ -1,3 +1,5 @@
+# Properties - General
+
 **Properties - General** (Default settings for a **BPMN version** **Task** in a **Business Process Diagram**):
 
 ![alt text](images/Properties3.png)

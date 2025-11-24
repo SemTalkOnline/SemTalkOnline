@@ -1,4 +1,6 @@
 
+# Pull-Down Menus
+
 ![alt text](<images/Main Menu.png>)
 
 All standard SemTalk commands can be found in the pull-down menus shown horizontally above the Diagram. Detailed pull-down menu information is available under each pull-down menu type.

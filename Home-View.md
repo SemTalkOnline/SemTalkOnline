@@ -1,4 +1,6 @@
-**View**:  The View menu allows users to: 
+# Home
+
+**Home**:  The Home menu allows users to: 
 * Customize their GUI, 
 * Access key functions such as Search, 
 * View the underlying Repository

@@ -1,4 +1,4 @@
-##**Diagram Pull-Down Menu**
+## Diagram Pull-Down Menu
 
 ![alt text](images/DiagramPullDownMenu.png)
 

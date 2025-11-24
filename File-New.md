@@ -1,4 +1,4 @@
-**File New**
+# File New
 
 New model files can be created via the menu item “File” --> “New.”
 

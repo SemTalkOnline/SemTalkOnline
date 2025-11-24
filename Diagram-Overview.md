@@ -1,4 +1,4 @@
-## Diagrams
+# Diagram Overview
 
 Every model requires a workspace on which to model. In SemTalk, these workspaces are referred to as Diagrams. SemTalk simplifies the modeling process by creating modeling workspaces that have specific rules built into the modeling environment. 
 

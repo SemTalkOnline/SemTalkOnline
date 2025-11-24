@@ -1,3 +1,5 @@
+# Login
+
 SemTalk Online requires a UserID (user's e-mail address) and a password. If you already have an account, select your User Type and login. When SemTalk opens, either your last used model will appear or a new model will open that corresponds to the model type used the last time you logged in. Unless instructed to access a specific customized Database, leave ‘Default’  as your Database.  If you have been instructed to access a particular Database, select the Database from the Database pull-down menu. 
 
 If you forgot your login password, enter your email address and select the Resend Password option and you will be sent a temporary new password. After you login, go to the Tools - User pull-down menu and create a new password.

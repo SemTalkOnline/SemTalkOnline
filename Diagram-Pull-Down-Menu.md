@@ -1,6 +1,7 @@
-## Diagram Pull-Down Menu
+# Diagram Pull-Down Menu
 
 ![alt text](images/DiagramPullDownMenu.png)
+
 
 **New**: Creates a New Diagram
 

@@ -1,4 +1,4 @@
-**Hyperlinks**
+# Hyperlinks
 
 Hyperlinks allow additional internal and external information to be integrated into a Diagram. This increases the ability of the model to be better understood and it allows the integrations of existing documentation and forms. 
 

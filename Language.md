@@ -1,3 +1,5 @@
+# Language
+
 ![alt text](images/LanguageAll4.png)
 
 There are two primary Language setting types in SemTalk.

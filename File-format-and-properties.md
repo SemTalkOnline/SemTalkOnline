@@ -1,4 +1,4 @@
-## File Format and File Properties
+# File Format and File Properties
 
 ### File Types:
 

@@ -1,4 +1,4 @@
-## Getting Started with SemTalk
+# Getting Started with SemTalk
 
 The following overview is designed to help new SemTalk Online users setup SemTalk Online to meet their modeling requirements.
 

@@ -1,4 +1,4 @@
-**File Menu**
+# File Menu
 
 **File** manages the selection of new and available files that can be accessed or exported.
 

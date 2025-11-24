@@ -1,4 +1,4 @@
-## Explorer Pull-Down Menu - Objects
+# Explorer - Objects
 
 The **Explorer** pull-down menu allows users to see the Model's logic and content. It shows all model data including Object information that is not visible on the Diagram menus.
 

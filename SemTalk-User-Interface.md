@@ -1,16 +1,18 @@
+## SemTalk Online User Interface
+
 ![alt text](images/Semtalk-Overview.png)
 
 The SemTalk user interface is comprised of:
 
-**Pull-down menu bar**: Contains all available SemTalk Commands 
+**Pull-Down Menus**: All available SemTalk Commands 
 
 **Zoom Window**: Diagram Navigation Tool
 
-**Diagram Window**: Diagrams are SemTalkOnline's modeling workspaces where Objects and their relationships are drawn. Each SemTalk Methodology has a predefined set of associated Diagram Types.  For example, if BPMN is selected, Business Process Diagram, Object, Ontology and Org Chart Diagrams are available.
+**Diagrams**: Modeling workspaces where Objects and their relationships are drawn. Each SemTalk Methodology has a predefined set of associated Diagram Types.  For example, if BPMN is selected, Business Process Diagram, Object, Ontology and Org Chart Diagrams are available.
 
-**Stencil**: Stencils show graphical Objects that represent all available Objects for the currently selected diagram. 
+**Stencil**: Contain the graphical images of the Object types that can be added to the currently selected Diagram. 
 
-Users can customize what appears in the modeling view by clicking on the **Settings Icon** in the upper right corner of SemTalk Online window and selecting **Settings - General**. 
+Users can customize what appears in the modeling view by clicking on the **Settings** Icon ![alt text](images/SettingsIcon1.png) in the upper right corner of SemTalk Online window and selecting **Settings - General**. 
 
 ![SemTalk Online Optionen - General](./images/GeneralSettings.png)
 

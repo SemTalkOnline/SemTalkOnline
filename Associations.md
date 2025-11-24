@@ -10,4 +10,4 @@
 
 ![alt text](images/Association_Properties.png)
 
-**NOTE**: User-Defined Associations can be created but models may lose essential Reporting and Simulation capabilities so we strongly recommend using the default Associations.
+**NOTE**: User-Defined Associations can be created but models may lose essential Reporting and Simulation capabilities so we strongly recommend using SemTalk Online's default Associations settings.

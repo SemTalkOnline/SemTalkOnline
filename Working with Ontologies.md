@@ -3,37 +3,37 @@
 
 ## Introduction
 
-SemTalkOnline allows users to create knowledge models in the form of **Ontologies**. Ontological classes are groupings of things that have common properties or that are subsets of classes within a specific domain. 
+SemTalk Online is able to create knowledge models in the form of **Ontologies**. **Ontological Classes** are groupings of **Objects** that have common **Properties** or they show the subsets of Classes within a specific Domains. 
 
-Ontologies can be modeled independently in an Ontology Model using SemTalk Online's Ontology Template or they can be created within within the BPMN or EPC Models. BPMN and EPC models can be linked to Ontology Models to support bi-directional sharing of ontological information. Ontological modeling options are discussed in more detail below.
+ **Ontologies** can be created in **Ontology Diagrams** in BPMN and EPC models or they can be created independently using SemTalk Online's **Ontology** model template.
 
 ## Class Representations
 
-SemTalk Online distinguishes between two types of ontological Class representations. The first is the standard Class representation that shows  geneneral ontological concepts and their relationships to one another. The second is for the specific Instances of those Classes.
+SemTalk Online distinguishes between two types of Ontological Class representations. The first is the standard Class representation that shows  geneneral ontological concepts and their relationships to one another. The second is for the specific Instances of those Classes.
 
-In the above example, classes are represented as white ellipses, while instances are represented as gray ellipses. 
+Classes are generally represented as white ellipses with thicker grey frames and Instances are shown as ellipses with thinner grey frames. 
 
-Ontological Classes can also be represented in accordance with UML standards as rectangles. The rectagular option shows both the Class name and the Methods (verbs) associate with the Class.
+Ontological Classes can also be represented in accordance with UML standards as rectangles. The rectagular option shows both the Class Object (nouns) and the Methods (verbs) associate with the Class.
 
 Select the **Settings - General - UML Class Shape in Ontologies** to use UML Notation.
 
-![alt text](images/UMLClassShape.png)
+**NOTE:** The default color scheme can be changed at any time using **Style**.
 
-Note: The default color scheme can be changed at any time using **Style**.
+## Create an Ontology
 
-## Create a New Ontology
+**BPMN or EPC** Ontologies are modeled on **Ontology Diagrams**. If **Diagram - New - Ontology** is not shown in the **Diagram - New** pull-down menu, please contact the model's **Administrator** to add the Ontology function to the model.
+
+![alt text](images/BPMNOntologyNew.png)
+
+SemTalk Online will suggest to name the Diagram **Ontology-1**. Users can rename the Diagram but it is helpful to give the Diagram a new name that differenciates **Ontology Diagrams** from other **Object Diagram** types.
+
+Ontologies can also be created in **Ontology** model templates. These models do not have process flow representations, they only contain ontological information. 
 
 Select **File -  New** from the main pull-down menu. Then select **Ontology** as the new model type and select **New**.
 
 SemTalk Online will open the **Ontology** model template with the standard default Class representations or with the **UML** representation if it was selected in **Settings - General**.
 
-**Ontology** model templates do not have process flow representations, they only contain ontological information. If process flow descriptions need to be shown along with their core ontologies, use the **BPML or EPC** model templates to show both process flows and ontologies. 
-
-When **BPMN or EPC** models are used to create ontologies in business process models, the model **Administrator** needs to add the Ontology function to the model by selecting **Diagram - New - Ontology** in the main pull-down menu.
-
-![alt text](images/BPMNOntologyNew.png)
-
-SemTalk Online will suggest to name the Diagram **Ontology-1**. Users can rename the Diagram but it is helpful to give the Diagram a new name that differenciates **Ontology Diagrams** from other **Object Diagram** types.
+![alt text](images/UMLClassShape.png)
 
 ## Working with Ontology Model Templates
 
@@ -51,12 +51,12 @@ In **Ontology** template models, the following **Ontology Stencil Shapes** can b
 **Quickshape** allows users to directly model related Objects and Connectors by hovering the cursor over an existing source shape and selecting one of the following Shapes:
 
 #### Circles Used to Create New Objects with Associated Connectors:
-- Dark Blue Circle: Creates an Instance of the source Class
-- Light Blue Circle: Creates a new source Object Superclass
+- Dark Grey Circle: Creates an Instance of the source Class
+- Light Grey Circle: Creates a new source Object Superclass
 
 #### Connectors to Link Existing Objects:
-- Straight Line: Creates a Subclass relationship between Subclass source Object and the Superclass target Object.
-- Perpendicular Line: Creates an Instance of a Class
+- Straight Line Arrow: Creates Subclass/ Superclass relationships between Subclass source Objects and Superclass target Objects.
+- Perpendicular Line: Creates a default **Consists of** is a default association name used as a placeholder designation for user-defined associations. Just click on the **Consists of** relationship to edit it.
 
 **NOTE**: When using Quickshapes to add Objects, Object placement is limited to a parallel or lower position than the position of the Superclass. 
 
@@ -78,13 +78,14 @@ The **Color and Properties** of the Object will change accordingly.
 
 ### Connectors
 
-Relationship between two ontology classes can be created using the perpendicular QuickShape line (Refer to the QuickShapes section above). Select the Class' **QuickShape** and drag the arrow that appears to the Class to the desired target Object. SemTalkOnline automatically names the relationship according to the default settings.
+Relationships between ontology classes are created using the perpendicular QuickShape arrow (Refer to the QuickShapes section above). 
 
-For example, a 'Car' **Consists of** a  'Axel', which **Consists of**  'Wheels'. If you what to model that 'Wheels' make contact with the road, it requires another relationship, such as 'has contact with'. This requires creating a relationship between a 'Wheel' and the 'Road surface'. Add this new relationship by double-clicking on the relationship between the two Objects and change its name to 'has contact with'.
+Select the Class' **Quickshape** and drag the arrow that appears to the Class to the desired target Object. SemTalkOnline automatically names the relationship according to the default settings.
+
+For example, a 'Car' **Consists of** a  'Axel', which **Consists of**  'Wheels'. If you what to model that 'Wheels' make contact with the road, it requires another relationship, such as 'has contact with'. This requires creating a new relationship between a 'Wheel' and the 'Road surface'. Add this new relationship by double-clicking on the **Consists of** relationship between the two Objects and change its name to 'has contact with'.
 
 SemTalk Online then stores the new relationship in the model and it will be visible in **Explorer - Associations** that shows Associations linked to the class 'Wheel'. 
 
-The additional relation “has contact with” is highlighted in yellow.
 
 **NOTE**: Relations are directed, which can be seen from the angles in front of the relation name in the tab. In the graphical representation, relations are shown as arrows with a direction.
 

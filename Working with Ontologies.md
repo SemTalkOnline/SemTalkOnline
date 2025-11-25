@@ -90,12 +90,11 @@ The additional relation “has contact with” is highlighted in yellow.
 
 ## Linking Ontologies with Business Process Models
 
-SemTalk Online is able to integrate additional Business Process Object knowledge as associated Ontologies. Integration is built on business process objects that have been defined using the Vocabulary naming structure. 
+SemTalk Online is able to integrate Business Process Object knowledge with  **Ontologies**. This integration uses the Vocabulary naming structure for business process **Task/ Event** Objects and Methods. 
 
-Check to see if a model is built using Vocabulary by opening thea Business Process Diagram in the model, right mouse click on an Task and select Vocabulary. Vocabulary will show the Object Name and the Method Name. If those fields are blank, it is not a Vocabulary model. 
+Check to see if a model is built using Vocabulary by opening a Business Process Diagram, right mouse click on an Task and select Vocabulary. When Vocabulary is used, the Object Name and the Method  will be shown. If those fields are blank, it is not a Vocabulary model. 
 
-Selecting an existing Object for referencing in an ontology
-Open an Ontology Diagram and right mouse click anywhere on the Diagram and select **Insert**.
+Select **Diagram - New - Ontology**. If Ontology is not listed in the **Diagram - New** menu, contact the model's Administrator to turn on the Ontology feature. Then open a new Ontology  Diagram, right mouse click anywhere on the Diagram, and select **Insert**.
 
 A dialog will appear with available **Objects**. These **Objects** can then be **Inserted** onto the Ontology Diagram.
 

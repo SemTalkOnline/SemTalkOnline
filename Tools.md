@@ -16,21 +16,21 @@ The **Tools** pull-down menu contains SemTalk Online's tools that are used to ma
 
 ![alt text](images/Statistics.png)
 
-**Report**: This is where users can create specific reports based on selected parameters for the model content.
+**Report**: Creates specific Reports based on selected model parameters
 
-**Check Model Consistency**: The user is able to check if their model makes sense in terms of task, gateways, and events correctly lining up with one another with a focus on BPMN rules
+**Check Model Consistency**: Checks Tasks, Gateways, Events and their Associations to determine if they conform to BPMN rules
 
-**Check and Repair**: The Feature fixes errors in the program that have caused abnormalities in the viewing the diagram
+**Check and Repair**: Fixes Diagram Shape errors
 
-**Redraw all Symbols**: This will cause the symbols on tasks, events, and gateways to be reloaded in case they are changed or loaded incorrectly
+**Redraw all Symbols**: Redraws all Tasks, Events, and Gateways to reflect changes or to fix Objects that were loaded incorrectly
 
-**Reload Site**: The website is reloaded and all unsaved work is lost (no re-login required)
+**Reload Site**: Refreshes SemTalk Online without requiring re-login. (NOTE: Placement of graphics may be lost during reload)
 
 
-**Customize**: This allows users to add a specific header/footer that is put on the corner of the page with the diagram, as well as help to manage the various images that can be inputted in the 
+**Customize**: Provides **Image Manager** to manage external Images and Diagram **Header/Footer** information is managed here
 
-**ChatGPT**: This is an extension to use ChatGPT to ask questions involving the BPMN Diagram 
+**ChatGPT**: Link to ChatGPT to ask questions and to import external process steps into a BPMN model 
 
-**Termstore**: This is the connections to Microsoft Termstore
+**Termstore**: Connection to Microsoft Termstore
 
-**Consent**: This allows Model Adminstrators to manage user rights
+**Consent**: Manages Model User Rights (NOTE: Only Model Adminstrators can manage user rights.)

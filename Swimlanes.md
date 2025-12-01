@@ -1,10 +1,10 @@
 # Swimlanes and Swimlane Pools
 
-**Swimlanes** and **Swimlane Pools** are used in Business Process Diagrams to visually and structurally show who, or what, is responsible for each process step. Process Flows shown between Swimlanes describe how the process flows between different actions and/or actors.
+**Swimlanes** and **Swimlane Pools** are used in Business Process Diagrams to visually and structurally show who, or what, is responsible for each process step. Process flows shown between Swimlanes describe how the process flows between different actions and/or actors.
 
-**Swimlanes** Show the activities and process flows that are executed by a single group.
+**Swimlanes** show the Tasks/ Events and the process flows that are executed by a single group.
 
-**Swimlane Pools** contain multiple Swimlanes. Each Swimlane in the pool represents a subgroup of the higher level Swimlane. e.g. HR, Sales and Logistics are all subunits of Corporation X. Each department has units or teams within the department that execute different activities.
+**Swimlane Pools** contain multiple Swimlanes. Each Swimlane in the pool represents a subgroup of the higher level Swimlane. e.g. HR, Sales and Logistics are all subunits of Corporation X. Each department has Units or Teams within the department that execute different Tasks.
 
 **NOTE**: When working with **Swimlanes** and **Swimlane Pools** it is recommended to first create and position all Swimlanes/ Swimlane Pools before placing any other Objects onto your Diagram because future editing becomes more complicated due to the container behavior of Swimlanes and Swimlane Pools.
 
@@ -36,7 +36,7 @@ A single Swimlane.
 ![single Swimlane](images/einzelne_swimlane_englisch.PNG)
 
 
-Swimlanes can be displayed **Vertically or Horizontally**. **Horizontal** is the default setting. There are the two ways to switch from Horizontal to Vertical:
+Swimlanes can be displayed **Vertically or Horizontally**. **Horizontally** is the default setting. There are the two ways to switch from Horizontal to Vertical:
 
 * Right click on a existing Swimlane and select **Swimlane - Vertical** 
 
@@ -48,16 +48,13 @@ Swimlanes can be Collapsed or Expanded:
 
 * Right click on an existing Swimlane. Select **Swimlane - Expand** or **Swimlane - Collapse** from the context menu or in the main **Process" - Swimlane -  Expand or Collapse** menu.
 
-**NOTE**: If a Swimlane gets deleted, all of the Tasks will be deleted as well. Other Object types, such as OrgUnits and Resources, are deleted from the Diagram but not deleted from the model.
+**NOTE**: If a Swimlane is deleted, all of the Tasks will be deleted be deleted from the model unless the Tasks appear on other Diagrams. Other Object types, such as OrgUnits and Resources, are deleted from the Diagram but not deleted from the model.
 
 **Edit a Swimlane's Size**
 
 The size of Swimlanes and Swimlane Pools can be adjusted individually. 
 
-  Left click on a Swimlane. The active Swimlane will turn green it will show resizing handle points. Hover your mouse over a handle point until the up and down arrow appears. Adjust the Swimlane to the desired height or width.
-
-![size change](images/swimlane_groesse_anpassen_englisch.PNG)
-
+  Left click on a Swimlane. The active Swimlane will turn green and it will show resizing handle points. Hover your mouse over a handle point until the up and down arrow appears then adjust the Swimlane to the desired height or width.
 
 **Connect Swimlanes**:
  

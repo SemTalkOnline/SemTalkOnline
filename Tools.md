@@ -1,17 +1,20 @@
 # Tools
 
+The **Tools** pull-down menu contains SemTalk Online's tools that are used to manage the entire model's content.
+
 ![alt text](images/Tools4.png)
 
-[**TOOLS**](https://github.com/SemTalkOnline/SemTalkOnline_EN/wiki/SemTalk-Settings)
+### [**TOOLS**](https://github.com/SemTalkOnline/SemTalkOnline_EN/wiki/SemTalk-Settings)
 
-**Settings**: This is a link to the Settings window
+**Settings**: Link to the Settings window
 
-**Portal Export Connections**: This is where all of the parameters for the Portal are set
+**Portal Export Connections**: Portal parameter settings
 
-**Export to Portal**:
-This exports all of the new terms that are used in a diagram and is put into the repository that the user has for later use
+**Export to Portal**: Exports all new Diagram terms into the **Repository**
 
-**Statistics**: Relays through either numbers, charts, or graphs the number and type of tasks, gateways, and events that are used in a diagram
+**Statistics**: Charts of Tasks, Gateways, Events and Resources with links to the Diagrams where they appear
+
+![alt text](images/Statistics.png)
 
 **Report**: This is where users can create specific reports based on selected parameters for the model content.
 

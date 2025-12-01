@@ -2,8 +2,8 @@
 
 
 
-## Tools Login / Registration
-Registration is only required if MongoDB is used. Users that use SemTalk Online in Microsoft365 environments will not need to register accounts or use a seperate login.
+## Login / Registration
+Registration is only required if MongoDB is used. Users that use SemTalk Online in Microsoft 365  will not need to register accounts or use a seperate login.
 
 ![alt text](images/Ext_App_Login.png)
 

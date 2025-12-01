@@ -29,7 +29,7 @@ The **Tools** pull-down menu contains SemTalk Online's tools that are used to ma
 
 **Customize**: Provides **Image Manager** to manage external Images and Diagram **Header/Footer** information is managed here
 
-**ChatGPT**: Link to ChatGPT to ask questions and to import external process steps into a BPMN model 
+**ChatGPT**: Link to ChatGPT to ask questions about model content and to import external ChatGPT generated Objects into a SemTalk Online model
 
 **Termstore**: Connection to Microsoft Termstore
 

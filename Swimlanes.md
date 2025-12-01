@@ -1,18 +1,31 @@
-## **Swimlanes and Swimlane Pools** 
+# Swimlanes and Swimlane Pools
 
-**Swimlanes** and **Swimlane Pools** are used in process flow diagrams to visually and structurally show who or what is responsible for each step in a process. Process flows between Swimlanes describe how these steps interrelate based on different actions and/or actors.
+**Swimlanes** and **Swimlane Pools** are used in Business Process Diagrams to visually and structurally show who, or what, is responsible for each process step. Process flows shown between Swimlanes describe how the process flows between different actions and/or actors.
 
-**Swimlanes** show the activities and process flows that are executed by a single group.
+**Swimlanes** show the Tasks/ Events and the process flows that are executed by a single group.
 
-**Swimlane Pools** contain multiple Swimlanes. Each Swimlane in the pool represents a subgroup of the higher level swimlane.  (e.g. HR, Sales and Logistics are all subunits of Corporation X. Each department has units or teams within the department that execute differt activities.)
+**Swimlane Pools** contain multiple Swimlanes. Each Swimlane in the pool represents a subgroup of the higher level Swimlane. e.g. HR, Sales and Logistics are all subunits of Corporation X. Each department has Units or Teams within the department that execute different Tasks.
 
-NOTE: When working with **Swimlanes** and **Swimlane Pools** it is recommended to first create and position all Swimlanes/ Swimlane Pools before placing other Objects onto your Diagram because future editing is more complicated due to the container behavior of Swimlanes and Swimlane pools.
+**NOTE**: When working with **Swimlanes** and **Swimlane Pools** it is recommended to first create and position all Swimlanes/ Swimlane Pools before placing any other Objects onto your Diagram because future editing becomes more complicated due to the container behavior of Swimlanes and Swimlane Pools.
 
-Create a **Swimlane**: Drag and drop the Swimlane Object from the Stencil onto the drawing sheet.
+Create a **New Swimlane** :
+* Drag and drop a **Swimlane** from  the **Stencil** onto a **Business Process Diagram**, 
 
-![SemTalk Online - New Swimlane](./images/Swimlane1.png)
+* In the main **Process Pull-Down** menu select **Swimlane - New**
 
-Group multiple **Swimlanes** into a **Swimlane Pool**: Right click on the header of the **Swimlane** or **the Swimlane Pool** and select **Swimlane - New** SemTalk Online will then create a higher level new **Swimlane** that contains the selected **Swimlane** or **Swimlane Pool**.
+  ![new Swimlane](images/swimlane_neu_englisch.PNG)
+
+* Right mouse click on an existing **Swimlane** and select **Swimlane - New**
+
+  ![SemTalk Online - New Swimlane](./images/Swimlane1.png)
+
+
+Group multiple **Swimlanes** into a **Swimlane Pool**: 
+
+Right click on the Header of the **Swimlane** or **the Swimlane Pool** and select **Swimlane - New**. SemTalk Online will then create a **Swimlane Pool** that shows the New Swimlane within a higher level Swimlane Pool. As additional Swimlanes are added, the top level Swimlane size will not automatically change unless the Resize Option is on. Please refer to Resize Option shown below.
+
+Manually resize the Swimlane by right clinking and holding down the curson on the lower corner of the Header to adjust the size to fit the newly added Swimlane. 
+
 
 The Pool **Semtation** contains two Swimlanes - **IT department** and **Aquisition**).
 
@@ -22,55 +35,49 @@ A single Swimlane.
 
 ![single Swimlane](images/einzelne_swimlane_englisch.PNG)
 
-**Swimlanes and Pools** can be created by:
-* Dragging and dropping a Swimlane object from your stencil icons, 
-* Right mouse clicking on an existing Swimlane. In the context menu Swimlane --> New
-* In the main menu "Process" --> Swimlane --> New
 
-![new Swimlane](images/swimlane_neu_englisch.PNG)
-
-Swimlanes can be displayed **Vertically or Horizontally**. "Horizontal" is the default setting. There are the two ways to switch from Horizontal to Vertical:
+Swimlanes can be displayed **Vertically or Horizontally**. **Horizontally** is the default setting. There are the two ways to switch from Horizontal to Vertical:
 
 * Right click on a existing Swimlane and select **Swimlane - Vertical** 
 
 ![new Swimlane](images/swimlane1.png)
 
-Swimlanes are collaps- and expandable:
+* Click on the top level Swimlane and use the **Process - Swimlane** pull-down menu.
 
-* right click on a existing Swimlane. In context menu Swimlane --> expand or collapse
-* in main menu "Process" --> Swimlane --> expand or collapse
+Swimlanes can be Collapsed or Expanded:
 
-**Caution:** If a Swimlane gets deleted, all its contained shapes will be deleted aswell. 
+* Right click on an existing Swimlane. Select **Swimlane - Expand** or **Swimlane - Collapse** from the context menu or in the main **Process" - Swimlane -  Expand or Collapse** menu.
 
-**Adjusting Swimlane Size**
+**NOTE**: If a Swimlane is deleted, all of the Tasks will be deleted be deleted from the model unless the Tasks appear on other Diagrams. Other Object types, such as OrgUnits and Resources, are deleted from the Diagram but not deleted from the model.
 
-The size of Swimlanes and Pools can be adjusted individually. Select a Swimlane by left-clicking it. The size can then be adjusted at the respective green shift points.
-* move mouse cursor on shift point
-* mouse cursor will turn into double arrow, wich specifys in wich direction the Swimlane can be adjusted
+**Edit a Swimlane's Size**
 
-![size change](images/swimlane_groesse_anpassen_englisch.PNG)
+The size of Swimlanes and Swimlane Pools can be adjusted individually. 
 
-If required, Swimlanes can be moved, connected to one another or added to Pools.
-* hold left-click on to the edge or the header of a Swimlane to move it
-* to connect Swimlanes, attach their edges to each other until a dashed red line appears and release cursor to connect them
-* to add a Swimlane to a Pool, move it into the Pools header
+  Left click on a Swimlane. The active Swimlane will turn green and it will show resizing handle points. Hover your mouse over a handle point until the up and down arrow appears then adjust the Swimlane to the desired height or width.
 
-# ResizeContainer
-In SemTalk, to edit Pools and Swimlanes, the option "ResizeContainer" can be used according o preference.
-* in user interface left-click on the cogwheel at the top right
-* in options menu scroll down to the option "ResizeContainer"
-* by default "ResizeContainer" is deactivated, to activate check the little white box with left-click
+**Connect Swimlanes**:
+ 
+ Select the Swimlane by holding down the cursor on the Swimelane's Header. Drag the Swimlane to the edge of Target Swimlane's position. A dashed dark red line will appear. Release the cursor to connect the two Swimlanes.
+
+## ResizeContainer
+Pools and Swimlanes can be edited using the "ResizeContainer" option.
+
+- Left-click on Settings 
+ ![Settings Icon](images/SettingsIcon1.PNG)
+* Scroll down to the option "ResizeContainer"
+* Click **ResizeContainer** checkbox to activate.
 
 ![resizeContainer](images/resizecontainer_englisch.PNG)
 
-# ResizeContainer on
-If activated "ResizeConatiner" will insure that, Pools will always adjust their size to the Swimlanes its containing, when their size is being changed.
+### ResizeContainer On
+If "ResizeConatiner" is activated, higher level Swimlanes will change their size as new lower level Swimlanes are added.
 
-**Important:** With "ResizeContainer" activated a Pools size can only be changed indirectly, by adjusting the size of the Swimlanes contained in it.
+**NOTE**: When **ResizeContainer** is activated it is ony possible to change a Pool size indirectly, by adjusting the size of the Swimlanes contained in it.
 
-# ReszeContainer off
-When "ResizeContainer" is deactivated Pools will not adjust themself automatically to the sizes of their contained Swimlanes. In this stage Pools sizes can be adjusted manually, however so does the size of Swimlanes.
+### ResizeContainer Off
+When "ResizeContainer" is deactivated, Swimlane Pools will not adjust automatically to the size of their lower level Swimlanes. Pool size can be adjusted manually, but manual changes will automatically change the size of the other sublevel Swimlanes.
 
 ![resizeContainer off](images/resizecontainer_aus_englisch.PNG)
 
-**Important:** In general, when adjusting the size of Swimlanes within a Pool, it should be noted that the outer Swimlanes cannnot be enlarged or reduced via their shifting points that are located on the outside of the Pool. 
+**NOTE**: In general, when adjusting the size of Swimlanes within a Pool, it should be noted that the outer Swimlanes cannnot be enlarged or reduced via their resizing handle points if they are located outside of the Pool. 

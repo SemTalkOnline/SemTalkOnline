@@ -1,3 +1,4 @@
+# Index
 SemTalk allows Indexing of Tasks. When selected, Index numbers are assigned automatically to Tasks and Subtasks as they are created. The default setting is standard numerical nomenclature (e.g. 1, 1.1, 1.1.1). However, indices are simple text fields that can be customized to conform to pre-existing or specialized alpha-nummeric indexing requirements.
 
 Activate the Indexing function:

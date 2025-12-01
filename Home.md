@@ -1,4 +1,6 @@
-**Home Pull-Down Menu**:  The View menu allows users to: 
+# Home Pull-Down Menu
+
+The Home menu allows users to: 
 * Customize their GUI, 
 * Access key functions such as Search, 
 * View the underlying Repository

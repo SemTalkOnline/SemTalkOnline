@@ -1,3 +1,5 @@
-Worksheet makes it easy to edit Object Names by giving you a configurable table editor. Select the Object type and all Object of that type will appear. Add UserNumber, Comment, English and German columns to manage those elements of the selected Object.
+# Worksheets
+
+Worksheet is a configurable Table Editor that makes it easy to edit Objects and/ or manage Object Properties such as UserNumber, Comment, English and German. Select the Object type and all Objects of that type will appear. Additional columns can be created and new Object-related elements can be added or deleted here.
 
 ![alt text](images/Worksheet3b.png)

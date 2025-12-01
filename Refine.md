@@ -1,4 +1,4 @@
-**Refine**
+# Refine
 
 **Refine** is used to break **Tasks** into **Sub-Tasks** in **Business Process Diagrams** making it easier to visualize and understand graphical process flows.
 

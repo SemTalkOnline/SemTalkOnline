@@ -1,10 +1,12 @@
+# Saving SemTalk Files
+
 SemTalk Online stores files in different formats
 
 * Locally on the computer
 * In SharePoint Libraries
 * In a MongoDB
 
-# Storing files Locally
+## Storing files Locally
 
 Model files are stored locally on the specific computer being used. These models can only be opened and saved from that computer.
 
@@ -20,15 +22,15 @@ If MongoDB or Microsoft Graph are enabled, files can still be stored locally. In
 ![Browse or download files](./images/filebrowsedownload.png)
 
 
-# Storing files in SharePoint Libraries
+## Storing files in SharePoint Libraries
 
-## Advantages
+### Advantages
 If users have access to a SharePoint server, they can store files directly in SharePoint Libraries. This option has the advantage of integrating SemTalk Online seamlessly into the company’s existing file structures. User and access management can be organized via existing Microsoft 365 accounts with their corresponding permissions in Teams or SharePoint.
 
 In addition, SharePoint's file management functions can be used for SemTalk Online files. (e.g. versioning, metadata columns, etc.)
 
 
-## Login process
+### Login process
 If Microsoft Graph is enabled, or if SemTalk Online is used in a Microsoft SharePoint context, files can be stored in SharePoint libraries. In this case users must be logged in with their Office 365 account.
 
 If SemTalk Online is run as a Teams tab, or within the Microsoft 365 environment, SemTalk Online uses the user’s account and grants permissions to access files via Microsoft Graph.
@@ -66,9 +68,9 @@ When Opening or Saving files when using a fixed Library, a SharePoint site must 
 ![File open without fixed library](./images/withoutfixedlibraryopen.png)
 
 
-# Storing files in MongoDB
+## Storing files in MongoDB
 
-## Advantages
+### Advantages
 MongoDB is well-suited as a database for SemTalk Online because it offers a flexible, document-oriented structure. Model information, metadata, and user interactions can be stored directly as JSON-like documents without requiring a rigid schema. This simplifies the management of complex and variable model contents.
 
 MongoDBs can be hosted in the Cloud, as well as on your own servers, making them flexible and easy to set up. This is why MongoDB was chosen as SemTalk's database system for SemTalk Online outside of Microsoft environments.

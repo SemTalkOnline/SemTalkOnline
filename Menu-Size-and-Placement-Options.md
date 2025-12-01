@@ -1,12 +1,15 @@
-SemTalk allows the users to customize the size and placement of their Diagram/ Object menues, and Panel Windows. This makes it easier to change the view based on the needs at hand. The smaller the menu, the more you will able to see process/ workflows. In reverse, if you want to be able to read more of the menu options, the panel can be made larger.
+# Menu Size & Placement Options
 
-If you click on an Object in your model and open the Properties panel, in the upper far right corner is a pull-down menu with the size settings for the selected Diagram or Object Properties menu. The default is Medium. When Small is selected, the menu becomes narrower leaving more of your workflow visible. When Large is selected the focus shifts to the Menu and less of the Diagram objects will be seen. 
+SemTalk Online allows users to customize the size and placement of their **Diagram**, **Object**  and **Stencil** Windows. This makes it easy to customize the SemTalk Online interface based on use case scenarios. Fewer menu itens make it easier to see process workflows. In reverse, it is easier to read menu options if certain windows are made larger.
+
+Click on an **Object** and select **Properties**. In the upper right corner or the Properties window is a pull-down menu with the size settings. The default is **Medium**. When **Small** is selected, the menu becomes narrower leaving more room to view the current **Diagram**. When **Large** is selected, the focus shifts to the **Object Menu** and less of the **Diagram** is visible. 
 
 ![alt text](images/MenuPlacementDiagrams.png)
 
 **Panels:**
-It is also possible to switch if a panel is shown on the left or right. Go to general setting to show which side of the work area you would like to see the associated Properties panel, Stencil or Pan & Zoom.
-Panel sizes are customized using Settings - General tab. Here you can also adjust the size of your GPTChat Panel using the Property Dialog Width.
+It is also possible to switch shown panels to the left or right of SemTalk Online workspace. Go to the **Diagram - General** menu to show which side to place the **Properties** panel, **Stencil** or **Pan & Zoom**.
+
+Panel sizes are customized using the **Settings - General** tab. Here you can also adjust the size of your GPTChat Panel using the Property Dialog Width.
 
 ![alt text](images/MenuPlacementPanels.png)
 

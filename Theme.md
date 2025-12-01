@@ -1,3 +1,5 @@
+# Themes
+
 Themes are used to format SemTalk's GUI.
 
 ![alt text](images/Theme.png)

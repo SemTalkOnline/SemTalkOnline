@@ -1,4 +1,4 @@
-**Explorer Pull-Down Menu**
+# Explorer Pull-Down Menu
 
 **Pull-Down Explorer** menu allows users to visualize the model's logic and to navigate to differnt model components. From here users can Browse to the item, Open the object's Properties or they can Delete the object. 
 

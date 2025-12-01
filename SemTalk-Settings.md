@@ -1,3 +1,5 @@
+# SemTalk Online Settings
+
 Access Settings using the Settings Icon in the toolbar or by selecting **Tools - Settings**.
 
 ![alt text](images/SettingsIcon2.png)

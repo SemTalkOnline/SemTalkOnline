@@ -1,8 +1,37 @@
-**Style**: The Style window contains features to customize the visual style of objects. Stroke refers to the frame of your object. The Style command box shows the commands associated with your style choices. These commands can be extended to further customization of your objects.
+# Style
 
-Select the object to be customized and click on the Style button.
+**Style** contains the commands used to customize the visual Style of Objects. 
 
 ![alt text](images/Style.PNG)
 
+## Style Types
 
+- **Shape**
+- **Text**
+- **Image**
+
+## Shape Options
+- **Shape**: Object Shapes that can be applied to a target Object and Shape format options for the selected Shape
+- **Opacity**: Transparency of the Object's fill color
+- **Stroke**: Selected Object's Rrame color and size 
+- **Width/ Height**
+
+## Text Options
+
+![alt text](images/StyleTextMenu.PNG)
+
+## Style - Image Options
+
+Style Image allows users to import external Images into their model. For additional information: [Image Manager](https://github.com/SemTalkOnline/SemTalkOnline/blob/e71e11f2c5b6c0eb282295a5f4e84c21f88e2ca2/Image%20Manager.md)
+
+![alt text](images/StyleImageMenu.PNG)
+
+## Style Icon Menu
+
+![alt text](images/StyleIconMenu.PNG)
+
+- **Save**: Save the custom Style features for the Object
+- **Reset** (Undo Icon): Resets the Style format to the SemTalk Online default values
+- **Copy**: Copies the format of a selected Object and applies it to a target Object
+- **Paste**: Copies the copied format to the target Object.
 

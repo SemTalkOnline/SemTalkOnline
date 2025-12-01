@@ -40,7 +40,7 @@ Swimlanes can be displayed **Vertically or Horizontally**. **Horizontally** is t
 
 * Right click on a existing Swimlane and select **Swimlane - Vertical** 
 
-![new Swimlane](images/swimlane1.png)
+![new Swimlane](images/swimlanevert.png)
 
 * Click on the top level Swimlane and use the **Process - Swimlane** pull-down menu.
 
@@ -64,7 +64,7 @@ The size of Swimlanes and Swimlane Pools can be adjusted individually.
 Pools and Swimlanes can be edited using the "ResizeContainer" option.
 
 - Left-click on Settings 
- ![Settings Icon](images/SettingsIcon1.PNG)
+ ![Settings Icon](images/settingsicon3.png)
 * Scroll down to the option "ResizeContainer"
 * Click **ResizeContainer** checkbox to activate.
 

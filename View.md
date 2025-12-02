@@ -1,4 +1,4 @@
-# Home
+# View
 
 **Home**:  The **Home** menu allows users to: 
 * Customize their GUI, 

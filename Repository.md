@@ -1,10 +1,10 @@
 # SemTalk Object Repositories
 
-SemTalkOnline's **Repositories** are database libraries that contain predefined Task **Objects** with their associated information, such as **Object Name, Methods, States, Attributes and HumanResources**. Repositories are used to create default picklists for modelers as they document process flows. Repositories can easily be updated and improved as new organizational modeling projects are added or as modeling teams identify missing information.
+SemTalkOnline's **Repositories** are database libraries that contain predefined **Task Objects** with their associated information, such as **Object Name, Methods, States, Attributes and HumanResources**. **Repositories** are used to create default picklists for modelers as they document process flows. **Repositories** can easily be updated and improved as new organizational modeling projects are added or as modeling teams identify missing information.
 
-Repositories are not mandtory but the use of a shared Repository streamlines process documentation, increases collaboration, decreases redundencies and improves the overall quality and value of process documentation projects.
+**Repositories** are not mandtory but the use of a shared **Repositories** streamlines process documentation, increases collaboration, decreases redundencies and improves the overall quality and value of process documentation projects.
 
-Repositories are created by Model Administrators to create a standardized vocabulary for use by the entire modeling team. 
+**Repositories** are created by Model **Administrators** to create a standardized vocabulary for use by the entire modeling team. 
 
 Teams use the Vocabulary option to name   **Tasks** by selecting **Objects** (Nouns), **Methods** (verbs) from the Repository picklist. Or, when naming Events and Gateways, modelers select **Objects** and **States** from the **Repository** picklist.
 
@@ -25,11 +25,11 @@ The Repository contains:
 * **Organizational Roles**: These are the people, roles or groups who perform the process flow **Task**. For example, **'Create Invoice'** is performed by the **'Accounting Department'**. 
 
 The **Repository** uses the following descriptions for **Organizational Units**: 
-  - Role (HumanResources) 
-  - HumanResource (HumanResource)
-  - Person (HumanResources)
-  - Position (HumanResources)
-  - OrgUnit (HumanResources)
+  - **Role** (HumanResources) 
+  - **HumanResource** (HumanResource)
+  - **Person** (HumanResources)
+  - **Position** (HumanResources)
+  - **OrgUnit** (HumanResources)
 
 
 ## Setting up a Repository
@@ -39,18 +39,18 @@ If semtalkonline.semtalk.com is used, a **Repository** is already integrated and
 
 ### Setting up a SharePoint Repository for SemTalk Online in Microsoft365
 
-Microsoft365 Repositories are stored in a SharePoint site that is integrated with Microsoft Teams and SharePoint. 
+**Microsoft365 Repositories** are stored in a **SharePoint** site that is integrated with **Microsoft Teams** and SharePoint. 
 
-Users must have Administrator privileges to set up a new Repository and to be able to create SharePoint Lists on existing SharePoint sites.
+Users must have **Administrator** privileges to set up a new **Repository** and to be able to create **SharePoint Lists** on existing **SharePoint Sites**.
 
 Open SemTalkOnline **Settings - Microsoft365 - Create Repository**
 ![Create Repository](images/repository/createrepository.png)
 
-A dialog box will open that shows the SharePoint List that will be created on the selected site. Select the **Sharepoint Document Site / Teams** from the available pull-down list of SharePoint sites, and then selelct **Create Repository**. SemTalk Online will create all of the Lists on the chosen site. SemTalkOnline Repository is then integrated into Microsoft365. Users will login to SemTalkOnline using their Microsoft365 account.
+A dialog box will open that shows the **SharePoint List** that will be created on the selected site. Select the **Sharepoint Document Site / Teams** from the available pull-down list of **SharePoint Sites**, and then selelct **Create Repository**. SemTalk Online will create all of the Lists on the chosen site. SemTalkOnline **Repository** is then integrated into Microsoft365. Users will login to SemTalkOnline using their **Microsoft 365** account.
 
 ![Create Repository Panel](images/repository/createrepository2.png)
 
-The created Repository needs to be configured in SemTalkOnline **Settings**. Open SemTalk **Settings - Microsoft365 - Repository**. The specific location of the Repository needs to be specified to be able to access it via Microsoft Graph.
+The created **Repository** needs to be configured in SemTalkOnline **Settings**. Open SemTalk **Settings - Microsoft365 - Repository**. The specific location of the **Repository** needs to be specified to be able to access it via **Microsoft Graph**.
 
 * * /sites/<domain>.sharepoint.com:/sites/<sitename>:/ * *
 
@@ -73,12 +73,12 @@ Initially the **Repository** will be empty and should appear as shown below.
 
 This menu shows multiple options to view or extend the **Vocabulary** of the **Repository**.
 
-* **Objects**: Shows a list of the available types of Objects in the model such as - Business Objects, Human Resources, Buffers etc.** Select an Object type to open a table that will show all Objects of the selected type that are stored in the Repository.
+* **Objects**: Shows a list of the available types of **Objects** in the model such as - Business Objects, Human Resources, Buffers etc.** Select an **Object** type to open a table that will show all Objects of the selected type that are stored in the **Repository**.
 ![Repository select type](images/repository/repositorycategories.png)
 
-* **+ Add**: Adds Objects  into Repository via the Object Type selected from the Objects pull-down menu. If the Object is used in the current model, select the name from the Name pull-down menu. If the Object is not in the opened model, Add the new Object Name and select  OK.
+* **+ Add**: Adds **Objects**  into **Repository** via the **Object** Type selected from the **Object's** pull-down menu. If the **Object** is used in the current model, select the name from the Name pull-down menu. If the **Object** is not in the opened model, Add the new Object Name and select  OK.
 ![Repository add Object](images/repository/repositoryadd.png)
-Afterwards the new object will be inserted in the Repository.
+Afterwards the new **Object** will be inserted in the **Repository**.
 ![Repository Object is added](images/repository/repositoryadded.png)
 
 * **Delete**: Deletes Objects from the Repository. Users select one or more Object Names and those Objects will be deleted from Repository but not from any of the model files where the Object has been used.

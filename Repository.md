@@ -73,7 +73,7 @@ Initially the **Repository** will be empty and should appear as shown below.
 
 This menu shows multiple options to view or extend the **Vocabulary** of the **Repository**.
 
-* **Objects**: Shows a list of the available types of **Objects** in the model such as - Business Objects, Human Resources, Buffers etc.** Select an **Object** type to open a table that will show all Objects of the selected type that are stored in the **Repository**.
+* **Objects**: Shows a list of the available types of **Objects** in the model such as - **Business Objects, Human Resources, Buffers etc.** Select an **Object** type to open a table that will show all **Objects** of the selected type that are stored in the **Repository**.
 ![Repository select type](images/repository/repositorycategories.png)
 
 * **+ Add**: Adds **Objects**  into **Repository** via the **Object** Type selected from the **Object's** pull-down menu. If the **Object** is used in the current model, select the name from the Name pull-down menu. If the **Object** is not in the opened model, Add the new Object Name and select  OK.
@@ -97,29 +97,29 @@ Afterwards the new **Object** will be inserted in the **Repository**.
 
 Consider the following scenario:
 
-The following Repository consists of a limited number of Objects, Methods and Roles.
+The following **Repository** consists of a limited number of **Objects, Methods and Roles**.
 
 ![Repository: Objects](images/repository/repositoryobjects.png)
 ![Repository: Methods](images/repository/repositorymethods.png)
 ![Repository: Roles](images/repository/repositoryroles.png)
 
-Now we will use Repository Objects in a new BPMN Business Process Diagram. Drag and drop a Task Object onto a Business Process Diagram. Right mouse click on the new Task and select **Vocabulary**. A new menu will open that shows Objects, Attributes and Methods. All available Repository Objects, Attributes and Methods in the Repository will be shown in each of their pull-down menus. 
+Now we will use **Repository Objects** in a new BPMN Business Process Diagram. Drag and drop a Task Object onto a Business Process Diagram. Right mouse click on the new Task and select **Vocabulary**. A new menu will open that shows Objects, Attributes and Methods. All available **Repository Objects, Attributes and Methods** in the **Repository** will be shown in each of their pull-down menus. 
 
 ![Repository: Objects in Vocabulary](images/repository/repositoryobjectsvocab.png)
 
-The **Vocabulary** menu is also available for Events and Gateways where users select Objects and States instead of Objects and Methods.
+The **Vocabulary** menu is also available for **Events and Gateways** where users select Objects and States instead of Objects and Methods.
 
-**Roles** access the Roles in the Repository using the Role's right mouse click **Select** menu. In BPMN this is the **Swimlane**. 
+**Roles** access the Roles in the **Repository** using the Role's right mouse click **Select** menu. In BPMN this is the **Swimlane**. 
 ![Repository: Roles in Select menu](images/repository/repositoryrolesvocab.png)
 
-Additional information about Objects: [Wiki page: Working with objects](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Working-with-Objects).
+Additional information about **Objects**: [Wiki page: Working with objects](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Working-with-Objects).
 
 ### Editing Objects and Refreshing Model Content
 
-Edit Repository Objects names directly in the Repository spreadsheet. 
+Edit **Repository** Objects names directly in the **Repository** spreadsheet. 
 ![Repository: Roles in Select menu](images/repository/repositoryobjectchange.png)
 
-**NOTE:** Edits made directly in the Repository will not be automatically propogated to the Objects in the Process Model. Users must select the Object and then use the **Object - Repository - Refresh** pull-down menu to Refresh the Repository.
+**NOTE:** Edits made directly in the **Repository** will not be automatically propogated to the **Objects** in the Process Model. Users must select the **Object** and then use the **Object - Repository - Refresh** pull-down menu to Refresh the **Repository**.
 ![Repository: Roles in Select menu](images/repository/repositoryobjectchange2.png)
 ![Repository: Roles in Select menu](images/repository/repositoryobjectchange3.png)
 

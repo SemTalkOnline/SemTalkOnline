@@ -23,7 +23,7 @@ Interface can be customized via options in language and layout.
 * **Username**: Name Shown
 * **Passwort**: User-Defined Password
 
-  **NOTE**: Key is left blank when using the Demo version 
+**NOTE**: **Key** is left blank when using the Demo version 
 
 **Viewer Role Interface**:
 

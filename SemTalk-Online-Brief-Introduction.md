@@ -11,7 +11,7 @@ SemTalk® Online is a Business Process Modeling and Ontology Editing tool design
   <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_EN/main/images/Picture1.png" width="600">
 </picture>
 
-- Databases and Repositories can also be custom built. 
+- **Databases** and **Repositories** can also be custom built. 
 - Roles: 
   - **Viewer**: Read-Only mode 
   - **Editor**: Modeler 
@@ -42,46 +42,40 @@ A subset of the user interface can be customized via options in **Language** and
 
 <hr>
 
-##  Menu - Structure
 
-<picture>
-  <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_EN/main/images/Picture4.png" width="600">
-</picture>
+## Viewer GUI
 
-- **File**: = Open or export models 
-- Open = Models can be opened from a local file or from the database. Models from the database are displayed as the default. 
-- Model is shown with status information (e.g. date modified, who modified, and current status). 
-- Export: Word, HTML, PNG, JPG, Image File (SVG) 
-- Print Preview = Print via WebBrowser 
 
 <hr>
 
-## GUI for Viewers 
+##  File Pull-Down Menu
 
-<picture>
-  <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_EN/main/images/Picture5.png" width="600">
-</picture>
+![alt text](images/FileViewerMenu.png)
 
-- All existing Diagrams are shown in the pull-down menu box found above the Stencil/ Pan & Zoom menu on the right side of your Diagram. This box will automatically show the name of the currently opened Diagram. Click on the current Diagram name to see the pull-down list of all Diagrams.
+- **File**: Opens or export models 
+- **Open**: Models can be opened locally or from the 
+- **Export**: Exports the model toWord, HTML, PNG, JPG, or an Image File (SVG) 
+- **Document Properties**. Shows status information 
+
+![alt text](images/DocumentProperties.png)
+
+- **Print**: Prints file 
+
+## Navigating to Other Diagrams
 
 ![ImageManager interface](./images/Diagrams1.png)
 
+If a model has mutilple **Diagrams**, users can navigate to other **Diagrams** via the pull-down menu located to the far right of the **Icon Menu**. The name of the active **Diagram** will be shown. Click on the current **Diagram's Name** to open a pull-down list of all the **Diagrams**. Click on the **Diagram's Name** to open the Diagram.
 
-- Context menu on the objects 
-  - Properties = Display object properties 
-  - Refine = If an object has an Attribute, you can jump to this Attribute. 
-
-Object information can also be accessed via the Object pull-down menu.
+**NOTE**: **Object** information is found in the **Object Pull-Down Menu**.
 
 <hr>
 
-## Further menu descriptions
+## Additional Pull-Down Menus
 
-<picture>
-  <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_EN/main/images/Picture6.png" width="600">
-</picture>
+![alt text](images/ViewerPullDownMenu.png)
 
-- Diagram = Diagram properties 
+- **Diagram**: Diagram properties 
   - Further navigation via the arrow next to the button 
 - Explorer:
   - Diagrams = Displays the model’s navigation tree, displays all diagrams within the model incl. navigation option 

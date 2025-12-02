@@ -4,35 +4,37 @@
 
 ![alt text](images/LoginRegister.png)
 
-Database and repository can be custom built for the customer if desired.
+If needed, both the **Database** and/ or the **Repository** can be customized to meet customer requirements.
 
 **Roles**:
 
-* Viewer = Read-Only mode
-* Editor = Modeler
-* Meta Model Editor
-* Administrator = Customization of the GUI
+* **Viewer**: Read-Only mode
+* **Editor**: Modeler
+* **Meta Model Editor**: Specialized customiztion
+* **Administrator**: GUI Customization and specialized editing
 
-Interface can be customized via options in language and layout.
+Interface can be customized via options in **Language** and **Layout**.
 
 **Registration**
-* UserID = E-Mail
-* Username = Name Shown
-* Passwort = User-Defined Password
-Key is left blank when using the Demo version 
+* **UserID**: E-Mail
+* **Username**: Name Shown
+* **Passwort**: User-Defined Password
 
-**Viewer Role Interface**:
+  **NOTE**: Key is left blank when using the Demo version 
 
-* Able to view models and properties of objects
-* Export as Word, HTML, PNG and JPG
+**Viewer Role**:
+
+* Views models and **Object Properties**
+* Exports models as Word, HTML, PNG and JPG
 
 **Open New Model**
 
 ![alt text](images/Export.png)
 
-* File = Open or export models
-* Open = Models can be opened from the hard disk or from the database. Models from the database are displayed as the default.
-* Model is shown with status information (e.g. date modified, who modified, and current status).
+* **File**: Open or export models
+* **Open**: Opens models from a **Database** or from a local hard drive. Model are shown with status information (e.g. date modified, who modified, and current status)
 
-  - Export: Word, HTML, PNG, JPG, Image File (SVG)
-  - Print Preview = Print via WebBrowser
+  **NOTE**: Database models are displayed as the default setting.
+
+- **Export**: Exports model to Word, HTML, PNG, JPG, or an Image File (SVG)
+- **Print**: Prints model

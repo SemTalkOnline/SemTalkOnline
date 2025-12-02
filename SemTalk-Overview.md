@@ -10,18 +10,20 @@ Database and repository can be custom built for the customer if desired.
 
 **Roles**:
 
-* Viewer = Read-Only mode
-* Editor = Modeler
-* Meta Model Editor
-* Administrator = Customization of the GUI
+* **Viewer**: Read-Only mode
+* **Editor**: Modeler
+* **Meta Model Editor**: Meta Model Editor
+* **Administrator**: GUI Customization
 
 Interface can be customized via options in language and layout.
 
 **Registration**
-* UserID = E-Mail
-* Username = Name Shown
-* Passwort = User-Defined Password
-Key is left blank when using the Demo version 
+
+* **UserID**: E-Mail
+* **Username**: Name Shown
+* **Passwort**: User-Defined Password
+
+**NOTE**: **Key** is left blank when using the Demo version 
 
 **Viewer Role Interface**:
 

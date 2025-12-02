@@ -1,6 +1,6 @@
-**SemTalk Online** integrates seamlessly into the Microsoft 365 environment. This allows organizations to use the SemTalk Online App directly within familiar Microsoft environments such as Microsoft Teams, Outlook, and other Office 365 services. By embedding the SemTalk Online App into the existing Microsoft environment, users benefit from a unified workspace where process modeling, collaboration, and knowledge management are fully connected within the tools they use every day.
+## SemTalk Online as a Personal Tab in the Microsoft 365 Environment
 
-# SemTalk Online as a Personal Tab in the Microsoft 365 Environment
+**SemTalk Online** integrates seamlessly into the **Microsoft 365** environment. This allows organizations to use the SemTalk Online App directly within familiar Microsoft environments such as Microsoft Teams, Outlook, and other Office 365 services. By embedding the SemTalk Online App into the existing Microsoft environment, users benefit from a unified workspace where process modeling, collaboration, and knowledge management are fully connected within the tools they use every day.
 
 Users can set up the SemTalk Online as a personal tab in Microsoft products such as in Teams or Outlook Online. Select SemTalk Online from the "More Apps" menu of the respective Microsoft application.
 
@@ -9,7 +9,7 @@ This scenario is particularly suitable when individuals are executing modeling p
 When modelers are using SemTalk Online App as a personal app, there is separate app setting in Teams or Outlook, no SharePoint site in the background, and no caching of personal settings. In this case, it is recommended to work without a fixed Model Library.
 More details can be found under [File storage options](https://github.com/SemTalkOnline/SemTalkOnline/wiki/SemTalk-Online-Options-for-file-storage).
 
-# SemTalk Online as a Microsoft Teams Channel Tab
+## SemTalk Online as a Microsoft Teams Channel Tab
 
 This option provides an optimal way for modeling groups to work together when executing SemTalk Online projects. All authorized Team members have access to the same app, with the same settings and configurations.
 In addition, all of Microsoft Teams' functionalities can be used to make the modeling experience more efficient and collaborative (e.g. chat function, integration of related libraries and other information). SemTalk Online's data storage can also be specifically set to a Library within the respective Team. Other settings can also be predefined by the SemTalk Online App's administrator for all SemTalk Online App users.
@@ -52,7 +52,7 @@ In the mode without a fixed library, these fields are hidden.
 - Subsite Prefix: Each SemTalk Online App gets an individual prefix. This is used to cache user-specific settings on the computer for each Portal instance.
 
 
-# File Storage Options in the Microsoft Environment
+## File Storage Options in the Microsoft Environment
 
 More detailed information about SemTalk Online’s file storage concept can be found on the page [File storage options](https://github.com/SemTalkOnline/SemTalkOnline/wiki/SemTalk-Online-Options-for-file-storage).
 There you can also find information about the available options in the Microsoft 365 environment.

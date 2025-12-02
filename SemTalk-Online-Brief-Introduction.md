@@ -39,69 +39,82 @@ A subset of the user interface can be customized via options in **Language** and
 </picture>
 
 
+<hr>
+
+## Viewer User Interface
+
+###  Viewer Pull-Down Menus
+  ![alt text](images/ViewerPullDownMenu.png)
 
 <hr>
 
+###  Viewer File Pull-Down Menu
 
-## Viewer GUI
-
-
-<hr>
-
-##  File Pull-Down Menu
-
-![alt text](images/FileViewerMenu.png)
+  ![alt text](images/FileViewerMenu.png)
 
 - **File**: Opens or export models 
-- **Open**: Models can be opened locally or from the 
-- **Export**: Exports the model toWord, HTML, PNG, JPG, or an Image File (SVG) 
+- **Open**: Models can be opened from the Database or from local file drives
+- **Export**: Exports the model to Word, HTML, PNG, JPG, or as an Image File (SVG) 
 - **Document Properties**. Shows status information 
 
-![alt text](images/DocumentProperties.png)
+  ![alt text](images/DocumentProperties.png)
 
 - **Print**: Prints file 
 
 ## Navigating to Other Diagrams
 
-![ImageManager interface](./images/Diagrams1.png)
+  ![ImageManager interface](./images/Diagrams1.png)
 
 If a model has mutilple **Diagrams**, users can navigate to other **Diagrams** via the pull-down menu located to the far right of the **Icon Menu**. The name of the active **Diagram** will be shown. Click on the current **Diagram's Name** to open a pull-down list of all the **Diagrams**. Click on the **Diagram's Name** to open the Diagram.
 
-**NOTE**: **Object** information is found in the **Object Pull-Down Menu**.
+<hr>
+
+## Additional Viewer Pull-Down Menus
+
+- **View**: Navigation to other pages and **Pan and Zoom** functions
+
+- **Object**: Lists **Objects** with their **Properties**, **Attachments & Hyperlinks** and **Refinements**
+
+- **Diagram**: List of Diagrams with navigation arrows
+   - **Diagrams**: Displays the model’s **Navigation Tree** 
+    **NOTE**: Users can navigate to other Diagrams from here.
+
+- **Tools**: 
+  - **Settings**
+  - **Simulation**
+  - **Navigator**
+  - **Statistics**
+  - **Report**
+  - **Worksheet**
+  - **ChatGPT**
+  - **Redraw All Symbols**
+  - **Reload Site**
+
+- **Language**
 
 <hr>
 
-## Additional Pull-Down Menus
+# Editor User Interface
 
-![alt text](images/ViewerPullDownMenu.png)
-
-- **Diagram**: Diagram properties 
-  - Further navigation via the arrow next to the button 
-- Explorer:
-  - Diagrams = Displays the model’s navigation tree, displays all diagrams within the model incl. navigation option 
-  - Objects = Display of the model contents, which types of objects are contained in the model and display of the properties of the objects or the position in the model. 
-- Tools = Model information, SemTalk options (display, language, login to external systems)
-
-<hr>
-
-# SemTalkOnline – Editor GUI
-
-## All Viewer functionalities are included. 
-
-**Interface is extended to include additional modeling components**
+Model **Editors** have all of the **Viewer** commands plus all active modeling funtions.
 
 <picture>
   <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_EN/main/images/Picture7.png" width="600">
 </picture>
 
-- Under the "Pan & Zoom" window is the Object Stencil that contains shapes that can be dragged and dropped onto the drawing sheet. The shapes shown are specific to the active Diagram. 
-- Object orientation, layout and modeling functions can be accessed via the new menu ribbon or via the other functions in the menu ribbon.  
+**Stencil**: Contains shapes that can be dragged and dropped onto the active **Diagram**. 
+
+**NOTE**: The shapes shown are specific to the active Diagram. 
+
+![alt text](images/Stencil1.png)
+
+ Workspace layout and modeling functions are in the **Pull-Down** menus, **Icon Menu**, **Settings** or via selected **Object** menus.  
 
 <hr>
 
-## Pull-Down Menu
+## Editor Pull-Down Menu
 
-SemTalk Online's primary modeling command are found in the pull-down menus.
+SemTalk Online's primary modeling commands are found in the pull-down menus.
 
 - [File](https://github.com/SemTalkOnline/SemTalkOnline/wiki/File-Menu)
 - [Home](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Home-Menu)
@@ -119,7 +132,7 @@ SemTalk Online's primary modeling command are found in the pull-down menus.
 
 <hr>
 
-## File Pull-Down Menu
+## Editor File Pull-Down Menu
 
 - **New**: Creates a new model
 - **Open**: Opens models from the default Model database or they can be opened from a local hard drive. 
@@ -147,36 +160,46 @@ SemTalk Online's primary modeling command are found in the pull-down menus.
 
 <hr>
 
-## Modeling
+## Modeling Functions
 
 <picture>
   <img src="https://raw.githubusercontent.com/SemTalkOnline/SemTalkOnline_EN/main/images/Picture9.png" width="600">
 </picture>
 
-- Names can be changed by double-clicking on the Object or via the Object’s Properties menu. 
+
+**Add New Objects**: 
+Add and connect a new Task to a process flow by:
+- Drag and drop an Object from the Stencil onto the Diagram
+- **Object - New** Pull-Down Menu
+
+**Add a Task Object into a Process Flow**: Create and name a **New - Task Object** and then drag the Object directly over the the **Target Task Object** where is should be inserted. The Target Task Object name will be changed and the Source Object will be inserted as the next step in the process flow. 
+
+**Edit Named Objects**:
+ - Double-click on the **Object** or
+  - Open an **Object’s Properties** menu. 
+
+  ## Object Properties   
   
-- Object Properties can be accessed by: 
-    - Right mouse clicking on the Object or by 
+ **Object Properties** can be accessed by: 
+ - Right mouse clicking on the Object,
+ - Selecting the Object and using the **Object - Properties** pull-done menu.
 
-    - Selecting the Object and using the **Object - Properties** pull-done menu.
 
-- It is also possible to add a new Task to a process flow by creating and naming a new Object and then dragging the Object directly over the the Target Object where is should be added to the process flow. The name will be changed and the Source Object where is was inserted will be added to the next step in the process flow. 
-
-## Object Properties
 
 <picture>
   <img src="images/Picture10.png" width="600">
 </picture>
 
-- Objects belong to specific Object classes
+- Objects belong to specific Object classes.
+
 - User-defined Attributes can be added to Objects but the reporting capabilites may be limited.
 
 ## Export Models as Word, HTML, PNG and JPG Files
 
 - Exports show pictoral views of Model Diagrams and Object Properties  
 
-
-NOTE: Training or specific introduction events are recommended before using customization features. 
+## Customization
+Training or specific introduction events are recommended before using customization features. 
 
 ## Contact information
 

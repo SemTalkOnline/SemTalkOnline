@@ -32,7 +32,7 @@ Each field on a Background Page has the following **Properties**:
 - **Text Field**: Allows information from the model or a diagram to be displayed, e.g., file name, diagram name, comment, page number, or date values. Existing metadata created in the document properties of the file can also be used.
 - **Text and TextL**: Language entries available in SemTalk Online can be used to fill fields with content, e.g., as labels for other fields. This has the advantage that when these entries are used, a translation into other languages is also integrated.
 - **Image**: A Base64-converted image can be entered here, which is then displayed in the field. Using a converter such as https://base64.guru/converter/encode/image, an image can be converted into a Base64 string and then inserted into the field on the background page.
-- **Formatting**
+- **Formatting**: Standard formatting functions
 - **Area**: Determines whether the field is displayed in the Header or Footer.
 - **Orientation**: Determines how the field is aligned within the area.
 - **X and Y**: The detailed coordinates at which the fields are displayed.

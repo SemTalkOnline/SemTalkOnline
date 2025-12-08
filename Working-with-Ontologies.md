@@ -74,10 +74,14 @@ The **Color and Properties** of the Object will change accordingly.
 
 ### Connectors
 
-Relationships between **Ontology Classes** are created using the angled QuickShape arrow to creat a **Consist of** relationship. 
+**Ontology Quickshapes** have two primary connector types:
+* Subclass (straight arrow) or 
+* Relationship (angled arrow): SemTalk Online automatically names the relationship **Consists of** according to the default settings.
 
-Select the Class's **Quickshape** and drag the angled arrow to the desired target Object. SemTalk Online automatically names the relationship **Consists of** according to the default settings.
+For example, a 'Car' is a subclass of Vehicle. A 'Car' **Consists of** an 'Axel', which **Consists of** 'Wheels'. The **Consists of** Relationship can be freely defined as needed.
 
-For example, a 'Car' **Consists of** a  'Axel', which **Consists of** 'Wheels'. If the model requires a different relationship, such as, 'Wheels' make contact with the road. Create the new relationship by double-clicking on the **Consists of** relationship between the two Objects and change its name to 'has contact with' and adds the new relationship to the model. Available relationships are listed in **Explorer - Associations**. It shows the **Associations** and shows that it is linked to the **Class** 'Wheel'. 
+If the model requires a different relationship, such as, Wheels 'have contact with the road'. This new Relationship is created by double-clicking on the **Consists of** Relationship and changing its name to 'have contact with the road'. 
 
-**NOTE**: Relations are directed, which can be seen from the angles in front of the relation name in the tab. In the graphical representation, relations are shown as arrows with a direction. 
+This new relationship is automatically added to the model as an available Relationships. Available Relationships are listed in **Explorer - Associations**. It shows the **Associations** along with its linked **Class** Objects. e.g.'Wheels'. 
+
+**NOTE**: Relationships go in a direction. that is appears as a directional arrow. 

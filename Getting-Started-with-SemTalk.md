@@ -5,7 +5,7 @@ The following overview is designed to help new SemTalk Online users setup SemTal
 ## Login / Registration
 This section is only relevant if MongoDB is used. Users that use SemTalk Online in Microsoft365 environments will not need to register accounts or use a seperate login.
 
-![Login Screen](./images/loginScreen.PNG)
+![alt text](images/loginScreen.png)
 
 If a **User Account** already exists, proceed directly to login and select an **Authorized Role**. Users assigned basic modeling tasks should select the  **Editor Role**.
 

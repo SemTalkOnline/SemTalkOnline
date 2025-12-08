@@ -2,7 +2,7 @@
 
 In SemTalk Online, modeling workspaces are referred to as **Diagrams**. Each **Diagram Type** in a model has built-in **Rules**. 
 
-The number and type of Diagrams correspond to each of the standard SemTalk versions.  Each SemTalk version, whether it is **BPMN**, **EPCs** or any customized version type, opens a set of Diagrams. Each Diagram type has its own built-in rule-based engine that will only allow the Objects and Associations applicable to the selected SemTalk Online version. User-defined Diagram types can also be created, but reporting and other functions may be limited without additional customization.
+The number and type of **Diagrams** correspond to each of the standard SemTalk versions.  Each SemTalk version, whether it is **BPMN**, **EPCs** or any customized version type, opens a set of **Diagrams**. Each Diagram type has its own built-in rule-based engine that will only allow the **Objects** and **Associations** applicable to the selected SemTalk Online version. User-defined Diagram types can also be created, but reporting and other functions may be limited without additional customization.
 
 **BPMN** and **EPCs** process flow **Diagrams** are the active modeling space where users add work and Information Flows to create the scenarios used to represent processes. They are designed to show how things are done, or should be done. 
 

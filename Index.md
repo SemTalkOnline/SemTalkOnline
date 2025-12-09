@@ -16,5 +16,5 @@ If **Task Indexing** needs to conform to a prexisting indexing system, just add 
 
 **NOTE**: If alpha characters are used, the name must include a number at the end of the name to be able to assign Subtasks to Tasks and to show sequencing. 
 
-**Index** numbers are shown in the upper right-hand corner of **Task** Objects. If the **Index** number does not appear, please select the pull-down menu **Tools - Redraw all Symbols**.
+**Index** numbers are shown in the upper right-hand corner of **Task** Objects. If the **Index** number does not appear, please select **Tools - Redraw all Symbols** from the pull-down menu.
 

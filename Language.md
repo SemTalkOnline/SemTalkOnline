@@ -8,17 +8,19 @@ There are two primary SemTalk Online Language setting types:
 
 When modeling, **Object Names** are automatically mapped to the active **Document Content Language** in the active model. If you change Languages, newly added Objects are mapped to the model's currently selected **Document Contnet Language**. Existing Object Names will retain the language setting that was active when they were created.
 
-If a **Task Name** is changed, it will be assigned the Language settings of the active model. When you reselect the first language from the Language pull-down menu, the Name will change back to the Name it was assigned when the Object was created.
+If a **Task Name** is changed, it will be assigned the **Language** settings of the active model. When you reselect the first language from the **Language** pull-down menu, the **Name** will change back to the **Name** it was assigned when the Object was created.
 
 ![alt text](images/LanguageSwitching.png)
 
-**NOTE**: This mapping only occurs if naming is done using the Vocabulary naming feature. Objects (Nouns) and Methods (verbs) are translated separately. 
+**NOTE**: Mapping only occurs if naming is done using the **Vocabulary** naming feature. **Objects** (Nouns) and **Methods** (verbs) are translated separately. 
 
 ## Language Menus
 
-* **Settings - View** pull-down menu: This is used to select SemTalk Online's **User Interface Language** and the model's **Current Document Language**. Listed **User Interface Languages** are those Languages where basic SemTalk commands are translated and coded into SemTalk allowing modelers to use SemTalk Online in their native languages.
+* **Settings - View** pull-down menu is used to select SemTalk Online's **User Interface Language** and the model's **Current Document Language**. Those Languages listed in **User Interface Languages** are Languages where basic SemTalk commands are translated and coded into SemTalk, allowing modelers to use SemTalk Online in the **Language** of their choice.
 
-* Select Object and go to **Object - Edit Class - Language** pull-down menu. Here users can add additional Object names in other Languages. Select the **+** and add the translated and its Language. 
+* Select an **Object** and go to **Object - Edit Class - Language** pull-down menu. Users can add additional Object names in other Languages. Select the **+** and add the Object Name translation and the Name of the Language. 
+
+[alt text](images/Language5.png)
 
 * **Object - Customize - Language** pull-down menu: If the Language checkbox is selected in any Task/ Event/ Object Diagram, the Language settings tab will be shown in all Properties menus for all Objects. This allows users to check and edit **Language** settings for a specific **Objects**.
 

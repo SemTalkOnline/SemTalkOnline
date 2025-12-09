@@ -4,12 +4,12 @@
 
 
 **New**: Creates a New Diagram
+-  **Business Process Diagram**: Process workflow Diagram
+* **Object Diagram**: Shows Object names and the relationship between named Objects. Object Diagrams can be shown either as Class Diagrams or UML Diagrams. 
 
-Select **Diagram Type**:
-* **Business Process Diagram**: Shows Process and Information transfer workflows,
-* **Object Diagram**: Shows Object names and the relationship between named Objects. These Diagrams can be used to show the UML class view of objects. NOTE: Methods are not standard UML in that they are simply the names for activities, not the underlying code.
+   **NOTE**: **Methods** are not standard UML in that they names for activities, not the underlying code representation.
 * **Ontology**: Creates formal names and categories of Objects along with the inheritance structure of Object Properties. Ontologies show the relations between concepts, data, and entities by Domain. 
-* **OrgChart**: Shows the people by Job Title and the organizational groups who perform Tasks.
+* **OrgChart**: Shows process participants by Job Title and/ or the organizational group names such as OrgUnits and Teams.
 
 **Delete**: Deletes the currently displayed Diagram.
 

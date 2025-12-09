@@ -20,6 +20,8 @@ The following is an example of a BPMN Business Process Diagram:
 
 Business Processes are generally read from left to right. 
 
-A process begins with initial input Events and ends with pre-defined output Events. Between the two are a defined process sequence of Tasks (process steps) with directional arrows showing the process Flow. Tasks can be followed by Gateways that show branches that occur in the process flow based on incoming conditions. The example Gateways show above relate to the completion of testing results.  “Is the complete?”. If ‘Yes’ go to the end Event “All Tests Complete”, if ‘No’ go to “Perform Test’.”
+A process begins with initial input **Events** and ends with pre-defined output **Events**. Between the two are a defined process sequence of **Tasks** (process steps) with directional arrows showing the process Flow. **Tasks** can be followed by **Gateways** that show branches that occur in the process flow based on incoming conditions. 
 
-Process flows are embedded in Swimlanes to show the how different Participants interact within a Swimlane or in other Swimlanes that are working on the same process.
+In the above example, the Gateway relates to the completion of testing results.  “Tests OK?”. If ‘Yes’ go to the end Event “All Tests Complete”, if ‘No’ go to “Perform Test’.”
+
+Process flows are embedded in Swimlanes to show who does what and what and to show the information flows between different Participants that are working on the same process.

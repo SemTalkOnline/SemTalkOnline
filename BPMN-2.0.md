@@ -24,4 +24,4 @@ A process begins with initial input **Events** and ends with pre-defined output 
 
 In the above example, the Gateway relates to the completion of testing results.  “Tests OK?”. If ‘Yes’ go to the end Event “All Tests Complete”, if ‘No’ go to “Perform Test’.”
 
-Process flows are embedded in Swimlanes to show who does what and what and to show the information flows between different Participants that are working on the same process.
+Process flows are embedded in Swimlanes to show who does what and they show the information flows between different Participants that are working on the same process.

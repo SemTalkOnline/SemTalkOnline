@@ -1,6 +1,6 @@
 # Hyperlinks
 
-Hyperlinks allow additional internal and external information to be integrated into a Diagram. This increases the ability of the model to be better understood and it allows the integrations of existing documentation and forms. 
+Hyperlinks allow additional internal and external information to be integrated in a Diagram. Integration of existing documentation and forms augment model's usefulness and it makes the model information easier to understand.
 
 ![alt text](images/Hyperlink.png)
 
@@ -16,4 +16,4 @@ Hyperlinks allow additional internal and external information to be integrated i
 
 **Language**: Used to designate if the Hyperlink should be shown in the currently selected Language setting. Different URLs can be used for different language settings.
 
-**NOTE** If the field is left blank, the Hyperlink is valid for all languages.
+**NOTE**: If the field is left blank, the Hyperlink is valid for all languages.

@@ -6,43 +6,46 @@ Each Diagram type has an associated Stencil that shows the Objects that can be d
 
 Additional visual information such as Text, Images, Hyperlinks and shown Attribute information can be modified as needed on all Diagram types.
 
-![Image Icons in the Stencil](./images/Stencil1.png)
+![alt text](images/Stencil1.png)
 
-NOTE: When inserting Images into a model it is critical to minimize the overall impact on the model's file size. Using Hyperlinks and SVG files help. Before a new image is added, users should always first check to make sure that the Image has not already been uploaded. 
+**NOTE**: When inserting Images into a model it is critical to minimize the overall impact on the model's file size. Using Hyperlinks and SVG files help. Before a new image is added, users should always first check to make sure that the Image has not already been uploaded. 
 
 **Ways to Integrate Images:**
 
-**External Hyperlinks:** When it is likely that the same image will be used in multiple models, or in multiple Diagrams, inserting the image onto the Diagrams as image hyperlink is preferable because the image can then be managed from a central file location. Changes, deletions and access restrictions made to the primary image are automatically propagated to all instances of the image in all models that contain the image. Most importantly, external hyperlinks do not affect the size of the model file.
+[**External Hyperlinks**](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Hyperlinks): When the same **Image** will be used in multiple models, or in multiple **Diagrams**, inserting an [**Image Hyperlink**](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Hyperlinks) is preferable because edits, deletions and access restrictions can be managed in one location and propogated to all models and Diagrams where it is used. The most import anvantage of using Image Hyperlinks is that centrally managed Hyperlinks do not impact a model's file size.
 
 **Embedded base64 Encoded Image Strings:** Objects that need to be permanently integrated into the model file require that the image first be be converted into base64-encoded character strings. 
 
 Please refer to section: 
 [Convert images to base64](https://github.com/SemTalkOnline/SemTalkOnline/wiki/image-manager#convert-images-to-base64)
 
+The image does not have to be loaded from an external source so it is always immediately accessible to every model user. A disadvantage is that any changes made to the Image will not be propagated to the model's other Diagrams or to other models where the object is used. 
 
-The primary advantage of this method is that the image does not have to be loaded from an external source so it is always immediately accessible to every model user. A disadvantage is that any changes made to the image will not be propagated to the model's other Diagrams or to other models where the object is used. 
-
-NOTE: When inserting embedded images, a model's file size can quickly become large - so large that the model will no longer open. Embedded objects should be used for images that do not change, images specific to an individual model, and/or images that cannot be obtained from a reliable external source.
+**NOTE**: When inserting **Embedded Images**, a model's file size can quickly become large - so large that the model will no longer open. **Embedded Image Objects** should only be used for **Images** that do not change, **Images** specific to an individual model, and/or **Images** that cannot be obtained from a reliable external source.
 
 **As Unique Symbols:** Images that are only used once can be added directly to a Diagrams as a unique image. 
 
-**Image Manager:** Image Manager is an integraded image administration interface that is used to insert external images onto a Diagram. Images that are uploaded using Image Manager can be created as unique images/ symbols that are only used on the active Diagram where they were uploaded, or they can be saved as an image file that can be used in multiple Diagrams. This feature allows several modelers to contribute and collectively manage images so that they can be used for all modeling needs. 
+**Image Manager:** An integraded **Image Administration** interface that is used to insert external **Images** onto a **Diagram**. 
 
-## Integrating Hyperlinks Using the Hyperlink Symbol
+**Images** that are uploaded using **Image Manager** can be created as unique images/ symbols that are only used on the active Diagram where they were uploaded, or they can be saved as an **Image File** that can be used in multiple **Diagrams**. This feature allows several modelers to contribute and collectively manage **Images** so that they can be used for all modeling needs. 
 
-This option inserts a Hyperlink Symbol onto a Diagram where relevant Hyperlinks can be added.
-Hyperlink Image icons are placed on the drawing sheet. After the Hyperlink has been added to the image, users right click on the Hyperlink object to open available Hyperlinks. 
-Insert Hyperlinks Objects by dragging  and dropping the Hyperlink object from the Stencil onto the Diagram. 
-![Image as Hyperlink as Symbol](./images/HyperlinkObject1b.png)
+## Integrating Hyperlinks Using the Stencil Hyperlink Symbol
 
-Then right click on the newly created Hyperlink object and select Properties to add a Name to the Hyperlink object and to add the Hyperlinks associated with the Hyperlink object. Add each Hyperlink by selecting **+ New** and then select **Save** to add the Hyperlink information to the object. 
+This option inserts a **Hyperlink Symbol** onto a **Diagram** where relevant Hyperlinks can be added.
 
-![Image as Hyperlink as Symbol](./images/HyperlinkObject1a.png)
+**Hyperlink Image Icons** are placed on the **Diagram** and specific Hyperlinks are added to the **Hyperlink Image Icon**. Once added, users right click on the **Hyperlink Image Icon** to open available Hyperlinks. 
+
+Insert Hyperlink Objects by dragging and dropping the Hyperlink object from the Stencil onto the Diagram. 
+![alt text](images/HyperlinkObject1b.png)
+
+Right click on the newly created Hyperlink Icon and select Properties to name the Hyperlink Icon object and to add specific Hyperlinks. Add each Hyperlink by selecting **+ New** and then select **Save**. 
+
+![alt textl](images/HyperlinkObject1a.png)
 
 
 ## Adding Images via the Style Dialog
 
-If an image icon is placed on the Diagram, open the Style dialog by right click - Style or by selecting the Object and using **Image** in the **Shape - Style** pull-down menu.
+If an image icon is placed on the Diagram, open the Style dialog by right click - Style or by selecting the Object and using **Image** in the [**Style**](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Style) pull-down menu.
 
 ![alt text](images/StyleShapeDialog.PNG)
 
@@ -50,22 +53,20 @@ This dialog is used to manage external Hyperlinks and/or Image files that are co
 
 Give the Image an **ID** (name).
 
-Once the ID name for the Image is entered, the Image created can then also be reused in the formatting dialog of other Image symbols via the selection box labeled ID.
+Once the ID name for the Image is entered, the Image can be reused using the formatting dialog of other Image symbols via the selection box labeled ID.
 
 # Image Manager
 
-## Open Image Manager
+### Open Image Manager
 
-Image Manager is opened via the **Tools - Customize - Image Manager** pull-down menu.
-
-A list all existing images in the file with their names, contents, sizes, and whether they are already saved will be shown.
+Open **Image Manager** via the **Tools - Customize - Image Manager** pull-down menu to view a list of all existing Images files with their ID, Name, Size, and File Name.
 
 
 ## Image Manager Menu List
 
 ![ImageManager interface](./images/ToolsCustomizeImageManager.png)
 
-If this is the first Image to be added to the model, select **New (+ symbol)** to create a new image in the Image Manager.
+If this is the first Image to be added to the model, select **New (+ symbol)** to create a new Image in the Image Manager.
 
 If Images exist, use this menu to:
 
@@ -78,13 +79,13 @@ If Images exist, use this menu to:
 
 ## Working With the Image Manager
 
-**Tools - Customize - Image Manager** lists all existing images. New images can be created using the Image Manager but those images will only exist in the currently opened Diagram. If the new image needs to be available for all modeling needs, select the “Apply to files” icon in the Image Manager pull-down menu. Only then are the images embedded in the model. 
+**Tools - Customize - Image Manager** lists all existing **Images**. **New Images** can be created using the **Image Manager** but those images will only exist in the currently opened **Diagram**. 
 
-This ensures that images can first be created and checked before they have any effect on the model file size. Images can also be removed centrally from the file by clicking "Delete from file" in the Image Manager pull-down menu.
+If the new Image needs to be available for all modeling needs, select the **Apply to files** icon in the Image Manager pull-down menu. Only then are the images embedded in the model. This ensures that an **Image** can first be created and checked before it has any effect on the model file size. Images can also be removed centrally in the **Image Manager - Delete from file** pull-down menu.
 
-Images that are embedded in the file have a check mark in the File column. New images can be added or edited using the “New” or ‘Edit’ buttons in the menu bar. An **Image** entry always consists of an **ID**, i.e., a unique name, and the image content in the **Image** field. This can be either a URL or the base64-converted character string of an image.
+**Images** embedded in a File have a check mark in the File column. New images can be added or edited using the **New** or **Edit** buttons in the menu bar. An **Image** entry always consists of an **ID**, i.e., a unique name, and the image content in the **Image** field. This can be either a URL or the base64-converted character string of an Image.
 
-If multiple base64-embedded images are used, keep an eye on the size of the images. The more images that are stored in the model file, the larger the file size. Large files lead to longer loading times. Problems can also arise when exporting the model to a publication database. Because of these restrictions, the file size for export is limited to approximately 10 Mb. SemTalk Online will display a warning message in the Image Manager if the file size exceeds 7 Mb. If you do not intend to export to a publication database, you can ignore the warning.
+If multiple **base64-embedded images** are used, keep an eye on the size of the images. The more images that are stored in the model file, the larger the file size. Large files take longer to load. Problems can also arise when exporting the model to a publication database. Because of these restrictions, the file size for export is limited to approximately 10 Mb. SemTalk Online will display a warning message in the Image Manager if the file size exceeds 7 Mb. If you do not intend to export the model to a publication database, you can ignore the warning.
 
 # Convert Images to base64
 

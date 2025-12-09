@@ -22,6 +22,6 @@ Business Processes are generally read from left to right.
 
 A process begins with initial input **Events** and ends with pre-defined output **Events**. Between the two are a defined process sequence of **Tasks** (process steps) with directional arrows showing the process Flow. **Tasks** can be followed by **Gateways** that show branches that occur in the process flow based on incoming conditions. 
 
-In the above example, the Gateway relates to the completion of testing results.  “Tests OK?”. If ‘Yes’ go to the end Event “All Tests Complete”, if ‘No’ go to “Perform Test’.”
+In the above example, the **Gateway** relates to the completion of testing results.  “Tests OK?”. If ‘Yes’ go to the end Event “All Tests Complete”, if ‘No’ go to “Perform Test’.”
 
-Process flows are embedded in Swimlanes to show who does what and they show the information flows between different Participants that are working on the same process.
+Process flows are embedded in **Swimlanes** to show who does what and they show the information flows between different Participants that are working on the same process.

@@ -3,8 +3,9 @@ SemTalk Online allows users to customize Headers and Footers lables for **Model 
 
 ## Set Up the Background Pages
 
-Since the elements of a background page are based on the Diagram size, it is necessary to set a fixes Diagram size and Orientation. For more information, go to Diagram.
-Once a Diagram format has been defined, the Background page, with header and footer information can be activated. 
+Since the elements of a background page are based on the **Diagram** size, it is necessary to set a fixes **Diagram** size and Orientation. For more information, go to **Diagram**.
+
+Once a **Diagram** format has been defined, the **Background Page**, with **Header and Footer** information can be activated. 
 
 Go to **Settings - View** and set the Drawing Size settings to **US Letter** and click the **Landscape, Header & Footer and Auto-Complete** checkboxes to the **On** position.
 
@@ -22,7 +23,7 @@ Edit the **Background Page Header/ Footer** settings as needed.
 
 ## Editing a Background Page
 
-A Background Page consists of several fields that can be dynamically set or set with fixed defaults. Existing fields are listed the Table in the open dialog.
+A **Background Page** consists of several fields that can be dynamically set or set with fixed defaults. Existing fields are listed the Table in the open dialog.
 
 The most important fields are the **Header and Footer** (IDs, page Header and pageFooter). These are pre-defined and must never be deleted as they contain all other elements. They can be edited to adjust the size and/or orientation.
 

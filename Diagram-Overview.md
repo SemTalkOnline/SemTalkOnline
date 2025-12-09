@@ -47,12 +47,12 @@ The number and type of **Diagrams** correspond to each of the standard SemTalk v
 * Insert
 * Taxonomy
 
-**Diagram - Delete**: Deletes the active Diamgram
+**Diagram - Delete**: Deletes the active Diagram
 
 **Diagram - Reindex**: Reindexes refined Tasks
 
 **Diagram - Go Up**: Opens the parent process Diagram
 
-**Diagram - Insert**: Inserts external Objects into your model
+**Diagram - Insert**: Inserts external Objects into a model
 
-**Diagram - Paste**: Inserts copied process elements onto a Diagram. This is for cell phone and tablet users that do not a right mouse click option.
+**Diagram - Paste**: Inserts copied process elements onto a Diagram. This feature is specifically designed for end users who are using cell phones or tablets that do not have a right mouse click option.

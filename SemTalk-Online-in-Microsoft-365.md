@@ -12,6 +12,7 @@ More details can be found under [File storage options](https://github.com/SemTal
 ## SemTalk Online as a Microsoft Teams Channel Tab
 
 This option provides an optimal way for modeling groups to work together when executing SemTalk Online projects. All authorized Team members have access to the same app, with the same settings and configurations.
+
 In addition, all of Microsoft Teams' functionalities can be used to make the modeling experience more efficient and collaborative (e.g. chat function, integration of related libraries and other information). SemTalk Online's data storage can also be specifically set to a Library within the respective Team. Other settings can also be predefined by the SemTalk Online App's administrator for all SemTalk Online App users.
 
 This is specifically recommended when executing and managing larger, and more detailed modeling landscapes with multiple modelers over longer time periods.
@@ -29,27 +30,32 @@ These settings will be applied to all Tab users unless individual users change t
 
 ![Tab Configuration](./images/TabConfig1.png)
 
-- Tab Name: The Tab title that should be displayed.
-- Role: Role in which the app should run.
-- fixed Document Library: Sets SemTalk Online to a mode in which all users have access the same single document library.
-This document library must be explicitly specified.
-The four following fields are used for this purpose.
-In the mode without a fixed library, these fields are hidden.
+- **Name**: The Tab title that should be displayed.
+- **Role**: The Role assigned in the selected app
+- **Document Library**: Sets SemTalk Online to a mode in which all users have access the same single model file.
+
+  The selected **Document Library** must be explicitly specified.
+The fields shown below are used for this purpose. 
+
+  **NOTE**: In models without a fixed Document Library, these fields are hidden.
 
 ![Tab Configuration](./images/TabConfig2.png)
 
-- SharePoint Site URL: If a fixed library will be used for storing files, the URL of the SharePoint site must be specified here.
-- Library: The name of the fixed library. This must first exist on the previously specified SharePoint site.
-- Folder: A specific folder from the Library can be specified here as needed.
-- Approval Library: If an approval storage is required for shared processes, an additional Library is required. This Approval Library must have a different name than the regular model library.
+- **SharePoint Site URL**: If a fixed library will be used for storing files, the URL of the SharePoint site must be specified here.
+- **Library**: The name of the fixed library. This must first exist on the previously specified SharePoint site.
+- **Folder**: A specific folder from the Library can be specified here as needed.
+- **Approval Library**: If an approval storage is required for shared processes, an additional Library is required. This **Approval Library** must have a different name than the regular model library.
 
 
 ![Tab Configuration](./images/TabConfig3.png)
 
-- UI Language: The language in which the SemTalk Online App interface is displayed.
-- Current Language: The language in which the model content will be created.
-- Settings String: SemTalk Online allows all option settings to be exported as a JSON string. This string can be entered in this field to provide the same default settings for all users.
-- Subsite Prefix: Each SemTalk Online App gets an individual prefix. This is used to cache user-specific settings on the computer for each Portal instance.
+- **[Language](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Language)**
+
+   -  The SemTalk Online **App GUI Language**
+   -  The model **Document Content Language**
+
+- **Settings String**: SemTalk Online allows all option settings to be exported as a JSON string. This string can be entered in this field to provide the same default settings for all users.
+- **Subsite Prefix**: Each SemTalk Online App gets an individual prefix. This is used to cache user-specific settings on the computer for each Portal instance.
 
 
 ## File Storage Options in the Microsoft Environment

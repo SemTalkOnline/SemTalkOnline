@@ -24,9 +24,9 @@ SemTalk Online has two Attribute types:
 * **System Defined Attributes**: An Object's default Attributes, and 
 * **User-Defined Attributes**: Attributes created by users for the currently active model. 
 
-Both Attribute Types have Atteibute Names with associated Attribute Values. System-Defined Attributes are the standard entries shown in the Properties tabs. 
+Both **Attribute Types** have **Attribute Names** with associated **Attribute Values**. **System-Defined Attributes** are the standard entries shown in the **Properties** tab. 
 
-Users select Attributes to add to the model from the existing **Attribute Picklist.**
+Users select **Attributes** to add to the model from the existing **Attribute Picklist.**
 
 ![alt text](images/Attributes1.png)
 

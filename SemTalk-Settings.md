@@ -40,8 +40,6 @@ Auto Checkout
 
 *  **Coauthoring Refresh (milliseconds > 6000)**: In collaborative modeling projects Administrators can automatically set the model's refresh time to regularly update the model to show changes made by all users working on the same model
 
-*  Link to **ChatGPT** Dialogs
-
 
 
 

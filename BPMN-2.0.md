@@ -13,10 +13,10 @@ The following is a brief description of the core elements used in a **Business P
   **Task names** are a combination of an **Object** (noun) and a **Method** (verb). When **Gateways** are used, **Gateway** names are a combination of an **Object** and an **Attribute**.
   
     **NOTE**: When modeling with SemTalk Online, **Vocabulary** is a naming function that uses picklists of **Objects** (nouns), **Methods** (verbs)/ **Attribute** names. Using Vocabulary to name Tasks keeps model information consistent throughout the organization.  
-* **Gateways**:  Change the direction of the process flow depending on the information sent by the proceeding Object. 
+* **Gateways**:  Change the direction of the process flow depending on the **Information** sent by the proceeding **Object**. 
 
-  Modelers set the conditions in the Gateway to trigger the appropriate successor task. 
-* **Flows**: Directional **Information Flow Arrows** that connect **Task** and **Gateway** Objects to one another. They define both the order in which individual Tasks are processed and they contain the information that determines changes in the directional flow of a process.
+  Modelers set the conditions in the **Gateway** to trigger the appropriate successor **Task**. 
+* **Flows**: Directional **Information Flow Arrows** that connect **Task** and **Gateway** Objects to one another. They define both the order in which individual **Tasks** are processed and they contain the information that determines changes in the directional flow of a process.
 * **Swimlanes**: Show the handoff between the **Tasks** done by each participant **Swimlane**. 
 
   **NOTE**: Each participant is assigned its own independent Swimlane so that it is clear which Tasks are performed by each group.

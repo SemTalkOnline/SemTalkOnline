@@ -12,7 +12,7 @@ These object-based elements include, among others:
 * Class (EPC)
 * Technical terms (EPC)
 
-There are a few things to keep in mind when working with objects:
+Important tips when working with **Objects**:
 
 **Create an Object**:
 * Drag and drop Objects from the Stencil
@@ -27,4 +27,4 @@ There are a few things to keep in mind when working with objects:
 * Hover your cursor over the center of an Object until the hand icon appears. Hold down your cursor and draw the connection to the next object. 
 * Right mouse on an Object and select a target Object
 
-Connection types are dependent on the Diagram type. Users are able to create user-defined connectors but it is generally not recommended because user-defined connectors are not considered when running process flow consistency checks.
+Connection types are dependent on the **Diagram Type**. Users are able to create user-defined connectors but it is generally not recommended because user-defined connectors are not considered when running process flow consistency checks.

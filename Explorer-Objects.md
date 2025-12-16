@@ -1,6 +1,6 @@
 # Explorer - Objects
 
-The **Explorer** pull-down menu allows users to see the Model's logic and content. It shows all model data including Object information that is not visible on the Diagram menus.
+The **Explorer - Pull-Down Menu** allows users to see the Model's logic and content. It shows all model data including Object information that is not visible on the Diagram menus.
 
 ![alt text](images/ExplorerObject.png)
 
@@ -17,7 +17,7 @@ The **Explorer** pull-down menu allows users to see the Model's logic and conten
 **Participants**: Participants are the human and technical actors involved in work flows. They could be entities, such as Departments, Specific actors such as the name of the person doing the action or they can be Systems such as the CRM system or a particular technology such as Microsoft Teams.
 
 
-Here is an example of a BPMN Object pull-down menu:
+Here is an example of a **BPMN Object Pull-Down Menu**:
 
 ![alt text](images/Explorer_Object.png)
 

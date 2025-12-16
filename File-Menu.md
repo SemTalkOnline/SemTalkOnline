@@ -4,13 +4,15 @@
 
 ![alt text](images/PullDownMenu2.png)
 
-**File New**:
+### File New
 
-![alt text](<images/FileNew.png>)
+![alt text](<images/FileNew1.png>)
 
-**File Open**: Opens a selectable list of all available models along with their CheckIn/ CheckOut status. If you open a model that is checked out by another user, you will see a red error message next to the model name in your Explorer stating that the model is checked out to <user x>. 
+**File - Open**: Opens a selectable list of all available **Database Models** along with their **CheckIn/ CheckOut** status. If you open a model that is checked out by another user, you will see a red error message next to the model name in your Explorer stating that the model is checked out to <user x>. 
 
-Save As creates a new model version or it allows model Administrators to check the model back in. Files are either stored locally on your **Computer** or they are selected via the available  **Database** model list. When selecting Database models, SemTalk automatically updates associated data such as the date last **Modified**, the last author in **ModifiedBy** and the **CheckOut** status. Files can be selected by Name, Date, and Last Modified status.
+A new model version will be opened or the model **Administrators** can check the model back in. Files are either stored locally on your **Computer** or they are selected via the shared available  **Database** model list. 
+
+When selecting **Database Models**, SemTalk Online automatically updates associated data such as the date last **Modified**, the last author in **ModifiedBy** and the **CheckOut** status. Files can be selected by Name, Date, and Last Modified status.
 
 ![alt text](<images/FIle Open Menu.png>)
 

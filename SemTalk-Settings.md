@@ -38,7 +38,7 @@ Auto Checkout
 * **Font**: Selects Font, Font Size, Height, and Width, Text Label Width, Link Label Width
 *  **Allow negative Coordinates**: This allows users to navigate in large models where modeled Objects may be outside of Coordiate settings
 
-*  **Coauthoring Refresh (milliseconds > 6000)**: In collaborative modeling projects Administrators can automatically set the model's refresh time to regularly update the model to show changes made by all users working on the same model
+*  **Coauthoring Refresh (milliseconds > 6000)**: In collaborative modeling projects, Administrators can automatically set the model's refresh time to regularly update the model to show changes made by all users working on the same model
 
 
 

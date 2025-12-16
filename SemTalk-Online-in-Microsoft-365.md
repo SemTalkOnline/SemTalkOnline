@@ -60,8 +60,7 @@ The fields shown below are used for this purpose.
 
 ## File Storage Options in the Microsoft Environment
 
-More detailed information about SemTalk Online’s file storage concept can be found on the page [File storage options](https://github.com/SemTalkOnline/SemTalkOnline/wiki/SemTalk-Online-Options-for-file-storage).
-There you can also find information about the available options in the Microsoft 365 environment.
+[File storage options](https://github.com/SemTalkOnline/SemTalkOnline/wiki/SemTalk-Online-Options-for-file-storage) has more detailed information about SemTalk Online’s file storage along with available Microsoft 365 options.
 
 
 

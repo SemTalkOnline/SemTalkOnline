@@ -42,6 +42,6 @@ HumanResource Simulation Properties (Simulation Properties are edited in the Org
 * FixedCost
 * VariableCost
 
-Right mouse click and select "Properties" on an EntryPoint, Task, Buffer or Association in a Business Process Diagram to access the Simulation Properties. Simulation Properties for HumanResources are found when you right mouse click on a HumanResource in an OrgChart.
+Right mouse click on an **EntryPoint, Task, Buffer or Association Object** in a Business Process and select **Properties** to access **Simulation Properties**. Right mouse click on a **HumanResource** in an **OrgChart** to open **HumanResource SimulatiomProperties**.
 
 ![alt text](images/SimulationHumanResources.png)

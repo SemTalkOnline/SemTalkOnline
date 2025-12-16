@@ -13,7 +13,7 @@
 
 **Delete**: Deletes the currently displayed Diagram.
 
-**Reindex**: Edits the Indexing page number of the Diagram based on the model's current Process Flow. It also changes the indexing page number of any connected subprocesses.
+**Reindex**: Edits the **Indexing Page Number** of the **Diagram** based on the model's current Process Flow. It also changes the indexing page number of any connected subprocesses.
 
 **Go Up**: Opens an Refined Object's higher level Process Diagram.
 

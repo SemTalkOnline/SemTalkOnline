@@ -1,7 +1,7 @@
 ## Working with Objects
 
 
-Central core **Objects** descriptions centralize the management and editing of key Object-related information defined in **[Object Properties](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Properties)** (e.g. Comments, Attributes, or embedding links). Information modeled in a **Class Objects** is automatically inherited by all Instances of the Object, in all process flow Diagrams. This makes it easy for process owners to continually update and/ or edit process flow descriptions as needed.
+Building models using centralized core **Objects** descriptions simplify the management and editing of **[Object Properties](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Properties)** (e.g. Comments, Attributes, or embedding links). Information modeled in **Class Objects** is automatically inherited by all **Instances** of the Object, in all process flow Diagrams. This makes it easy for process owners to continually update and/ or edit process flow descriptions as needed.
 
 Object-based elements include:
 - Roles/process participants (BPMN)

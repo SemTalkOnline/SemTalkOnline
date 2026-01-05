@@ -17,7 +17,7 @@ Access Settings using the Settings Icon in the toolbar or by selecting **Tools -
 
 Settings - General
 
-![alt text](<images/Settings General UI.png>)
+![alt text](images/SettingsGeneral.png)
 
 * Underline Refinements: Shows if Refinements should be viewed as underlined Task names
 * Simulation: Show or hide simulation settings

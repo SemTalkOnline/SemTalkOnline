@@ -5,7 +5,7 @@
 Click > or < to expand and collapse the view of the Model's elements. After each entry are three verticle dots. Click on these dots to Browse to where it is used in the model, to Edit an object's Propertiesnor to Delete an Object. 
 **NOTE**: When you Edit or Delete an object, the changes will be propagated to all Objects of this type found in your model.
 
-![alt text](<images/ExplorerPulldownMenu.png>)
+![alt text](images/ExplorerPullDownMenu.png)
 
 ![alt text](images/ExplorerPanel.png)
 

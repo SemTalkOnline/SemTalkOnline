@@ -6,7 +6,7 @@
 
 **File New**:
 
-![alt text](<images/File - New.png>)
+![alt text](images/FIle Open Menu.png)
 
 **File Open**: Opens a selectable list of all available models along with their CheckIn/ CheckOut status. If you open a model that is checked out by another user, you will see a red error message next to the model name in your Explorer stating that the model is checked out to <user x>. 
 

@@ -14,7 +14,7 @@ Additional information can be found at: [Wiki page: Vocabulary](https://github.c
 
 ## **Repository Content**
 
-![alt text](images/RepositoryObjects.PNG)
+![alt text](images/RepositoryObjects.png)
 
 The Repository contains:
 * **Objects** (nouns): These are the concrete part of a Task such as 'Invoice'

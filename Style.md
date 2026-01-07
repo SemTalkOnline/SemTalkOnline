@@ -18,17 +18,17 @@
 
 ## Text Options
 
-![alt text](images/StyleTextMenu.PNG)
+![alt text](images/StyleTextMenu.png)
 
 ## Style - Image Options
 
-Style Image allows users to import external Images into their model. For additional information: [Image Manager](https://github.com/SemTalkOnline/SemTalkOnline/blob/e71e11f2c5b6c0eb282295a5f4e84c21f88e2ca2/Image%20Manager.md)
+Style Image allows users to import external Images into their model. For additional information: [Image Manager](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Image-Manager)
 
-![alt text](images/StyleImageMenu.PNG)
+![alt text](images/StyleImageMenu.png)
 
 ## Style Icon Menu
 
-![alt text](images/StyleIconMenu.PNG)
+![alt text](images/StyleIconMenu.png)
 
 - **Save**: Save the custom Style features for the Object
 - **Reset** (Undo Icon): Resets the Style format to the SemTalk Online default values

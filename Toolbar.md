@@ -1,6 +1,6 @@
 # Toolbar
 
-![alt text](images/Tool-Bar.png)
+![alt text](images/Tool-Bar.PNG)
 
 ![alt text](images/FixedMenuCommands.png)
 

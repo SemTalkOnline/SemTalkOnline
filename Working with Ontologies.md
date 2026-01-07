@@ -46,7 +46,7 @@ In **Ontology** template models, the following **Ontology Stencil Shapes** can b
 
 ## Modeling with QuickShapes
 
-![alt text](images/QuickShapeOntology.png)
+![alt text](images/QuickshapeOntology.png)
 
 **Quickshape** allows users to directly model related Objects and Connectors by hovering the cursor over an existing source shape and selecting one of the following Shapes:
 

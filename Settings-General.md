@@ -1,6 +1,6 @@
 Settings - General
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/main/images/SettingsGeneral1.png)
+![Settings](images/SettingsGeneral.png)
 
 * BPMN 2.X Symbols
 * Underline Refinements: Shows if Refinements should be viewed as underlined Task names

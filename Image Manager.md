@@ -44,7 +44,7 @@ Then right click on the newly created Hyperlink object and select Properties to 
 
 If an image icon is placed on the Diagram, open the Style dialog by right click - Style or by selecting the Object and using **Image** in the **Shape - Style** pull-down menu.
 
-![alt text](images/StyleShapeDialog.PNG)
+![alt text](images/StyleShapeDialog.png)
 
 This dialog is used to manage external Hyperlinks and/or Image files that are converted to base64. Please refer to the section **Convert Images to base64** shown below.
 

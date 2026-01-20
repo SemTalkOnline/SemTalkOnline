@@ -5,7 +5,7 @@ The following overview is designed to help new SemTalk Online users setup SemTal
 ## Login / Registration
 This section is only relevant if MongoDB is used. Users that use SemTalk Online in Microsoft365 environments will not need to register accounts or use a seperate login.
 
-![Login Screen](./images/loginScreen.PNG)
+![Login Screen](images/Loginscreen.png)
 
 If a **User Account** already exists, proceed directly to login and select an **Authorized Role**. Users assigned basic modeling tasks should select the  **Editor Role**.
 
@@ -16,7 +16,7 @@ A more detailed explanation of the login screen can be found here:
 
 ## Registration
 
-![Registration screen](./images/registrationScreen.PNG)
+![Registration screen](images/registrationScreen.png)
 
 If a user account does not exist, complete **Registration**. 
 
@@ -34,7 +34,7 @@ A more detailed explanation of Registration can be found here:
 
 ## Stencil, Pan & Zoom, & Navigation
 
-![Modeling Windows](./images/ModelingWindows.PNG)
+![Modeling Windows](images/ModelingWindows.png)
 
 * The **Stencil** shows the Objects that can be dragged and dropped onto the Diagram. 
 
@@ -74,7 +74,7 @@ Other Key **Settings - General** Commands:
 Please click on the following links for additional information about specific Pull-Down Menu items.
 
 - [File](https://github.com/SemTalkOnline/SemTalkOnline/wiki/File-Menu)
-- [Home](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Home-Menu)
+- [Home](https://github.com/SemTalkOnline/SemTalkOnline/wiki)
 - [Shape](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Symbol)
 - [Object](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Objekt)
 - [Process](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Prozess)
@@ -181,7 +181,7 @@ Additional Information about swimlanes can be found here:
 
 - **Refinements** (Subprocess):
 [Refinements](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Refine)
-- **Format** an Object: [Style](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Styleg)
+- **Format** an Object: [Style](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Style)
 - **Hyperlinks**: [Hyperlinks](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Hyperlinks)
 
 - **Contact Information**:

@@ -12,7 +12,7 @@ Select the **Ontology Modeling Template** when creating a new Ontology model.
 
 SemTalkOnline distinguishes between two types of representations: Ontological **Classes** and **Instances of Classes**.
 
-![alt](Wikis\images\Ontology1.PNG)
+![alt](images/Ontology1.png)
 
 In the above example, Classes are represented as white ellipses, while instances are represented by gray ellipses.
 However, classes in ontologies can also be represented as rectangles in accordance with the UML standard, which also allows you to see the associated method names in addition to the class names.

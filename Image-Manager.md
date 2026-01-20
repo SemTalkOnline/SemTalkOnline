@@ -43,7 +43,7 @@ Then right click on the newly created Hyperlink object and select Properties to 
 
 If an image icon is placed on the drawing sheet, you can open the Style dialog by right-clicking Style (or Menu Icon-->Style). This has an “Image” tab.
 
-![Open Style Format Image Tab](./images/StyleShapeDialog.PNG)
+![Open Style Format Image Tab](./images/StyleShapeDialog.png)
 
 Here, you can either specify an external hyperlink or embed an Image file converted to base64. To do this, please refer to the section: [Convert Images to base64](./Image Manager#Convert Images to base64)!
 

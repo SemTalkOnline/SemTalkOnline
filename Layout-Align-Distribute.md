@@ -1,6 +1,6 @@
 # Layout
  
-Various options are put are the user’s disposal in order to help align the various elements in the diagram. These options align the elements in different ways depending on the varied needs of the user. Though the layout options are used for a variety of purposes that include but are not limited to BPMN diagrams.
+Various options are put are the user’s disposal in order to help align the various elements in the diagram. These options align the elements in different ways depending on the varied needs of the user. Though the layout options are used for a variety of purposes that include BPMN diagrams, mind maps, etc.
 
 ![alt text](images/Layout.png)
 

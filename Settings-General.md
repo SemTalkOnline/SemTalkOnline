@@ -1,11 +1,14 @@
-Settings - General
+# Settings
 
-![Settings](images/SettingsGeneral.png)
+**General**
 
+
+
+* Ribbon: Show or hide Toolbar
 * BPMN 2.X Symbols
 * Underline Refinements: Shows if Refinements should be viewed as underlined Task names
 * Simulation: Show or hide simulation settings
-* Ribbon: Show or hide Toolbar
+
 * Breadcrumb Navigation: Shows the Breadcrumb Diagram navigation bar
 * Dock Pan and Zoom
 * Dock Navigator
@@ -16,3 +19,18 @@ Settings - General
 * Font (Parameters): Selects Font, Font Size, Height, and Width for scaling to other applications (e.g. SharePoint)
 Symbol Scale Factor: Scales all symbol shapes in the model
 * Resize: Allows all shapes to allow users to determine their shape size. When selected, Style Resize is set to 'on'.
+
+
+**Collaboration**
+* Auto Checkout
+* Auto Save
+* Coauthoring
+* Change Log
+
+**Process**
+
+**View**
+
+**Cloud**
+
+**Viewer**

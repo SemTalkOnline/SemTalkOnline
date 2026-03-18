@@ -4,6 +4,8 @@
 
 **Layout** options are found in the **Toolbar** menu as well as in the **Shape** pull-down menu.
 
+![alt text](images/Toolbar_Layout_Settings.png)
+
 ![alt text](images/Layout.png)
 
 **Vertically, Horizontally and Centrally Align Objects**

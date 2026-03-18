@@ -1,10 +1,12 @@
 # Layout
  
-Various options are available to help modelers optimally place **Objects** on a **Diagram**. Layout options are often used to conform to different standards such as BPMN, EPC, Mind Maps, etc.
+**Layout** options help modelers optimally place **Objects** on a **Diagram**. Layout is also used to conform to different standards such as BPMN, EPC, Mind Maps, etc.
+
+**Layout** options are found in the **Toolbar** menu as well as in the **Shape** pull-down menu.
 
 ![alt text](images/Layout.png)
 
-**Vertically, Horizontally and Centerally Align Objects**
+**Vertically, Horizontally and Centrally Align Objects**
 
 Next to each **Align Command** is an  icon that shows how Objects will be spaced.
 

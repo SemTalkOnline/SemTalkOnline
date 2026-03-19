@@ -1,29 +1,34 @@
 # Layout
  
-Various options are put are the user’s disposal in order to help align the various elements in the diagram. These options align the elements in different ways depending on the varied needs of the user. Though the layout options are used for a variety of purposes that include BPMN diagrams, mind maps, etc.
+**Layout** options help modelers optimally place **Objects** on a **Diagram**. Layout is also used to conform to different standards such as BPMN, EPC, Mind Maps, etc.
+
+**Layout** options are found in the **Toolbar** menu as well as in the **Shape** pull-down menu.
+
+![alt text](images/Toolbar_Layout_Settings.png)
 
 ![alt text](images/Layout.png)
 
-**Align**
+**Vertically, Horizontally and Centrally Align Objects**
 
-Users have the ability to distribute the elements along an axis through selecting a group of elements and then using these choices to align with the element that is the furthest in the chosen option. The elements will then align the furthest side of the of the furthest element of the chosen side. 
-(All elements changing position are categorized as individual actions and the undo and redo buttons only change the position of one element at a time)
+Next to each **Align Command** is an  icon that shows how Objects will be spaced.
 
 ![alt text](images/Align.png)
 
-- Align Left: the grouped elements align with the furthest element on the left and the left side of the element
-- Align Right: the grouped elements align with the furthest element on the right and on right side of the element
-- Align Center: the grouped elements align to the center of the selected elements using the furthest center of the element on the left 
-- Align Top: the grouped elements align with the furthest element on the top with the top side of the element
-- Align Bottom: the grouped elements align with the furthest element on the bottom from the bottom side of the element
-- Align Middle: the grouped elements align with the element situated on the left of the grouping from the middle of the element
+- **Align Left**: Objects will all be moved to the position of the furthest left Object.
+- **Align Right**: Objects will all be moved to the position of the furthest right Object.
+- **Align Center**: Objects will all be moved to the position of the most central Object. 
+- **Align Top**: Objects will all be moved to the position of the Top Object.
+- **Align Bottom**: Objects will all be moved to the position of the bottom Object.
+- **Align Middle**: Objects will all be moved to the position of the middlet Object.
 
-**Distribute**
+**NOTE**:  Changing the position of multiple **Objects** is considered a sequence of multiple events, not as a as a single action. Therefore Undo and Redo only change the position of the last repositioned **Object**.
 
-Distribution is used to create standard spacing between the selected elements and should be used periodically as it can be chaotic when used with a large amount of elements.
+**Shape - Distribute**
+
+**Distribute** is used to create standard spacing between selected Objects. Distribute is especially useful when creating Diagrams with many Objects.
 
 ![alt text](images/Distribute.png)
  
-Distribute Horizontal: Creates standard spacing on a horizontal plane with selected elements using the space between the left and right most elements
+**Distribute Horizontal**: Spaces selected Objects on a Horizontal plane defined by the Objects selected.
 
-Distribute Vertical: Creates standard spacing on a vertical plane with selected elements in a given area between the elements on top and bottom of the selected grouping
+**Distribute Vertical**: Spaces selected Objects on a Vertical plane in the area defined by the selected Objects.  

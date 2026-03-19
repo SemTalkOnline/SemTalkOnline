@@ -16,7 +16,7 @@ Click on the gear icon ![alt text](images/SettingsIcon1.png) found to the far ri
 
 ![alt text](images/SettingsIcon2.png)
 
-The following General Settings Window will open.
+The following **General Settings** Window will open.
 
 ![alt text](images/Settings_General_1.png)
 
@@ -31,10 +31,8 @@ The following General Settings Window will open.
 
 
   * **Anchor** Commands: Used to show or hide **Pan & Zoom**, **Stencil**, **Properties**, **ChatBot** and **Navigation** Windows. 
- 
 
-
- **NOTE**: Modeling tool windows can be turned off to simplify views for end-users.
+ **NOTE**: Modeling tool windows are generally turned on and off when working between the modeling enviroment and showing model data to end-users.
   * **Marker at Hyperlinks**: Shows Hyperlink markers on Objects with linked Documents and Pages.
   * **Underline Refinements**: Underlines the Object's name to show that the Object has an associated **Refinement**.
    * **Left, Right or Floating**:  **Pan & Zoom**, **Stencil**, **Properties**, **ChatBot** and **Navigation** windows can be anchored to the Left or Right or they can be floated on top of the open Diagram
@@ -42,7 +40,7 @@ The following General Settings Window will open.
 
 ![alt text](images/SettingsGeneral_2.png)
 
-  * **Quick Shapes**: When turned on, modelers can rapidly add Objects and Connectors directly from existing **Objects** on the active **Diagram**. Available **Object** and **Connectors** are shown when the cursor is hovered over an existing **Object**. **Quick Shape** features and **Style** can be activated for all Objects by turning on **Quick Shapes inherits Style**.
+**Quick Shapes**: Modelers can rapidly add Objects and Connectors directly from existing **Business Process Diagram Objects** onto the active **Diagram**. Available **Objects** and **Connectors** are shown when the cursor is hovered over an existing **Business Process Diagram Object**. **Quick Shape** features and **Style** can be activated for all future **Business Process Diagram Objects** by turning on **Quick Shapes inherits Style**.
 
 ![alt text](images/SettingsGeneral_3.png)
 
@@ -135,7 +133,7 @@ User Interface **Font** Settings:
 
 * **Drawing Background Color**: This is the default color for Diagram backgrounds
 * Text Color
-* **User-Defined Theme**: If modelers or organizations have defined Themes, code for predefined  **Themes**, can entered here.
+* **User-Defined Theme**: If modelers or organizations have defined Themes, code for predefined  **Themes**, can entered here. Luent UI Themes can be created https://fluentuipr.z22.web.core.windows.net/heads/master/theming-designer/index.html
 
 ![alt text](images/SettingView_3.png)
 
@@ -146,7 +144,13 @@ User Interface **Font** Settings:
 
 ![alt text](images/SettingsCloud.png)
 
-* Use MongoDB
+**Settings - Cloud** is used to:
+* Set External Connections to and from SemTalk Online,
+* Define Backup Options,
+* Copy Database and Repository information and to
+* Use Microsoft Graph
+
+MongoDB: MongoDB is the standard format for Object
 * Activate Single Sign On for MongoDB
 * Keep me signed in
 * Use Microsoft Graph

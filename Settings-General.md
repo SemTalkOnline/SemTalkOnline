@@ -140,29 +140,33 @@ User Interface **Font** Settings:
 * Icon Height
 * Icon Width
   
-**Settings - Cloud**
+### **Settings - Cloud**
 
 ![alt text](images/SettingsCloud.png)
 
-**Settings - Cloud** is used to:
-* Set External Connections to and from SemTalk Online,
-* Define Backup Options,
-* Copy Database and Repository information and to
-* Use Microsoft Graph
-
-MongoDB: MongoDB is the standard format for Object
-* Activate Single Sign On for MongoDB
+**Settings - Cloud** is used to
+set external connections to and from SemTalk Online, define backup options, copy database and repository information and to Use Microsoft Graph
+* **MongoDB**: MongoDB is the standard format for Object
+* **Activate Single Sign On for MongoDB**: Allows users to access MongoDB with their Microsoft account
 * Keep me signed in
-* Use Microsoft Graph
+* **MongoDB API**: Pathname to MongoDB
+* **Repository**: Name of the associated Repository
+* **Number of Backup Versions**: Determines how many backups should be saved centrally. Generally limited to 15
 
-**Viewer**
-* Activate Portal Mode
-* Force use of Specified start Process
-* Start file
-* Start Diagram
-* Refine on Click
-* Portal Mongo DB COnnection
-* Portal DB
-* Portal Library
-* Portal Backend
-* Ribbon
+### **Settings - Viewer**
+
+![alt text](images/SettingsViewer1.png)
+
+Settings - Viewer sets the Portal Start File and it contains relevant Portal Settings.
+
+
+* **Activate Portal Mode**: Activates the model's Portal site
+* **Force use of specified start process**: Overrides other setting to fix which Diagram will open as the Start Page for the Portal
+* **Start File**: Link to the specific SemTalk Online file
+* **Start Diagram**: Link to the default Diagram that opens on start
+* **Refine on Click**: Sets the navigation paraemter for opening Refinements
+* **Portal Mongo DB Connection**: Link to the Portal's MongoDB
+* **Portal DB**: Shows the DB associated with the Portal
+* **Portal Library**: Link to the Library associated with the Portal
+* **Portal Backend**: Backend for Portal Administrator
+* **Ribbon**: Sets which Pull-Down bars and Toolbar tools are visible

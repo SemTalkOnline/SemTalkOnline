@@ -134,7 +134,9 @@ Both the **User Interface Language** and the **Current Document Language** suppo
 * **Header & Footer**: Turns the Header and Footer document settings on and off.
 * **Auto-Complete**: Automatically shows possible Object names dynamically in the combo box.
 
-### General Document Settings
+### Settings - View 
+
+#### Additional Document and Interface Settings:
 * **User Interface Font**: Opens Font pull-down menu
 * **User Interface Icon Color**: Users can customize the SemTalk Online button menu to change to different colors.
 * **User Interface Theme**: Opens a pull-down menu of available Themes.

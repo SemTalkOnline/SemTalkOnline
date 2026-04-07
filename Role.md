@@ -6,7 +6,7 @@ Role settings are selected during SemTalk Online login to assign a Role to the u
 
  **SemTalk Roles:**
 
-**Viewer**: Users are able to **View**, but not edit or create models. This is the primary User setting for majority of end users whose focus is to view and understand defined process flows.
+**Viewer**: Users are able to **View**, but not edit or create models. The majority of end users have this Role so that they can view and understand defined process flows.
 
 **Publisher**: This role is able to publish process models for process portals.
 

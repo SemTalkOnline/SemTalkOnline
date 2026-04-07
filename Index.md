@@ -8,7 +8,9 @@ Activate the Indexing function:
 
 ![](https://github.com/SemTalkOnline/SemTalkOnline/blob/main/images/IndexD.png)
 
-Edit Index numbers by selecting a Task Object and selecting Properties. Reorder all Index numbers by selecting the highest level Task and assign the number '1'. If Task indexing needs to conform to a prexisting indexing system, just add the alpha-numberic name to each Task object in **Properties - Index**. If alpha characters are used, the name must include a number at the end of the name to be able to assign Subtasks to Tasks and to show sequencing. 
+Edit Index numbers by selecting a Task Object and selecting Properties. Reorder all Index numbers by selecting the highest level Task and assign the number '1'. If Task indexing needs to conform to a prexisting indexing system, just add the alpha-numberic name to each Task object in 
+
+**Properties - Index**. If alpha characters are used, the name must include a number at the end of the name to be able to assign Subtasks to Tasks and to show sequencing. 
 
 ![alt text](images/IndexB.png)
 

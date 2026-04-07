@@ -8,7 +8,7 @@
 
 **NOTE**: When working with **Swimlanes** and **Swimlane Pools** it is recommended to first create and position all Swimlanes/ Swimlane Pools before placing any other Objects onto your Diagram because future editing becomes more complicated due to the container behavior of Swimlanes and Swimlane Pools.
 
-Create a **New Swimlane** :
+### **Create a New Swimlane** :
 * Drag and drop a **Swimlane** from  the **Stencil** onto a **Business Process Diagram**, 
 
 * In the main **Process Pull-Down** menu select **Swimlane - New**
@@ -20,7 +20,7 @@ Create a **New Swimlane** :
   ![SemTalk Online - New Swimlane](./images/Swimlane1.png)
 
 
-Group multiple **Swimlanes** into a **Swimlane Pool**: 
+### **Group multiple Swimlanes into a Swimlane Pool**: 
 
 Right click on the Header of the **Swimlane** or **the Swimlane Pool** and select **Swimlane - New**. SemTalk Online will then create a **Swimlane Pool** that shows the New Swimlane within a higher level Swimlane Pool. As additional Swimlanes are added, the top level Swimlane size will not automatically change unless the Resize Option is on. Please refer to Resize Option shown below.
 
@@ -50,7 +50,15 @@ Swimlanes can be Collapsed or Expanded:
 
 **NOTE**: If a Swimlane is deleted, all of the Tasks will be deleted be deleted from the model unless the Tasks appear on other Diagrams. Other Object types, such as OrgUnits and Resources, are deleted from the Diagram but not deleted from the model.
 
-**Edit a Swimlane's Size**
+### **Add a Name to a Swimlane**
+
+![alt text](images/SwimlaneName.png)
+
+Add a **Swimlane Name** by selecting the Swimlane, (NOTE: Selected Swimlanes have a green dashed border) then either type in a new name or use **Select** option to choose a name from the associated **Repository** or from the **Objects** defined in the currently opened Model. 
+
+After the **Swimlane** has been named, modelers can edit the name using the **Properties** Menu.
+
+### **Edit a Swimlane's Size**
 
 The size of Swimlanes and Swimlane Pools can be adjusted individually. 
 
@@ -60,7 +68,7 @@ The size of Swimlanes and Swimlane Pools can be adjusted individually.
  
  Select the Swimlane by holding down the cursor on the Swimelane's Header. Drag the Swimlane to the edge of Target Swimlane's position. A dashed dark red line will appear. Release the cursor to connect the two Swimlanes.
 
-## ResizeContainer
+## **ResizeContainer**
 Pools and Swimlanes can be edited using the "ResizeContainer" option.
 
 - Left-click on Settings 

@@ -10,7 +10,7 @@ This wiki page shows and describes the standard menu for a user with administrat
 
 **File**: Combines all functions related to **.sdx Model Files**. See [File-Menu](https://github.com/SemTalkOnline/SemTalkOnline/wiki/File-Menu)
 
-**Home**: Contains various tools and functionalities for viewing model content or editing its appearance. See [Home-Menu](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Home-Menu).
+**Home**: Contains various tools and functionalities for viewing model content or editing its appearance. See [Home Pull-Down Menu](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Home-Pull-Down-Menu).
 
 **Shape**: Contains options for graphically editing one or more selected shapes (grouping, formatting, etc.). See [Shape
 ](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Shape)
@@ -34,6 +34,6 @@ This wiki page shows and describes the standard menu for a user with administrat
 
 **User Menu**: Connected Account LogIn/ LogOut for SemTalk Online, MongoDB or Microsoft 365.
 
-**SemTalk Options (Gear Icon)**: Clicking the gear icon in the top-right corner opens a general options menu where you can change various settings related to the behavior and appearance of SemTalk Online. See Wiki page: SemTalk Options
+**SemTalk Options (Gear Icon)**: Clicking the gear icon in the top-right corner opens a general options menu where you can change various settings related to the behavior and appearance of SemTalk Online. See [Settings](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Settings)
 
 **? (Help)**: Clicking the question mark takes you to the relevant page in the SemTalk Online Help associated with the selected Object of Page. 

@@ -1,4 +1,4 @@
-## **BPMN Overview**
+# BPMN Overview
 
 Business processes are described graphically in SemTalkOnline using the standardized “Business Process Model And Notation.” BPMN provides a set of Business Process modeling Objects along with guidelines for their use. SemTalkOnline incorporates these BPMN rules into a set of drawing Diagrams, each with an associated Stencils that contain relevant Object types that can be dragged and dropped onto the Diagram (drawing sheet). 
 BPMN is currently published as Object Management Group (OMG) [BPMN 2.0](https://www.omg.org/spec/BPMN/2.0/).

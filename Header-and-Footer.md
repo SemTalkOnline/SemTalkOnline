@@ -1,10 +1,14 @@
 # Header and Footers
 
-**Header & Footer** information for model **Files and Pages** are a subset of  **Background Pages**.
+**Headers & Footers** are a subset of **Background Pages** that show additional information on the **Diagram** such as **Diagram Name and Version**. They can be set at for all SemTalk Online models and Diagrams or for specific **Models** and/ or specific **Diagram Pages**. 
 
 ## Setting up Background Pages
 
-**Background Pages** drawing sheet size and page orientation are are based on  **Diagram Page Settings**. For more information please refer to: 
+Diagram **Background Pages Settings** define the Page Size, Layout, Style and Placement settings for **Diagram Page Settings**. 
+
+![alt text](images/BackgroundLogo.png)
+
+For additional information about **Background Page Setting** please refer to the following sections for additional information.
 
 [Layout Align Distribute](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Layout-Align-Distribute)
 
@@ -16,10 +20,9 @@ Once a **Diagram Background Page** is defined, it can be edited in the **Tools -
 
 Select **from File** and then select Edit.
 
+Three types of of **Background Diagram Settings** will be shown. Each example includes standard settings such as **Diagram Name** and **Logo** in the **Header**. These can be easily edited to fit the needs of each organization.
+
 ![alt text](images/BackgroundPageEdit.png)
-
-When selected, a sample of **Background Diagram's** settings page that includes the **Diagram** name and **SemTalk logo** in the **Header**.
-
 
 ## Background Page Editor
 
@@ -58,17 +61,17 @@ Background Pages consist of fields that can be populated dynamically or defined 
 
 ## Formatting:
 
-**Area**: Determines whether the field is displayed in the Header or Footer.
+**Area**: Determines whether the field is displayed in the **Header or Footer**.
 
 **Orientation**: Determines how the field is aligned within the area.
 
-**X and Y**: The detailed coordinates where the fields are displayed.
+**X and Y**: These are the detailed coordinates where the fields are displayed.
 
 **Width and Height**: Height and width of the field
 
-**Formatting**: Additional formatting properties (e.g. Font, Font Size and Color etc.) can be integrated by selecting an existing entry and then clicking the pencil icon in the menu, or by using the + button to create a new entry.
+**Formatting**: Additional formatting properties (e.g. Font, Font Size and Color etc.) can be integrated by selecting an existing entry and then clicking the **Pencil Icon** in the menu, or by using the **+** button to create a new entry.
 
-**Applying a Background Page to a File**: **Background Page** are displayed directly on the **Diagram's** drawing sheet. This setting is only found in the user's modeling environment. 
+**Applying a Background Page to a File**: **Background Pages** are displayed directly on the **Diagram's** drawing sheet. This setting is only available locally in the user's modeling environment. 
 
 If the Background Page should be applied to all users who open the file, select **Apply to File** in the **Background Pag** menu entry. The newly configured **Background Page** is then applied to the **Model File** and is permanently viewed by all users.
 
@@ -82,13 +85,16 @@ Creating and configuring **Background Pages** is complex so it may be necessary 
 The following example illustrates how different **Diagram Background Page**  fields interact and to show how they can be positioned.
 
 Open **Tools - Customize - Header / Footer** pull-down menu and click on 
-**File** and click on **Edit**, an click on an existing entry and click on Pencil Edit icon, or click on the + button to create a new entry.
+**Database BackgroundWiki** and click on **Edit**. Modify the existing settings by clicking on an existing entry and then click on **Pencil Edit Icon**, or click on the **+** button to create a new entry.
 
 ![alt text](images/BackgroundPageFromFile.png)
 
 ### Applying a Background Page to a File
 
-Changes made to the **Background Page's Settings** will be immediatedly displayed directly on the Diagram's drawing sheet. These settings apply only in the modeler's environment. If these setting should apply to all users who open the file, select **Apply to File** in the **Background Page pull-down menu**.   Then the configured Background Page is saved to the open model file and becomes permanently set for all users of that model file.
+Changes made to the **Background Page's Settings** will be immediatedly displayed directly on the Diagram's drawing sheet. These settings apply only in the modeler's environment. If these setting should apply to all users who open the file, select **Apply to File** found in the **Background Page Pull-Down Menu**. The configured Background Page is saved to the open SemTalk Online Model file and becomes permanently set for all model file users.
+
+![alt text](images/BackgroundPagePullDownMenu.png)
+
 
 **Page Options** (e.g. A4, Landscape etc.) in the **Setting - View - Pull-Down Menu**. Click the **Header & Footer** checkbox.Default setting will appear below. If Logos are assigned, they will appear in the right corner. The **Footer** and **Page Number** will be inserted along with any assigned descriptive fields such as the **Last Modification Date** and **Comments**.
 

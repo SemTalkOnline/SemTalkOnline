@@ -6,7 +6,7 @@ Activate the Indexing function:
 * Select a Task from your model,
 * Select **Object - Customize - Label - Index** from the Object pull-down menu
 
-![](https://github.com/SemTalkOnline/SemTalkOnline/blob/main/images/IndexD.png)
+![alt text](images/IndexD.png)
 
 Edit Index numbers by selecting a Task Object and selecting Properties. Reorder all Index numbers by selecting the highest level Task and assign the number '1'. If Task indexing needs to conform to a prexisting indexing system, just add the alpha-numberic name to each Task object in 
 

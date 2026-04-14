@@ -93,6 +93,8 @@ Open **Tools - Customize - Header / Footer** pull-down menu and click on
 
 Changes made to the **Background Page's Settings** will be immediatedly displayed directly on the Diagram's drawing sheet. These settings apply only in the modeler's environment. If these setting should apply to all users who open the file, select **Apply to File** found in the **Background Page Pull-Down Menu**. The configured Background Page is saved to the open SemTalk Online Model file and becomes permanently set for all model file users.
 
+
+
 ![alt text](images/BackgroundPagePullDownMenu.png)
 
 
@@ -113,14 +115,14 @@ Actual **Page Numbers** should be inserted usong the **+** icon. Select the posi
 
 Select **Diagram: Outline** in the **Text Pull-Down** menu to see the page number of the current **Diagram**. If a **Page Number** does not appear, **Diagram Page Numbers** have not yet been numbered. Add **Diagram Page Numbers** in the **Diagram - Reindex** pull-down menu. 
 
-This menu will also show the internal identifier will also appear in the text field. In the selection box, it looks as follows:
-The 3 highlighted entries are the ones that must be selected for steps 4, 5, and 6.
-Click OK to complete the process.
-The last modification date is created in the same way. The X coordinate must be set to 150 this time, since the two previous fields together total a width of 150, and the width can again be set to 100. In the text field, select “Document: Modified.”
+This menu will also show the **ID (Internal identifier)** in the **Text** field. It will appear as highlighted entries that must be selected to continue to Steps 4, 5, and 6.
+Click **OK** to complete the process.
 
-Click OK to complete the process again.
-The last field should contain a comment from the diagram’s properties. Therefore, “Diagram: Comment” is selected. The X coordinate must be set to 250, and the length is set to 800 this time so that a sentence fits in the field.
+The **Last Modification Date** is created in the same way. The **X Coordinate** must be set to 150, since the two previous fields total width is 150. The **Width** can be set back to 100. In the **Text** field, select **Document: Modified**. Click **OK** to complete the process.
 
-The background page is now complete. The example can be retrieved as a JSON file and imported in the header and footer dialog.
-As a tip for positioning, it is recommended to work with borders during creation. In the Formatting field, the strokeColor attribute can be set to black (strokeColor=black;) to create a black border around the field. This can be helpful when arranging individual fields to see the exact size and position on the drawing sheet. At the end of the work, the border can then be removed again.
+The last **Diagram Properties** field is  **Diagram: Comment**. The **X** coordinate must be set to 250, and the length is set to 800 to insure that a **Comment** will fit in the field.
+
+The **Background Page** is now complete. The shown example can be retrieved as a **JSON file** and imported in the **Header and Footer** dialog.
+
+NOTE: When positioning fields it is best to work with Borders when first defining **Background Pages**. In the Formatting field, the strokeColor attribute can be set to black (strokeColor=black;) to create a black border around the field. This can be helpful when arranging individual fields so that it is easy to see the exact size and position on the drawing sheet. Once placement is completed, borders be removed.
   

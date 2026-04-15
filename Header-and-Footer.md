@@ -2,67 +2,73 @@
 
 **Headers & Footers** are a subset of **Background Pages**. They show additional information on the **Diagram** such as **Diagram Name and Version**. They can be set at for all **SemTalk Online Models** and **Diagrams** or just for specific **Models** and/ or specific **Diagram Pages**. 
 
-![alt text](images/BackgroundPageEdit2.png)
+## Style-Related Background Page Options
 
+ General document design parameters (e.g. fonts, colors and shape formats) are set in the **General Settings**. 
 
-## Setting up Background Pages
+  Before configuring **Diagram Background Pages - Headers & Footers** it is recommended to first review the **Diagram Page's General Settings**.
 
-Diagram **Background Pages Settings** define the **Page Size, Layout, Style and Placement** settings for **Diagram Pages**. 
-
-
-
-For additional information about **Background Page Setting** please refer to the following sections for additional information.
+  Right click on an open **Diagram** and select the ![alt text](images/SettingsIcon1.png) icon.  Scroll down on the **Diagram - Settings - General** tab to find the **Page Size, Layout, Style and Placement** settings for **Diagram Pages**. 
+ 
+Please refer to the following Links for General **Background Page** Layout Options:
 
 [Layout Align Distribute](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Layout-Align-Distribute)
 
-[File Format and Properties](https://github.com/SemTalkOnline/SemTalkOnline/wiki/File-Format-and-Properties)
+[File Format and Properties](https://github.com/SemTalkOnline/SemTalkOnline/wiki/File-Format-and-Properties) 
 
-Once a **Diagram Background Page** is defined, it can be edited in the **Tools - Customize - Header & Footer** pull-down menu.
+ ## Header & Footer Background Page Settings
 
+The **Header and Footer** editor is used to customize **Diagram Background Pages** with additional context information such Diagram Name, Logos,  Number, Process Administator etc.
 
+First turn on the **Header & Footer** options in the Main 
 
-Select **from File** and then select Edit.
+![alt text](images/SettingsIcon1.png) Settings menu.
 
-Three types of of **Background Diagram Settings** will be shown. Each example includes standard settings such as **Diagram Name** and **Logo** in the **Header**. These can be easily edited to fit the needs of each organization.
+![alt text](images/SettingGeneral.png)
+
+![alt text](images/HeaderFooterCheckbox.png)
+ 
+Then go to **Tools -  Customize - Header/Footer Background Page**. Three types of of **Background Diagram Settings** will be shown. Each of the three options include standard settings such as **Diagram Name** and **Logo** in the **Header** and each can be edited to fit modeling needs.
 
 ![alt text](images/BackgroundPageEdit.png)
 
-## Background Page Editor
+Select the **from File** option and then select **Edit** to open **Header and Footer** options.
 
-The **Header and Footer Editor** is used to customize **Diagram Background Pages** to meet organizational requirements. **Tools -  Customize - Header/Footer Background Page** lists all previously defined Background Pages and it used to create new **Background Page** templates.
+![alt text](images/BackgroundPageEdit2.png)
 
-**Background Pages** are defined as:
+Once the **Diagram Background Page** parameters are defined and the **Header and Footer** box is checked on in the **Tools - Customize - Header & Footer Pull-Down Menu** the **Header and Footer** properties can be edited.
 
-**Files**: **Background Pages** are selected from a list of previously saved **Background Page** templates. Templates can be opened, modified, and saved back to the Model file.
+ ### Types of Background Pages
 
-**Cookies**: Local default **Background Page** settings that can be used as a basis for creating **Background Pages**.
+1. **Files**: **Background Pages** settings are selected from a list of previously saved **Background Page** templates. Templates can be opened, modified, and saved back to the Model file.
 
-**NOTE**: When working on a **Background Page**, the current version is always stored as a local **Cookie** on the user's computer.
+2. **Cookies**: Local default **Background Page** settings that can be used as a basis for creating **Background Pages**. **NOTE**: When working on a **Background Page**, the current version is always stored as a local **Cookie** on the user's computer.
 
-**Database (when using MongoDB)**: **Background Page** can be stored in **MongoDB** if the user is logged in as an **Administrator**. These can then also be used by all other users for their model files. Double-click on one of the entries or click to select the desired **Background Page**.
+3. **Database (when using MongoDB)**: **Background Page** can be stored in **MongoDB** if the user is logged in as an **Administrator**. These can then also be used by all other users for their model files. Double-click on one of the entries or click to select the desired **Background Page**.
 
-If **Background Pages** do not exist in the **File or Database**, the **Background Page** in the user’s **Cookies** is automatically opened. In this case, there is no separate **Start Page**.
+If **Background Pages** do not exist in the **File or Database**, the **Background Page** is saves in the user’s **Cookies** and is automatically opened. In this case, there is no separate **Start Page**.
 
-**Creating and Editing a Background Page in an Open Dialog**: **Background Pages** can be created, edited, deleted, exported, imported, and reset to their default state by selecting **Start** to opens the existing overview page.
+### Creating and Editing a Background Page in an Open Dialog
+ **Background Pages** can be created, edited, deleted, exported, imported, and reset to their default state by selecting **Start** to opens the existing overview page.
 
 **Editing Individual Components of a Background Page**:
 Background Pages consist of fields that can be populated dynamically or defined with fixed values. Existing fields are listed as a table in the open Diagram.
 
-**NOTE: IDs pageHeaders and pageFooters** must not be deleted because they contain settings for all other **Background Page** elements. **Size and/ or Orientation** can be edited. 
+**NOTE**: Do not delete **IDs pageHeaders and pageFooters** because they contain settings for all other **Background Page** elements. **Size and/ or Orientation** can be edited. 
 
-## Header and Footer Properties
+### Header and Footer Properties
 
 **ID**: The unique name for each field shown in a Diagram's Background Page. **NOTE**: Each ID Field Name is an unique name.
 
 **Text**: Enables the display of information from the Model or from a Diagram component (e.g. File Name, Diagram Name, Comment, Page Number, or Date). 
 
-**Document** metadata can also be used.
+**Document**: Enables metadata to be used.
 
 **Text and TextL**: Available language entries can also be used to populate field names (e.g.as labels for other fields). This options is used when integrating multi-language translations.
 
 **Image**: A Base64-encoded image can be entered here, which will then be displayed in the field. Using a converter such as https://base64.guru/converter/encode/image, an image can be converted into a Base64 string and then inserted into the background page field.
 
-## Formatting:
+### Formatting:
 
 **Area**: Determines whether the field is displayed in the **Header or Footer**.
 
@@ -74,32 +80,16 @@ Background Pages consist of fields that can be populated dynamically or defined 
 
 **Formatting**: Additional formatting properties (e.g. Font, Font Size and Color etc.) can be integrated by selecting an existing entry and then clicking the **Pencil Icon** in the menu, or by using the **+** button to create a new entry.
 
-**Applying a Background Page to a File**: **Background Pages** are displayed directly on the **Diagram's** drawing sheet. This setting is only available locally in the user's modeling environment. 
-
-If the Background Page should be applied to all users who open the file, select **Apply to File** in the **Background Pag** menu entry. The newly configured **Background Page** is then applied to the **Model File** and is permanently viewed by all users.
-
-
-**Background Page Settings** can also be used to import or export settings in JSON format or to reset the settings to its default state.
-
-### Example of a Background Page
+## Example of a Background Page
 
 Creating and configuring **Background Pages** is complex so it may be necessary to experiment until the desired results are achieved.
 
 The following example illustrates how different **Diagram Background Page**  fields interact and to show how they can be positioned.
 
-Open **Tools - Customize - Header / Footer** pull-down menu and click on 
+Open **Tools - Customize - Header / Footer** pull-down menu and select 
 **Database BackgroundWiki** and click on **Edit**. Modify the existing settings by clicking on an existing entry and then click on **Pencil Edit Icon**, or click on the **+** button to create a new entry.
 
 ![alt text](images/BackgroundPageFromFile.png)
-
-### Applying a Background Page to a File
-
-Changes made to the **Background Page's Settings** will be immediatedly displayed directly on the Diagram's drawing sheet. These settings apply only in the modeler's environment. If these setting should apply to all users who open the file, select **Apply to File** found in the **Background Page Pull-Down Menu**. The configured Background Page is saved to the open SemTalk Online Model file and becomes permanently set for all model file users.
-
-
-
-![alt text](images/BackgroundPagePullDownMenu.png)
-
 
 **Page Options** (e.g. A4, Landscape etc.) in the **Setting - View - Pull-Down Menu**. Click the **Header & Footer** checkbox.Default setting will appear below. If Logos are assigned, they will appear in the right corner. The **Footer** and **Page Number** will be inserted along with any assigned descriptive fields such as the **Last Modification Date** and **Comments**.
 
@@ -128,6 +118,13 @@ The last **Diagram Properties** field is  **Diagram - Comment**. The **X** coord
 The **Background Page** is now complete. The modified **Background Page** can be saved and retrieved as a **JSON file** so that it can be imported in other Models using the **Header and Footer** dialog.
 
 **NOTE**: When positioning fields it is best to work with **Borders** when first defining **Background Pages**. In **Formatting - strokeColor** set this field to **(strokeColor=black;)**. Add a black **Border** around the field. This makes easier to see the exact size and position of the field on the **Diagram**. Remove the **Border** once the placement is completed.
-  
 
-[def]: images/BackgroundPageEdit2.png
+### Applying a Background Page to a File
+
+Changes made to the **Background Page's Settings** will be immediatedly displayed directly on the Diagram's drawing sheet. These settings apply only in the modeler's environment. 
+
+If the Background Page should be applied to all users who open the file, select **Apply to File** in the **Background Page** menu entry. The newly configured **Background Page** is then applied to the **Model File** and is permanently viewed by all users.
+
+![alt text](images/BackgroundPagePullDownMenu.png)
+
+**NOTE**: **Header and Footer Background Page Settings** can also be used to import or export settings in JSON format or to reset the settings to its default state.

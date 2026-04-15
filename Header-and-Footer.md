@@ -18,7 +18,7 @@ Please refer to the following Links for General **Background Page** Layout Optio
 
  ## Header & Footer Background Page Settings
 
-The **Header and Footer** editor is used to customize **Diagram Background Pages** with additional context information such Diagram Name, Logos,  Number, Process Administator etc.
+The **Header and Footer** editor is used to customize **Diagram Background Pages** with additional context information such Diagram Name, Logos,  Number, Process Administrator etc.
 
 First turn on the **Header & Footer** options in the Main 
 
@@ -70,7 +70,7 @@ Background Pages consist of fields that can be populated dynamically or defined 
 
 ### Formatting:
 
-**Area**: Determines whether the field is displayed in the **Header or Footer**.
+**Section**: Determines whether the field is displayed in the **Header or Footer**.
 
 **Orientation**: Determines how the field is aligned within the area.
 
@@ -82,7 +82,7 @@ Background Pages consist of fields that can be populated dynamically or defined 
 
 ## Example of a Background Page
 
-Creating and configuring **Background Pages** is complex so it may be necessary to experiment until the desired results are achieved.
+Creating and configuring **Background Pages** is complex. It may be necessary to experiment until the desired results are achieved.
 
 The following example illustrates how different **Diagram Background Page**  fields interact and to show how they can be positioned.
 
@@ -104,9 +104,9 @@ In the shown example, the **Width** is set to 100 and the **Height** is set to 4
 
 SemTalk Online contains these option and allows them to be set for multiple languages. Options can also be reused for **Background** pages. Click **OK** to save the new **Settings**.
 
-Actual **Page Numbers** should be inserted usong the **+** icon. Select the position to match the position shown above. Click on the **X** icon and set the coordinate to 100 to match the settings of the **Field Width**. The new **Page Number** field will be placed directly behind the first field. Set the width of the new **Page Number** field to 50 since the **Page Number** field requires less space. 
+Actual **Page Numbers** should be inserted using the **+** icon. Select the position to match the position shown above. Click on the **X** icon and set the coordinate to 100 to match the settings of the **Field Width**. The new **Page Number** field will be placed directly behind the first field. Set the width of the new **Page Number** field to 50 since the **Page Number** field requires less space. 
 
-Select **Diagram: Outline** in the **Text Pull-Down** menu to see the page number of the current **Diagram**. If a **Page Number** does not appear, **Diagram Page Numbers** have not yet been numbered. Add **Diagram Page Numbers** in the **Diagram - Reindex** pull-down menu. 
+Select the **Text Field Pull-Down** menu in the **Header & Footer - Background Page Settings** to see the page number of the current **Diagram**. If a **Page Number** does not appear, **Diagram Page Numbers** have not yet been numbered. Add **Diagram Page Numbers** in the **Diagram - Reindex** pull-down menu. 
 
 This menu will also show the **ID (Internal identifier)** in the **Text** field. It will appear as highlighted entries that must be selected to continue to Steps 4, 5, and 6.
 Click **OK** to complete the process.

@@ -2,7 +2,9 @@
 
 **Headers & Footers** are a subset of **Background Pages**. They show additional information on the **Diagram** such as **Diagram Name and Version**. They can be set at for all **SemTalk Online Models** and **Diagrams** or just for specific **Models** and/ or specific **Diagram Pages**. 
 
-![alt text](images/BackgroundPageEdit2.png)
+
+![alt text](images/BackgroundPageEdit2.png>)
+
 
 ## Setting up Background Pages
 

@@ -128,3 +128,5 @@ The **Background Page** is now complete. The modified **Background Page** can be
 
 **NOTE**: When positioning fields it is best to work with **Borders** when first defining **Background Pages**. In **Formatting - strokeColor** set this field to **(strokeColor=black;)**. Add a black **Border** around the field. This makes easier to see the exact size and position of the field on the **Diagram**. Remove the **Border** once the placement is completed.
   
+
+[def]: images/BackgroundPageEdit2.png

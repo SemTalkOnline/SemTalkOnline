@@ -1,12 +1,12 @@
 # Header and Footers
 
-**Headers & Footers** are a subset of **Background Pages** that show additional information on the **Diagram** such as **Diagram Name and Version**. They can be set at for all SemTalk Online models and Diagrams or for specific **Models** and/ or specific **Diagram Pages**. 
+**Headers & Footers** are a subset of **Background Pages**. They show additional information on the **Diagram** such as **Diagram Name and Version**. They can be set at for all **SemTalk Online Models** and **Diagrams** or just for specific **Models** and/ or specific **Diagram Pages**. 
 
 ## Setting up Background Pages
 
-Diagram **Background Pages Settings** define the Page Size, Layout, Style and Placement settings for **Diagram Page Settings**. 
+Diagram **Background Pages Settings** define the **Page Size, Layout, Style and Placement** settings for **Diagram Pages**. 
 
-![alt text](images/BackgroundLogo.png)
+![alt text](images/BackgroundPageEdit2.png)
 
 For additional information about **Background Page Setting** please refer to the following sections for additional information.
 
@@ -16,7 +16,7 @@ For additional information about **Background Page Setting** please refer to the
 
 Once a **Diagram Background Page** is defined, it can be edited in the **Tools - Customize - Header & Footer** pull-down menu.
 
-![alt text](images/HeaderFooter1.png)
+
 
 Select **from File** and then select Edit.
 
@@ -120,9 +120,9 @@ Click **OK** to complete the process.
 
 The **Last Modification Date** is created in the same way. The **X Coordinate** must be set to 150, since the two previous fields total width is 150. The **Width** can be set back to 100. In the **Text** field, select **Document: Modified**. Click **OK** to complete the process.
 
-The last **Diagram Properties** field is  **Diagram: Comment**. The **X** coordinate must be set to 250, and the length is set to 800 to insure that a **Comment** will fit in the field.
+The last **Diagram Properties** field is  **Diagram - Comment**. The **X** coordinate must be set to 250 and the length should always be set to 800 to insure that a **Comment** will fit into the field.
 
-The **Background Page** is now complete. The shown example can be retrieved as a **JSON file** and imported in the **Header and Footer** dialog.
+The **Background Page** is now complete. The modified **Background Page** can be saved and retrieved as a **JSON file** so that it can be imported in other Models using the **Header and Footer** dialog.
 
-NOTE: When positioning fields it is best to work with Borders when first defining **Background Pages**. In the Formatting field, the strokeColor attribute can be set to black (strokeColor=black;) to create a black border around the field. This can be helpful when arranging individual fields so that it is easy to see the exact size and position on the drawing sheet. Once placement is completed, borders be removed.
+**NOTE**: When positioning fields it is best to work with **Borders** when first defining **Background Pages**. In **Formatting - strokeColor** set this field to **(strokeColor=black;)**. Add a black **Border** around the field. This makes easier to see the exact size and position of the field on the **Diagram**. Remove the **Border** once the placement is completed.
   

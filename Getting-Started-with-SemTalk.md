@@ -23,7 +23,7 @@ If a user account does not exist, complete **Registration**.
 **Demo Users** can Register free-of-charge for testing purposes. The **Editor Role** is automatically assigned. Demo users should leave the Product Key entry empty.
 
 A more detailed explanation of Registration can be found here:
-[Registration](https://github.com/SemTalkOnline/SemTalkOnline/wiki/SemTalk-Registration) 
+[Registration](https://github.com/SemTalkOnline/SemTalkOnline/wiki/SemTalk-Overview) 
 
 <hr>
 
@@ -75,12 +75,12 @@ Please click on the following links for additional information about specific Pu
 
 - [File](https://github.com/SemTalkOnline/SemTalkOnline/wiki/File-Menu)
 - [Home](https://github.com/SemTalkOnline/SemTalkOnline/wiki)
-- [Shape](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Symbol)
-- [Object](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Objekt)
-- [Process](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Prozess)
-- [Diagram](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Diagramm)
-- [Explorer](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Explorer)
-- [Tools](https://github.com/SemTalkOnline/SemTalkOnline_DE/wiki/Menüeintrag-Explorer)
+- [Shape](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Shape)
+- [Object](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Object-Pull-Down-Menu)
+- [Process](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Process-Pull-Down-Menu)
+- [Diagram](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Diagram-Pull-Down-Menu)
+- [Explorer](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Explorer-Pull-Down-Menu)
+- [Tools](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Tools)
 
 
 ## Creating Models

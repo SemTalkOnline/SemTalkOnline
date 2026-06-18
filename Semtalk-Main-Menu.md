@@ -10,7 +10,7 @@ This wiki page shows and describes the standard menu for a user with administrat
 
 **File**: Combines all functions related to **.sdx Model Files**. See [File-Menu](https://github.com/SemTalkOnline/SemTalkOnline/wiki/File-Menu)
 
-**Home**: Contains various tools and functionalities for viewing model content or editing its appearance. See [Home Pull-Down Menu](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Home-Pull-Down-Menu).
+**Home**: Contains various tools and functionalities for viewing model content or editing its appearance. See [Home Pull-Down Menu](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Home%E2%80%90Menu).
 
 **Shape**: Contains options for graphically editing one or more selected shapes (grouping, formatting, etc.). See [Shape
 ](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Shape)
@@ -18,7 +18,7 @@ This wiki page shows and describes the standard menu for a user with administrat
 **Object**: Contains some “basic functions” that can be applied to objects. These include, for example, selecting an existing object or editing its properties. See Wiki page: Menu item Object
 
 **Process**: This section focuses on the general background work for a process. See 
-[Process](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Process)
+[Process](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Process-Pull-Down-Menu)
 
 **Diagram**: Here, diagram-related actions can be performed (New, Delete, Properties, etc.) See [Diagram Pull-Down Menu](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Diagram-Pull-Down-Menu) 
 	

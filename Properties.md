@@ -40,7 +40,7 @@ General - Hyperlinks: Internal and external Hyperlinks can be attached to Object
 * Audit
 
 **Vocabulary** naming option
-SemTalk structured naming convention for naming Tasks is found by useing the right mouse click Vocabulary . Almost all processes (work-steps) have names that consist of a verb and a noun. For example, the process step 'Send Invoice' is the verb 'Send' and the noun 'Invoice'. SemTalk allows users to create libraries of these verbs and nouns so that all modeling projects remain consistent; interfaces that define information flows remain consistent; and so that central repositories of terms can be created that allow modelers to import/ export key data terms to and from these libraries.
+SemTalk's structured naming convention for Tasks is found by using the right mouse click to get to Vocabulary . Almost all processes (work-steps) have names that consist of a verb and a noun. For example, the process step 'Send Invoice' is the verb 'Send' and the noun 'Invoice'. SemTalk allows users to create libraries of these verbs and nouns so that all modeling projects remain consistent; interfaces that define information flows remain consistent. And so that central repositories of terms can be created that allow modelers to import/ export key data terms to and from these libraries.
 
 Right-mouse click on a new Task and select Vocabulary.
 

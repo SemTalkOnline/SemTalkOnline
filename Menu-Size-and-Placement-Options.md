@@ -7,7 +7,11 @@ Click on an **Object** and select **Properties**. In the upper right corner or t
 ![alt text](images/MenuPlacementDiagrams.png)
 
 **Panels:**
-It is also possible to switch shown panels to the left or right of SemTalk Online workspace. Go to the **Diagram - General** menu to show which side to place the **Properties** panel, **Stencil** or **Pan & Zoom**.
+It is also possible to switch shown panels to the left or right of SemTalk Online workspace as well as fluid. Go to the **Diagram - General** menu to show which side to place the **Properties** panel
+
+**Stencil** or **Pan & Zoom** can be placed using the right click on the window in which they appear and choosing left, right, or fluid.
+
+![alt text](images/Menu-right-click-placement.png)
 
 Panel sizes are customized using the **Settings - General** tab. Here you can also adjust the size of your GPTChat Panel using the Property Dialog Width.
 

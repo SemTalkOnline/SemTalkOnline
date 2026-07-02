@@ -98,7 +98,7 @@ The following **General Settings** Window will open.
 
 ### **Settings - View**
 
-![alt text](<images/Settings View 1.png>)
+![alt text](<images/SettingsView1.png>)
 
 **Language Settings in SemTalk Online**: SemTalk differentiates between the User Interface language and the model's Document Language used for naming Objects and Connections. 
 
@@ -129,7 +129,7 @@ User Interface **Font** Settings:
 
 * **User Interface Theme**: SemTalk Online includes the following Theme options. Modelers can adjust available Themes using the **User-Defined Theme** function.
 
-![alt text](images/SettingViewThemes.png)
+![alt text](images/SettingsViewThemes.png)
 
 * **Drawing Background Color**: This is the default color for Diagram backgrounds
 * Text Color

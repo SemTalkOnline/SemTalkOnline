@@ -17,7 +17,11 @@ Database and repository can be custom built for the customer if desired.
 
 Interface can be customized via options in language and layout.
 
-**Registration**
+**Registration**: First time users must complete the Registration form. 
+
+If a user account does not exist, Registration can be performed if this function is enabled in the selected SemTalk Online Database. 
+
+Demo users are able to register for testing purposes free of charge and will automatically be assigned the Editor role. Demo users should leave the Product Key entry empty.
 
 * **UserID**: E-Mail
 * **Username**: Name Shown

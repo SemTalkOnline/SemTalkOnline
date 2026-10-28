@@ -14,25 +14,26 @@ Right mouse click on an Object's **Properties - Attributes** tab to **View, Edit
 
 ![alt text](images/Attributes2.png)
 
-**Object - Properties - Attributes**: Opens an Object's Attribute data that is stored in the model's Respository.
-Assign Attributes using:
+**Object - Properties - Attributes**: Opens associated **Attribute** data that is stored in the model's **Respository**.
+
+**Assign Attributes** using:
 * **Object - Properties - Attribute** tab, 
 * **Home - Worksheet** pull-down menu option, or 
 * Via the **Vocabulary - Attribute** naming function.
 
-SemTalk Online has two Attribute types:
+SemTalk Online has two **Attribute Types**:
 * **System Defined Attributes**: An Object's default Attributes, and 
 * **User-Defined Attributes**: Attributes created by users for the currently active model. 
 
-Both Attribute Types have Attribute Names with associated Attribute Values. System-Defined Attributes are the standard entries shown in the Properties tabs. 
+Both the **Attribute Type** and the **Attribute Name** have associated **Attribute Values**. **System-Defined Attributes** are the standard entries shown in the **Properties** tabs. 
 
-Users select Attributes to add to the model from the existing **Attribute Picklist.**
+Users select **Attributes** to add to the model from the existing **Attribute Picklist.**
 
 ![alt text](images/Attributes1.png)
 
-In the above example, the **Product** Object has been given the Attribute **'Delivery Date'**. **'Delivery Date'** that has a **Date** variable extracted from a **Calendar**. 
+In the above example, the **Product** Object has been given the Attribute **'Delivery Date'**. **'Delivery Date'** has a **Date** variable extracted from a **Calendar**. 
 
-Variables can also be a **Picklist** such as **'Currency Type'** (e.g. a Picklist with US Dollars, Euros, Pounds etc.) or it could have a **Fixed Range** such as **Values from 5-100**. or a **'Delivery Date'**. These variables are generally defined as **Attributes in the Superclass 'Product'**. **'Product' Subclasess**. All **'Products'** (e.g.**'Product X'**), are subclasses of **'Product'** and they automatically inherit the Attribute 'Delivery Date'. Specific Values are then set at the level of each **Product**. (e.g.**'Product** X' has the **Delivery Date = June 27th, 2026**). 
+Variables can also be **Picklists** such as **Currency Type** (e.g. a Picklist with US Dollars, Euros, Pounds etc.) or it could have a **Fixed Range** such as **Values from 5-100**. or a **'Delivery Date'**. These variables are generally defined as **Attributes** in the Superclass **Product** contain **Product Subclasess**. For example, all **Products** (e.g.**Product X**), are subclasses of the superclass **Product** that automatically inherit **Product Attributes** such as **Delivery Date**. Specific Values are then set at the level of each **Product**. (e.g.**'Product X** has the **Delivery Date = June 27th, 2026**). 
 
 Once a **User-Defined Attribute** has been created, it can be selected from the **Attribute Picklist** for other Objects. 
 

@@ -23,7 +23,7 @@ If a user account does not exist, complete **Registration**.
 **Demo Users** can Register free-of-charge for testing purposes. The **Editor Role** is automatically assigned. Demo users should leave the Product Key entry empty.
 
 A more detailed explanation of Registration can be found here:
-[Registration](https://github.com/SemTalkOnline/SemTalkOnline/wiki/SemTalk-Overview) 
+[Registration](https://github.com/SemTalkOnline/SemTalkOnline/wiki/SemTalk-Registration) 
 
 <hr>
 
@@ -145,7 +145,7 @@ Additional Information about swimlanes can be found here:
 - Resources
 - Text
 - Images
-- Hyperlinks
+- [Hyperlinks] (https://github.com/SemTalkOnline/SemTalkOnline/wiki/Hyperlinks)
 
 
 ## BPMN Task Properties
@@ -179,8 +179,7 @@ Additional Information about swimlanes can be found here:
   - Exports show pictorial views of Model Diagrams and Object Properties
 
 
-- **Refinements** (Subprocess):
-[Refinements](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Refine)
+- **Refinements** (Subprocess): [Refinements](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Refine)
 - **Format** an Object: [Style](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Style)
 - **Hyperlinks**: [Hyperlinks](https://github.com/SemTalkOnline/SemTalkOnline/wiki/Hyperlinks)
 
